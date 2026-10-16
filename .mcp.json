@@ -1,15 +1,15 @@
 {
   "mcpServers": {
     "speed-to-lead": {
-      "command": "${HOME}/code/gtm-revops-toolkit/mcp/speed_to_lead/.venv/bin/python",
-      "args": ["${HOME}/code/gtm-revops-toolkit/mcp/speed_to_lead/server.py"],
+      "command": "${HOME}/code/emnify-gtm-toolkit/mcp/speed_to_lead/.venv/bin/python",
+      "args": ["${HOME}/code/emnify-gtm-toolkit/mcp/speed_to_lead/server.py"],
       "env": { "SPEED_TO_LEAD_ADAPTERS": "crm=json,calendar=json" }
     },
     "gtm-toolkit": {
-      "command": "${HOME}/code/gtm-revops-toolkit/mcp/gtm_toolkit/.venv/bin/python",
-      "args": ["${HOME}/code/gtm-revops-toolkit/mcp/gtm_toolkit/server.py"],
+      "command": "${HOME}/code/emnify-gtm-toolkit/mcp/gtm_toolkit/.venv/bin/python",
+      "args": ["${HOME}/code/emnify-gtm-toolkit/mcp/gtm_toolkit/server.py"],
       "env": {
-        "PYTHONPATH": "${HOME}/code/gtm-revops-toolkit",
+        "PYTHONPATH": "${HOME}/code/emnify-gtm-toolkit",
         "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY:-}"
       }
     }

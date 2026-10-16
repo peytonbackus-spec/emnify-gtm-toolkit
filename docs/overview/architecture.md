@@ -1,3 +1,5 @@
+> Inherited from the template. Examples here describe a generic company, not emnify. Do not read them as emnify facts.
+
 # Architecture
 
 ## The revenue lifecycle, split at one handoff

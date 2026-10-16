@@ -11,9 +11,9 @@
 | Term | Definition | Field |
 |---|---|---|
 | **Partner-sourced** | The partner brought the opportunity (deal registration approved) | `Source__c = Partner` + `Partner__c` |
-| **Partner-influenced** | emnify sourced it; the partner materially helped (intro, integration, co-sell) | `Partner_Influence__c` (lookup) |
+| **Partner-influenced** | the company sourced it; the partner materially helped (intro, integration, co-sell) | `Partner_Influence__c` (lookup) |
 | **Resale** | The partner holds the paper (e.g. a reseller) | `Route_To_Market__c = Resale` |
-| **Referral** | The partner refers; emnify contracts directly | `Route_To_Market__c = Direct-Referral` |
+| **Referral** | The partner refers; the company contracts directly | `Route_To_Market__c = Direct-Referral` |
 
 ## Flow
 
@@ -32,7 +32,7 @@ flowchart LR
 ## Rules
 
 1. **First valid registration wins** for 90 days. Extension needs proof of activity.
-2. **Open-opportunity conflict:** if emnify already has an open opportunity at stage 2 or later, the registration is rejected as partner-sourced but can be approved as partner-influenced.
+2. **Open-opportunity conflict:** if the company already has an open opportunity at stage 2 or later, the registration is rejected as partner-sourced but can be approved as partner-influenced.
 3. **The 🟦 GTM Engineer's routing hands over here:** partner-referral leads route to the partner manager (rule R4 in [`route_leads.py`](../../gtm_engineer/lead_routing/route_leads.py)) and convert with `Partner__c` populated.
 4. **Reporting:** partner-sourced pipeline, win rate and cycle get their own cut in the [pipeline report](../pipeline_analytics/pipeline_report.py) (the `source` dimension) and in Salesforce (forecast tool not named in the JD)'s partner roll-up.
 5. **Data quality:** a partner-sourced opportunity with no partner named is flagged (DQ rule O07).

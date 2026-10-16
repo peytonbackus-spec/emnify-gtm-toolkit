@@ -59,4 +59,4 @@ Every metric can be cut by: `segment`, `region`, `product_line`, `source`, `owne
 
 1. **Cohort vs period:** conversion rates are cohort-based, so this month's leads are measured on what *they* eventually did. Activity counts are period-based. Never mix the two in one chart.
 2. **Dates are stamped, not inferred.** Funnel dates come from Flow-stamped fields, not `LastModifiedDate`.
-3. **Fiscal calendar:** emnify's FY ends Sep 30, so quarters in every report are fiscal.
+3. **Fiscal calendar:** set by `fiscal.year_start_month` in `config/company.yaml`. emnify's real fiscal year is unknown (hypothesis: validate); the demo config uses a calendar year.

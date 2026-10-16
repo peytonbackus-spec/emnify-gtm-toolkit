@@ -17,7 +17,7 @@
 
 company:
   name: emnify                                   # jd
-  category: "IoT connectivity platform (cloud-native cellular connectivity)"   # public: validate wording
+  category: "IoT connectivity platform (cloud-native cellular connectivity)"   # public site wording; hypothesis: validate
   revenue_model: consumption-based               # jd: "consumption-based IoT connectivity"
   commercial_context:
     - "Profitable and growing (jd)"

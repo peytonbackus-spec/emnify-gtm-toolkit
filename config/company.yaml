@@ -4,8 +4,7 @@
 # GTM & RevOps Toolkit: company config (EXAMPLE values)
 # -----------------------------------------------------------------------------
 # Every script reads this file; nothing company-specific is hardcoded in code.
-# `make new COMPANY="Acme Corp"` copies this to config/company.yaml in a new repo
-# and fills `variables:` so the [BRACKET] tokens in docs resolve.
+# `variables:` below resolved the [BRACKET] tokens in the inherited docs when this repo was created.
 #
 # Value provenance tags, so a reader can tell fact from guess:
 #   [PUBLIC]   from the company's public site, press releases or earnings coverage

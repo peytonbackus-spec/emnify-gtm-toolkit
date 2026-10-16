@@ -40,7 +40,7 @@ stateDiagram-v2
 An SQL needs **all four**. Each one is a field, so it can be reported on:
 
 1. **Fit:** ICP segment (not `other`) and fit grade A–B.
-2. **Use case:** a named problem that one of emnify's product lines solves (`Product_Interest__c`).
+2. **Use case:** a named problem that one of the company's product lines solves (`Product_Interest__c`).
 3. **Persona:** a meeting held with an economic buyer or champion persona (see [personas](../../shared_core/context/icp-and-personas.md)).
 4. **Timing or trigger:** a known initiative, vendor contract end, regulatory driver or loss event, recorded in `SQL_Trigger__c`.
 

@@ -8,7 +8,7 @@ A design spec for setting Salesforce (forecast tool not named in the JD) up so i
 
 ## Modules and what each is for
 
-| Module | What it does | Use at emnify |
+| Module | What it does | Use at the company |
 |---|---|---|
 | **Forecast** | Roll-up forecasting: reps submit calls, managers roll up, with categories, waterfall (movement and slippage) views and historical trending | Weekly forecast calls; week 4/8/12 accuracy |
 | **Inspect** | Pipeline inspection and deal risk: changes, score, engagement, next steps | Manager deal reviews; complements [`deal_risk.py`](../ai_deal_risk/deal_risk.py) |
