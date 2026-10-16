@@ -3,7 +3,6 @@ import asyncio
 import json
 
 import pytest
-
 import server
 
 BACKENDS = ["", "crm=json,calendar=json,notifier=json,sequencer=json"]

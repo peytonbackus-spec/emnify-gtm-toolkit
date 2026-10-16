@@ -15,7 +15,7 @@ import sys
 from abc import ABC, abstractmethod
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Callable, Optional
+from typing import Any, Optional
 
 HERE = Path(__file__).resolve().parent
 

@@ -1,10 +1,9 @@
 """HubSpot + Slack adapters against recorded fixtures with mocked HTTP (no network)."""
 import json
 
+import adapters
 import httpx
 import pytest
-
-import adapters
 import server
 from conftest import fixture
 

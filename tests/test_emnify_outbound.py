@@ -49,3 +49,11 @@ def test_unapproved_rows_are_held():
     assert none_ok["ready"] == [] and none_ok["held"]
     ok = build_handoff(ranked, accts, approved_by="reviewer-1")
     assert ok["ready"] and all(r["approved_by"] == "reviewer-1" for r in ok["ready"])
+
+
+def test_sensitivity_monotonic():
+    from outbound.run import OPPS
+    from outbound.sensitivity import grid
+    g = grid(OPPS)
+    assert g[3][1.0] > g[6][1.0] > g[12][1.0]          # slower ramp realizes less
+    assert g[6][0.6] < g[6][0.8] < g[6][1.0]           # lower realization realizes less

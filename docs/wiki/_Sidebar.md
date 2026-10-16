@@ -12,6 +12,8 @@
 - [[ICP Hypotheses]]
 - [[Decision Log]]
 - [[Roadmap]]
+- [[Walkthrough]]
+- [[Questions for the Team]]
 
 **Use it**
 - [[Running the Toolkit]]

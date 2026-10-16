@@ -18,7 +18,6 @@ import json
 import os
 import sys
 from datetime import timedelta
-from typing import Any
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 

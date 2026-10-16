@@ -50,7 +50,7 @@ test:
 
 lint:
 	$(PY) -m pip install ruff -q
-	ruff check shared_core gtm_engineer gtm_strategy_ops prototypes scripts tests enrichment outbound agents integrations knowledge emnify_gtm
+	ruff check shared_core gtm_engineer gtm_strategy_ops prototypes scripts tests enrichment outbound agents integrations knowledge emnify_gtm mcp
 
 webhook:
 	uvicorn gtm_engineer.integrations.webhook:app --reload --port 8000

@@ -5,7 +5,9 @@ pip install -r requirements.txt
 python -m enrichment.run --dry-run
 python -m outbound.run --dry-run
 python -m agents.run_evals
+python -m outbound.sensitivity
 python -m knowledge.tools validate
+python scripts/capture_examples.py   # refresh docs/examples
 python -m knowledge.tools lookup "launch outbound list"
 python scripts/render_company_docs.py --check
 python -m pytest

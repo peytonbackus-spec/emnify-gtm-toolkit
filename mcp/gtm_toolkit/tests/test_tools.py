@@ -6,6 +6,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import server  # noqa: E402
+
 from shared_core.ai_governance import llm_client  # noqa: E402
 
 

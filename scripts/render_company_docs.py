@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT))
 
 from emnify_gtm.company import load_company  # noqa: E402
 
-DOCS = ["README.md", "ICP.md", "ROADMAP.md", "DECISIONS.md", "knowledge/README.md", "integrations/README.md"]
+DOCS = ["README.md", "ICP.md", "ROADMAP.md", "DECISIONS.md", "knowledge/README.md", "integrations/README.md", "ROLE_MAP.md"]
 BLOCK = re.compile(r"(<!-- BEGIN company:(\w+) -->\n)(.*?)(<!-- END company:\2 -->)", re.S)
 
 

@@ -25,9 +25,10 @@ def ramp_factor(months_since_go_live: int, ramp_months: int) -> float:
     return min(1.0, (months_since_go_live + 1) / max(1, ramp_months))
 
 
-def realized_in_period(opp: Dict[str, Any], period_months: int, case: str = "expected") -> float:
-    ramp = int(get("coverage_defaults.ramp_months_to_steady_usage"))
-    real = float(get("coverage_defaults.steady_state_usage_realization"))
+def realized_in_period(opp: Dict[str, Any], period_months: int, case: str = "expected",
+                       ramp_months: Optional[int] = None, realization: Optional[float] = None) -> float:
+    ramp = int(ramp_months if ramp_months is not None else get("coverage_defaults.ramp_months_to_steady_usage"))
+    real = float(realization if realization is not None else get("coverage_defaults.steady_state_usage_realization"))
     steady = float(opp["steady_monthly_revenue"][case])
     return round(sum(steady * real * ramp_factor(m - int(opp["go_live_month"]), ramp) for m in range(period_months)), 2)
 

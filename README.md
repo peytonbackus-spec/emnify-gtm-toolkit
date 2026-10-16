@@ -72,6 +72,15 @@ Green nodes run offline in this repo. Dashed amber nodes are specs or stubs that
 | [`knowledge/`](knowledge/README.md) | Machine-readable company knowledge | Workflow contracts, validator, index, router lookup | n/a |
 | [`ROADMAP.md`](ROADMAP.md) · [`DECISIONS.md`](DECISIONS.md) · [`ICP.md`](ICP.md) | First six months, judgment, ICP | Documents | n/a |
 
+## Start here
+
+| If you want | Read |
+|---|---|
+| The posting mapped to files | [`ROLE_MAP.md`](ROLE_MAP.md) |
+| A ten-minute talk track for one account | [`docs/WALKTHROUGH.md`](docs/WALKTHROUGH.md) |
+| What the code actually prints | [`docs/examples/emnify-sample-runs.md`](docs/examples/emnify-sample-runs.md) |
+| What I would ask the team first | [`QUESTIONS.md`](QUESTIONS.md) |
+
 ## Why consumption revenue changes the model
 
 A usage contract signs before it earns. Counting signed value as pipeline overstates a period, because devices go live over months and not all reach expected usage. So [`outbound/coverage.py`](outbound/coverage.py) converts each opportunity into the revenue it can realize inside the period (ramp, realization, win rate), reports **low / expected / high**, and prints its assumptions. [`DECISIONS.md`](DECISIONS.md) explains this and eight other choices, plus six illustrative push-backs.
@@ -105,6 +114,8 @@ From a previous role, mine and confirmed, not emnify's:
 
 I have not claimed these for emnify and do not assume they transfer.
 
+**What may carry over:** the method. Source from signals before lists, calibrate scoring to the win rate you actually have, instrument speed to lead, and keep a person on anything automated that touches a customer or a record. **What does not:** any number. That work was on a different product with contract-priced deals, and emnify's revenue is usage-based, so the coverage and forecast logic here is new and untested.
+
 ## Run it
 
 ```bash
@@ -113,7 +124,8 @@ python -m enrichment.run --dry-run     # dedupe plan, waterfall, mapping, dry-ru
 python -m outbound.run --dry-run       # ranking, held handoff, coverage cases
 python -m agents.run_evals             # 9 eval cases across 3 agents
 python -m knowledge.tools validate     # schema, staleness, router targets
-python -m pytest                       # 133 tests
+python -m outbound.sensitivity         # how ramp and realization move coverage
+python -m pytest                       # 134 tests
 ```
 
 ## Single source of values

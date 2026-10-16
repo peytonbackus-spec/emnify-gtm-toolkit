@@ -18,6 +18,8 @@
 - [[ICP Hypotheses]]: seven verticals from the public site, nothing ranked yet
 - [[Decision Log]]: nine choices and six illustrative push-backs
 - [[Roadmap]]: weeks 1-4, months 2-3, months 4-6
+- [[Walkthrough]]: one account from signal to Salesforce
+- [[Questions for the Team]]: what would confirm or replace each hypothesis
 - [[Running the Toolkit]]: every command
 - [[Glossary]]
 
