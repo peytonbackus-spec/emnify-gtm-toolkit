@@ -10,6 +10,6 @@ Format: decision, why, what reverses it. Full table in `DECISIONS.md`.
 6. Every vertical gets equal fit points until win data exists.
 7. Two config files: root `company.yaml` for emnify, `config/company.yaml` for the inherited demo engines.
 8. Knowledge is schema-validated YAML.
-9. The repo is private until I choose to share it.
+9. Built private; made public only after a read-through for anything that reads as inside knowledge.
 
 The repo also lists six illustrative push-backs (auto-enrolling every lead, adding vendors before measuring precision, scoring by size, letting an agent set forecast category, reporting records enriched, waiting for a complete integration). They show how I would respond; they are not events at emnify.

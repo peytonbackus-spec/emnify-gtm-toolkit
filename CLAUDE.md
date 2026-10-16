@@ -1,9 +1,9 @@
 # emnify-gtm-toolkit
 
-Private GitHub repo (peytonbackus-spec/emnify-gtm-toolkit). See README.md for purpose and layout.
+Public GitHub repo (peytonbackus-spec/emnify-gtm-toolkit). See README.md for purpose and layout.
 
 ## Rules
-- Private, but treat it as shareable later: never commit secrets, API keys, prospect or employer data, or anything under a `_private/` folder.
+- Public repo: never commit secrets, API keys, prospect or employer data, or anything under a `_private/` folder.
 - Never commit or push unless I ask for it in that message. Use `git --no-pager`.
 - Every emnify assumption is labelled "hypothesis: validate". No invented metrics; the only results quoted are the four confirmed ones in company.yaml `proof_points`.
 - Edit values in company.yaml, then run `python scripts/render_company_docs.py`; do not hand-edit generated blocks.

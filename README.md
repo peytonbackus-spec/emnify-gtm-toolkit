@@ -8,7 +8,7 @@
 ![Offline](https://img.shields.io/badge/runs-offline%2C%20synthetic%20data-555)
 ![Status](https://img.shields.io/badge/emnify%20facts-hypothesis%3A%20validate-9A6700)
 
-> Everything about emnify here is a **hypothesis: validate**. I have no access to emnify's systems or data. Stack facts come from the posting, vertical facts from the public website, and every working assumption is labelled. Data is synthetic, nothing calls an external service, and no credentials are present. Private repo.
+> Everything about emnify here is a **hypothesis: validate**. I have no access to emnify's systems or data. Stack facts come from the posting, vertical facts from the public website, and every working assumption is labelled. Data is synthetic, nothing calls an external service, and no credentials are present.
 
 <!-- BEGIN company:role -->
 emnify GTM Engineer (Senior (IC4), Sales Operations), reports to the Revenue Operations Lead, works with the CRO. Job 5004134101, posted 2026-10-13.

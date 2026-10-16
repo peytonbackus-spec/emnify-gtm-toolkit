@@ -14,7 +14,7 @@ Format: decision, why, what would reverse it. Entries 1-9 are choices made in th
 | 6 | Every vertical gets the same fit points until win data ranks them | The list comes from the public site, not from emnify's results | Win and loss data exists |
 | 7 | Two config files: [company.yaml](company.yaml) for emnify, [config/company.yaml](config/company.yaml) for the inherited demo engines | The inherited engines need segment keys that match their synthetic data; mixing them would put invented segments next to emnify hypotheses | The inherited engines are re-keyed to the emnify verticals |
 | 8 | Knowledge is YAML with a schema and a validator, not free-form wiki pages | Agents and people need the same source; a validator catches a stale or incomplete contract | A document type needs prose; then it gets a prose template and the same front matter |
-| 9 | The repo is private until I choose to share it | It contains hypotheses about a company I do not work for | I decide to share it |
+| 9 | The repo was built private and made public only after a read-through for anything that reads as inside knowledge | It contains hypotheses about a company I do not work for, so every claim must say it is a hypothesis | A claim turns out to be stated as fact, which gets fixed or removed |
 
 ## Revenue-metric definitions
 
