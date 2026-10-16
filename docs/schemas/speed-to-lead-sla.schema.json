@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gtm-os/schemas/speed-to-lead-sla.schema.json",
+  "title": "Speed-to-Lead SLA Contract -- Tool I/O Schemas",
+  "description": "JSON Schemas for the tool inputs/outputs implemented in gtm-os/mcp/speed-to-lead/speed_to_lead_server.py, matching the allowed_mcp_tools declared in gtm-os/contracts/speed-to-lead-sla-contract.yaml.",
+  "definitions": {
+    "Lead": {
+      "type": "object",
+      "required": ["id", "score_tier", "created_at"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "company": { "type": "string" },
+        "score_tier": { "type": "string", "enum": ["Tier 1 (Hot)", "Tier 2 (Warm)", "Tier 3 (Cold)"] },
+        "created_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "Meeting": {
+      "type": "object",
+      "required": ["id", "contact_id", "scheduled_at", "status"],
+      "properties": {
+        "id": { "type": "string" },
+        "contact_id": { "type": "string" },
+        "scheduled_at": { "type": "string", "format": "date-time" },
+        "status": { "type": "string", "enum": ["scheduled", "completed", "no_show", "cancelled"] },
+        "recovery_triggered": { "type": "boolean" }
+      }
+    },
+    "SLAEvaluation": {
+      "type": "object",
+      "required": ["lead_id", "tier", "sla_window_minutes", "deadline_utc", "minutes_remaining", "status"],
+      "properties": {
+        "lead_id": { "type": "string" },
+        "tier": { "type": "string" },
+        "sla_window_minutes": { "type": "integer" },
+        "deadline_utc": { "type": "string", "format": "date-time" },
+        "minutes_remaining": { "type": "number" },
+        "status": { "type": "string", "enum": ["OK", "AT_RISK", "BREACHED"] }
+      }
+    }
+  },
+  "tools": {
+    "crm_read_new_leads": {
+      "input": { "type": "object", "properties": { "since_minutes": { "type": "integer", "default": 60 } } },
+      "output": { "type": "array", "items": { "$ref": "#/definitions/Lead" } }
+    },
+    "calendar_read_no_shows": {
+      "input": { "type": "object", "properties": { "lookback_hours": { "type": "integer", "default": 24 } } },
+      "output": { "type": "array", "items": { "$ref": "#/definitions/Meeting" } }
+    },
+    "evaluate_sla_breach": {
+      "input": { "$ref": "#/definitions/Lead" },
+      "output": { "$ref": "#/definitions/SLAEvaluation" }
+    },
+    "slack_notify": {
+      "input": {
+        "type": "object", "required": ["channel", "message"],
+        "properties": { "channel": { "type": "string" }, "message": { "type": "string" } }
+      },
+      "output": { "type": "object", "properties": { "ok": { "type": "boolean" } } }
+    },
+    "sequencer_enqueue": {
+      "input": {
+        "type": "object", "required": ["contact_id", "cadence_name"],
+        "properties": { "contact_id": { "type": "string" }, "cadence_name": { "type": "string" } }
+      },
+      "output": { "type": "object", "properties": { "ok": { "type": "boolean" } } }
+    }
+  }
+}

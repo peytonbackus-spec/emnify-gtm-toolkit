@@ -1,0 +1,24 @@
+contract_id: inbound_lead_qualifier_agent
+version: 1.0.0
+objective: "Enrich, dedupe, score, and route every new inbound lead within 5 minutes of CRM creation, before human review"
+boundaries:
+  readable_paths:
+    - "wiki/skills/icp-builder"
+    - "wiki/concepts/gtm-tool-data-models"
+  writeable_paths:
+    - "intelligence/daily/"
+  allowed_mcp_tools:
+    - "crm_read"
+    - "crm_write_custom_fields_only"
+    - "clay_enrich"
+    - "slack_notify"
+role_map:
+  icp_fit_agent: "Runs icp-fit-scorer sub-agent -- returns Tier 1/2/3 classification with criteria met/missed"
+  dedup_agent: "Runs crm-field-writer sub-agent -- checks for existing account/contact match before any create; blocks duplicate creation"
+  routing_agent: "Assigns owner by territory rule and posts routing decision + evidence to Slack"
+evidence_standard: "Must cite the exact ICP criteria matched or missed for the score given; must cite the CRM record ID checked for duplication"
+stop_rules:
+  - "Missing CRM or Clay auth token"
+  - "ICP fit confidence score < 0.7"
+  - "Company size or deal-size signal exceeds $100k ARR tier -- requires mandatory HITL approval before auto-routing (mirrors pipeline-risk-contract's enterprise-deal threshold)"
+  - "Duplicate match confidence between 40-70% (ambiguous) -- flag for human merge decision, never auto-merge"

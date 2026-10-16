@@ -1,0 +1,22 @@
+contract_id: speed_to_lead_sla_agent
+version: 1.0.0
+objective: "Enforce SLA response windows on inbound leads by score tier and trigger no-show recovery cadences for missed booked meetings"
+boundaries:
+  readable_paths:
+    - "wiki/skills/inbound-playbook"
+    - "wiki/competitive/Chili Piper"
+  writeable_paths:
+    - "intelligence/daily/"
+  allowed_mcp_tools:
+    - "calendar_read"
+    - "crm_read"
+    - "slack_notify"
+    - "sequencer_enqueue"
+role_map:
+  sla_timer_agent: "Starts an SLA clock per lead tier at lead-creation timestamp; escalates to Slack if unactioned at 80% of SLA window"
+  noshow_recovery_agent: "Runs milestone-sequencer sub-agent to build a 3-touch, multi-channel no-show recovery cadence when a booked meeting is missed"
+evidence_standard: "Must log the lead-creation timestamp, SLA tier assigned, and time-to-first-touch for every lead processed"
+stop_rules:
+  - "Missing calendar or CRM auth token"
+  - "Enterprise-tier lead (matches inbound_lead_qualifier_agent's $100k+ threshold) breaching SLA requires immediate human escalation, not just a logged alert"
+  - "No-show recovery cadence caps at 3 touches -- does not auto-continue outreach beyond that without human review"

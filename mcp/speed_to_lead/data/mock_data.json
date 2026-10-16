@@ -1,0 +1,12 @@
+{
+  "_note": "Offsets are relative to 'now' so the mock never goes stale. Absolute created_at/scheduled_at also work.",
+  "leads": [
+    {"id": "00Q_mock_001", "name": "Jordan Reyes", "company": "Northwind Analytics", "score_tier": "Tier 1 (Hot)", "created_minutes_ago": 4},
+    {"id": "00Q_mock_002", "name": "Priya Shah", "company": "Basecamp Robotics", "score_tier": "Tier 2 (Warm)", "created_minutes_ago": 27},
+    {"id": "00Q_mock_003", "name": "Devon Clarke", "company": "Fen & Co.", "score_tier": "Tier 3 (Cold)", "created_minutes_ago": 2880}
+  ],
+  "meetings": [
+    {"id": "evt_mock_001", "contact_id": "003_mock_001", "scheduled_minutes_ago": 60, "status": "no_show", "recovery_triggered": false},
+    {"id": "evt_mock_002", "contact_id": "003_mock_002", "scheduled_minutes_ago": 300, "status": "completed", "recovery_triggered": false}
+  ]
+}

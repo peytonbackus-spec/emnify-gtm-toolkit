@@ -1,0 +1,38 @@
+---
+contract_id: outbound_launch_readiness_agent
+version: 0.1.0
+objective: "Before a CRM-derived audience enters any sequence, decide GO, CONDITIONAL GO or STOP on the exact launch slice, run only bounded remediation, and regenerate the audience from source filters. This is a gate, not a sender; it runs before the CASL compliance gate."
+boundaries:
+  readable_paths:
+    - "shared_core/context/icp-and-personas.md"
+    - "outputs/scored_leads.csv"
+    - "docs/contracts/casl-compliance-gate-contract.yaml"
+  writeable_paths:
+    - "outputs/launch_readiness_report.md"
+    - "outputs/review_queue_launch.csv"
+  allowed_mcp_tools:
+    - "crm_read"
+    - "crm_update_approved_ops"   # remediation runs only through the crm-cleanup contract
+    - "slack_notify"
+role_map:
+  slice_agent: "Pins down the campaign objective, ICP filters, exclusions, channel, volume, owners and launch date, then pulls the exact accounts and contacts. Records baseline counts: accounts, contacts per account, reachable, ownerless, duplicates, suppressed, open opportunities, customers, touched inside the cooldown. An overall CRM health score is never a stand-in for inspecting the slice."
+  gate_agent: "Runs five gates: identity (no material duplicate risk), ownership (one accountable owner or a deterministic route), reachability (verified channel detail), context (customers, open deals, prior objections, recent touches, legal suppressions), fit (traceable inclusion reason)."
+  remediation_agent: "Fixes in dependency order: account identity, ownership, suppression, then contact refresh. Writes go through the crm-cleanup contract. Remediation is bounded to defects that change targeting, context, ownership, deliverability or measurement for this campaign; anything else goes to a separate backlog."
+  rebuild_agent: "Regenerates the audience from source filters (never by editing the old export), re-runs every gate, reconciles what entered and left, and samples at least 10 targets across segments and owners, edge cases included."
+thresholds:
+  duplicate_account_risk: "under 1%, and no unresolved duplicate in the first launch batch"
+  ownership: "100% one active owner or deterministic route"
+  suppression_checks: "100% evaluated; zero unresolved customer, open-deal, opt-out or legal conflicts"
+  stable_account_relationship: "at least 98% of contacts; exclude the rest"
+  verified_channel_detail: "at least 95% for email (98% for a small high-value segment)"
+  fit_traceability: "100% have a recorded inclusion reason"
+decision_rule: "GO when every gate passes; CONDITIONAL GO when a clean subset passes and excluded records are isolated with reasons and a route back; STOP when identity, ownership or suppression cannot be evaluated"
+evidence_standard: "The report names the final audience size, excluded population with reasons, reachable volume, owner distribution and suppression counts; a human records the launch decision"
+stop_rules:
+  - "Never reach out to unresolved duplicates, active conflicts or suppressed contacts"
+  - "Never silently assign ownerless targets or invent missing contact data"
+  - "A deadline never waives identity, ownership, context or suppression gates"
+  - "Stop the affected slice mid-campaign if ownership or suppression state changes materially"
+  - "Excluded records never come back by appending an older export"
+source: "Adapted in our own words from swan-gtm/gtm-skills skills/ryan-iyengar/hygiene-gated-outbound (MIT, (c) 2026 Swan), folder hash 64a0446fac38"
+---

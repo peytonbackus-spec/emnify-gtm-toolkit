@@ -1,0 +1,282 @@
+# =============================================================================
+# GTM & RevOps Toolkit: company config (EXAMPLE values)
+# -----------------------------------------------------------------------------
+# Every script reads this file; nothing company-specific is hardcoded in code.
+# `make new COMPANY="Acme Corp"` copies this to config/company.yaml in a new repo
+# and fills `variables:` so the [BRACKET] tokens in docs resolve.
+#
+# Value provenance tags, so a reader can tell fact from guess:
+#   [PUBLIC]   from the company's public site, press releases or earnings coverage
+#   [POSTING]  from a job posting or brief
+#   [ASSUME]   a reasoned working assumption, to validate in discovery
+# Everything below is [ASSUME] example data until you replace it.
+# =============================================================================
+
+company:
+  name: Example Co
+  tagline: "Replace with the company tagline"
+  segment_note: "Mid-market B2B SaaS, direct + partner motion"
+
+# Fiscal calendar. year_start_month = the month the fiscal year BEGINS (1 = calendar year).
+# Example uses Oct 1, so FY ends Sep 30 and Oct-Dec 2026 = FY27-Q1.
+fiscal:
+  year_start_month: 10
+  as_of_date: 2026-10-01          # fixed so reports reproduce against the synthetic data
+current_fiscal_quarter: FY27-Q1
+
+# Two product lines. Rename to match the company's reporting segments.
+product_lines:
+  core:
+    label: Core Platform
+    products: [Core Platform, Core Analytics, Core Automation, Core Connectors]
+    primary_buyers: [exec_buyer_digital, exec_buyer_primary]
+  addon:
+    label: Add-on Suite
+    products: [Add-on Insights, Add-on Security, Add-on Compliance]
+    primary_buyers: [exec_buyer_primary, exec_buyer_security, influencer_risk, exec_buyer_ops, champion_product]
+  cross_sell: {core: addon, addon: core}      # used by renewal expansion signals
+
+# Market segments. icp_points feed fit scoring; motion drives routing/plays.
+# use_case is the default pain hypothesis used in AI account briefs.
+segments:
+  enterprise:       {label: "Enterprise (5,000+ employees)",     icp_points: 30, motion: enterprise_abm, core_segment: true,  use_case: "Platform consolidation and executive-level reporting across business units"}
+  upper_mid_market: {label: "Upper Mid-Market (1,500-5,000)",    icp_points: 28, motion: enterprise_abm, core_segment: true,  use_case: "Replace point tools and reduce manual operations cost"}
+  mid_market:       {label: "Mid-Market (50-1,500)",             icp_points: 18, motion: partner_led,    core_segment: true,  use_case: "Fast time-to-value via a partner-delivered implementation"}
+  small_business:   {label: "Small Business (<50)",              icp_points: 18, motion: partner_led,    core_segment: true,  use_case: "Self-serve onboarding with light partner support"}
+  vertical_a:       {label: "Vertical A (high-velocity)",        icp_points: 26, motion: velocity,       core_segment: false, use_case: "Onboarding workflow speed and conversion"}
+  vertical_b:       {label: "Vertical B (high-velocity)",        icp_points: 20, motion: velocity,       core_segment: false, use_case: "Quality and abuse controls at signup"}
+  vertical_c:       {label: "Vertical C (high-velocity)",        icp_points: 22, motion: velocity,       core_segment: false, use_case: "Compliance checks at onboarding"}
+  adjacent:         {label: "Adjacent regulated industries",     icp_points: 12, motion: partner_led,    core_segment: false, use_case: "Compliance-driven workflow modernization"}
+  other:            {label: "Non-ICP",                           icp_points: 0,  motion: nurture,        core_segment: false, use_case: ""}
+
+# Buyer personas: who signs, who influences, who blocks. angle = default messaging hook.
+personas:
+  exec_buyer_primary:    {label: "VP / Head of primary function",    role: economic_buyer, points: 25, angle: "Cost and performance trade-off; where the current process breaks at scale"}
+  exec_buyer_security:   {label: "CISO / Head of IT Security",       role: economic_buyer, points: 22, angle: "Risk reduction and a clean security review"}
+  exec_buyer_digital:    {label: "Head of Digital / Channels",       role: economic_buyer, points: 22, angle: "Customer experience gains without added risk"}
+  influencer_risk:       {label: "Chief Risk / Compliance Officer",  role: influencer,     points: 18, angle: "Defensible audit trail"}
+  exec_buyer_ops:        {label: "Head of Operations",               role: economic_buyer, points: 20, angle: "Operational efficiency without adding friction for customers"}
+  champion_product:      {label: "VP Product / Platform",            role: champion,       points: 18, angle: "Time-to-value and integration effort"}
+  champion_practitioner: {label: "Practitioner / Manager",           role: champion,       points: 10, angle: "Day-to-day workload and explainable results"}
+  blocker_procurement:   {label: "Procurement / Vendor Risk / IT",   role: blocker,        points: 5,  angle: "Clean paperwork and a fast, predictable review"}
+  unknown:               {label: "Unknown / Non-buyer",              role: none,           points: 0,  angle: "Confirm role and whether they own the outcome"}
+
+regions: [NA, EMEA, APAC, LATAM]
+
+# GTM stack. Defaults are common tools; replace with the company's actual stack.
+stack:
+  crm: Salesforce
+  forecasting: Clari
+  conversation_intelligence: Gong
+  sales_engagement: Outreach
+  dialer: Orum
+  data_provider: Apollo
+  enrichment_orchestration: Clay
+  conversational_marketing: Drift
+  social_selling: LinkedIn Sales Navigator
+  marketing_automation: HubSpot
+
+partners:
+  - {name: Partner A, type: reseller}
+  - {name: Partner B, type: technology_partner}
+  - {name: Partner C, type: technology_partner}
+  - {name: Partner D, type: marketplace}
+
+# Variables that resolve the [BRACKET] tokens in docs/specs (see VARIABLES.md).
+variables:
+  COMPANY_NAME: Example Co
+  CRM: Salesforce
+  FORECAST_TOOL: Clari
+  CONVERSATION_INTELLIGENCE: Gong
+  SEQUENCER: Outreach
+  DIALER: Orum
+  DATA_PROVIDER: Apollo
+  ENRICHMENT_ORCHESTRATION: Clay
+  WEBSITE_CHAT: Drift
+  SOCIAL_SELLING: LinkedIn Sales Navigator
+  MARKETING_AUTOMATION: HubSpot
+
+# ---------------------------------------------------------------------------
+# GTM ENGINEER track: lead lifecycle, scoring and routing
+# ---------------------------------------------------------------------------
+lead_lifecycle:
+  statuses: [New, Enriching, MQL, SAL, Working, SQL, Converted, Recycled, Disqualified]
+  sla_hours:                                           # [ASSUME] targets to agree with Marketing + SDR leadership
+    mql_to_sal: 4          # SDR accepts or rejects within 4 business hours
+    sal_to_first_touch: 1  # high-intent leads get a 1-hour touch
+    sal_to_sql_days: 14    # work it or recycle it
+  disqualify_reasons: [Not ICP, Competitor, Student/Job Seeker, Existing Open Opp, No Use Case, Bad Data, Duplicate]
+  recycle_after_days: 90
+
+lead_scoring:
+  # Two independent axes, combined into a grade like "A1". [ASSUME] starting weights; calibrate_scoring.py tunes them
+  fit_bands:    {A: 85, B: 70, C: 50}    # fit score thresholds (0-100)
+  intent_bands: {1: 60, 2: 35, 3: 15}    # intent score thresholds (0-100)
+  mql_grades: [A1, A2, B1, A3, B2]       # grades that become MQL automatically
+  region_points: {NA: 15, EMEA: 12, APAC: 8, LATAM: 6}
+  size_bands:                            # employees -> points; first match wins, else `size_default_points`
+    - {min_employees: 10000, points: 20}
+    - {min_employees: 1500,  points: 14}
+    - {min_employees: 200,   points: 8}
+  size_default_points: 2
+  alignment:                             # reward product/segment combos the company actually wins
+    - {product_interest: core,  segments: core_segments, points: 10}   # core_segments = segments with core_segment: true
+    - {product_interest: addon, segments: all_icp,       points: 10}   # all_icp = every segment except `other`
+  intent_signals:                        # points + half-life (days) for decay; hand_raiser = explicit buying action
+    demo_request:         {points: 40, half_life_days: 14, hand_raiser: true}
+    chat_engaged:         {points: 30, half_life_days: 7,  hand_raiser: true}
+    pricing_page_visit:   {points: 20, half_life_days: 10}
+    webinar_attended:     {points: 15, half_life_days: 21}
+    content_download:     {points: 12, half_life_days: 21}
+    champion_job_change:  {points: 18, half_life_days: 60}    # social-selling alert
+    team_hiring:          {points: 10, half_life_days: 45}    # job-post signal from enrichment tool
+    competitor_renewal_window: {points: 20, half_life_days: 90}  # contract-end signal
+    email_reply_positive: {points: 25, half_life_days: 14}
+
+lead_routing:
+  # Ordered pods; first match wins. [ASSUME] pod structure and roster
+  pods:
+    enterprise_na: {segments: [enterprise, upper_mid_market], regions: [NA]}
+    velocity_na:   {segments: [vertical_a, vertical_b, vertical_c], regions: [NA]}
+    partner_led_na: {segments: [mid_market, small_business, adjacent], regions: [NA]}
+    emea_all:      {segments: ["*"], regions: [EMEA]}
+    intl_other:    {segments: ["*"], regions: [APAC, LATAM]}
+  pod_sdrs:
+    enterprise_na: ["SDR - Alex Rivera", "SDR - Bri Okafor"]
+    velocity_na: ["SDR - Chen Wu", "SDR - Dana Lopes"]
+    partner_led_na: ["SDR - Eli Novak"]
+    emea_all: ["SDR - Fran Moretti"]
+    intl_other: ["SDR - Fran Moretti"]
+  partner_manager: "Partner Mgr - Olu Adeyemi"
+  max_open_leads_per_sdr: 60
+
+# ---------------------------------------------------------------------------
+# GTM STRATEGY & OPS track: opportunity, forecast and renewal settings
+# ---------------------------------------------------------------------------
+opportunity:
+  types: [New Logo, Expansion, Renewal]
+  stages:                                              # [ASSUME] stage design; see stage-definitions.md
+    - {name: "1 - Qualify",              probability: 0.10, max_days: 21}
+    - {name: "2 - Discovery",            probability: 0.20, max_days: 30}
+    - {name: "3 - Technical Validation", probability: 0.40, max_days: 45}   # POC / sandbox / data test
+    - {name: "4 - Business Case & Security Review", probability: 0.60, max_days: 45}
+    - {name: "5 - Negotiate & Contract", probability: 0.80, max_days: 30}
+    - {name: "Closed Won",               probability: 1.00, max_days: null}
+    - {name: "Closed Lost",              probability: 0.00, max_days: null}
+  forecast_categories: [Pipeline, Best Case, Commit, Closed, Omitted]
+  closed_lost_reasons: [Price, Lost to Competitor, No Decision / Status Quo, Build In-House, Security / Compliance Blocker, Integration Effort, Timing / Budget, Champion Left]
+  coverage_target: 3.0                                 # [ASSUME] pipeline / remaining quota
+
+renewals:
+  lookahead_days: 180
+  health_weights:                                      # [ASSUME]; must sum to 1.0
+    volume_trend: 0.30        # usage trend (telemetry)
+    utilization: 0.20         # % of committed volume consumed
+    support: 0.15
+    sponsor: 0.20
+    competitive: 0.15
+
+# New-business + expansion quota by fiscal quarter and region. [ASSUME] illustrative only,
+# sized to the synthetic data so coverage math has something to show. Replace with the real plan.
+quota:
+  FY26-Q4: {NA: 1500000, EMEA: 420000, APAC: 170000, LATAM: 110000}
+  FY27-Q1: {NA: 1600000, EMEA: 450000, APAC: 180000, LATAM: 120000}
+
+# ---------------------------------------------------------------------------
+# SALES TEAM, PLANNING AND LEADERSHIP REPORTING
+# Everything below is [ASSUME]: a fictional roster that matches the synthetic data, plus planning
+# parameters to replace with the company's own history in the first 30 days.
+# ---------------------------------------------------------------------------
+sales_team:
+  # Replace from the CRM's users (role = AE). start_date drives ramp; region must match `regions`.
+  ae_roster:
+    "AE - Grace Tan":   {region: NA,    start_date: 2023-02-01}
+    "AE - Hugo Park":   {region: NA,    start_date: 2024-01-15}
+    "AE - Iris Bell":   {region: NA,    start_date: 2025-11-03}
+    "AE - Jon Reyes":   {region: NA,    start_date: 2023-06-01}
+    "AE - Klara Weiss": {region: EMEA,  start_date: 2022-09-12}
+    "AE - Liam Byrne":  {region: EMEA,  start_date: 2026-04-06}
+    "AE - Nico Duarte": {region: LATAM, start_date: 2026-07-13}
+    "AE - Mei Lin":     {region: APAC,  start_date: 2025-09-01}
+  # Share of full productivity by fiscal quarter of tenure (quarter 1 = start quarter). Long enterprise
+  # cycles mean a new AE closes little in quarters 1-2. Calibrate against real cohorts.
+  ramp_vector: [0.0, 0.33, 0.66, 1.0]
+  # Steady-state bookings per fully ramped AE per quarter: what reps actually sell, not quota.
+  ae_quarterly_productivity: {NA: 380000, EMEA: 300000, LATAM: 170000, APAC: 140000}
+  annual_attrition_pct: 15
+
+sales_planning:
+  # Quota above productivity, so the plan survives normal attrition and misses. Practitioner range
+  # is roughly 10-25% (see docs); much higher means reps miss while the company "hits plan".
+  over_assignment_pct: 15
+  bookings_plan:                     # new business + expansion, by fiscal quarter
+    FY27-Q2: 2200000
+    FY27-Q3: 2600000
+    FY27-Q4: 2800000
+    FY28-Q1: 3200000
+  hire_lead_time_quarters: 1         # a req opened this quarter produces a seated AE next quarter
+  territory:
+    tier_cutoffs_pct: {T1: 15, T2: 50}          # top 15% of account potential = T1, next 35% = T2, rest pooled
+    max_named_accounts_per_ae: {T1: 15, T2: 40}
+    balance_tolerance_pct: 15                   # flag any AE whose potential is >15% off the region mean
+    keep_customer_owner: true                   # never move a live customer mid-year
+    size_bands:                                 # employees -> potential points; first match wins
+      - {min_employees: 10000, points: 20}
+      - {min_employees: 1500,  points: 14}
+      - {min_employees: 200,   points: 8}
+    size_default_points: 2
+  pipeline_distribution:
+    max_open_opps_per_ae: 18                    # workable deals at a time for a long-cycle enterprise AE
+    min_open_opps_per_ae: 6
+    concentration_flag_pct: 50                  # flag when one deal is >50% of an AE's in-quarter pipeline
+  request_intake:
+    # CRM and marketing-automation requests from Sales, Marketing, CS and Finance. Hours are business hours.
+    sla_hours: {P0: 8, P1: 24, P2: 40, P3: 80}   # first response; 8 business hours = 1 day
+    change_classes:
+      standard: [Report / Dashboard, List View, Access / Permissions, Data Fix]
+      normal:   [Field / Picklist, Validation Rule, Page Layout, Email Template]
+      major:    [Automation / Flow, Object / Data Model, Routing / Assignment, Integration]
+
+sales_leadership:
+  min_sample: 8                     # below this many closed deals, a win rate is "too early to tell"
+  trailing_days: 365                # window for win rate, deal size, cycle and velocity
+  segment_gap_pts: 5                # +/- points vs company win rate to call a segment strong or weak
+  hot_deal:
+    advanced_within_days: 30
+    active_within_days: 7
+    min_contacts: 3
+  slipping_deal:
+    pushes: 2                       # close date moved this many times
+    big_push_days: 21               # or one push of 3+ weeks (lost momentum) ...
+    recent_push_days: 30            # ... within the last 30 days
+  stalled_activity_days: 21
+  all_hands:
+    recognize_top_n: 3              # celebrate the top; coach the bottom privately
+    competitor_none_values: ["None known", ""]
+
+# ---------------------------------------------------------------------------
+# MARKETING OPS: campaigns, UTMs, consent, channel ROI. [ASSUME] taxonomy to agree with Marketing.
+# ---------------------------------------------------------------------------
+marketing_ops:
+  campaign_name_pattern: "^FY\\d{2}-Q[1-4]_(EVT|WBN|CNT|PAID|OUT|PRT|WEB)_(NA|EMEA|APAC|LATAM|GLOBAL)_[A-Za-z0-9-]+$"
+  campaign_types:                    # code in the name -> member statuses, in order; "responded" marks a response
+    EVT:  {label: Event,          statuses: [Registered, Attended, Met at Booth, No Show], responded: [Attended, Met at Booth]}
+    WBN:  {label: Webinar,        statuses: [Registered, Attended, Watched On-Demand, No Show], responded: [Attended, Watched On-Demand]}
+    CNT:  {label: Content,        statuses: [Downloaded], responded: [Downloaded]}
+    PAID: {label: Paid Media,     statuses: [Clicked, Converted], responded: [Converted]}
+    OUT:  {label: Outbound Play,  statuses: [Sent, Replied, Meeting Booked], responded: [Replied, Meeting Booked]}
+    PRT:  {label: Partner,        statuses: [Referred, Accepted], responded: [Referred]}
+    WEB:  {label: Website,        statuses: [Visited, Demo Requested, Chat Engaged], responded: [Demo Requested, Chat Engaged]}
+  utm:
+    source: [google, linkedin, email_platform, webinar_platform, partner, events, g2, direct]
+    medium: [cpc, paid_social, display, email, organic, referral, event, webinar]
+  attribution:
+    model: w_shaped                  # first touch, lead created (MQL), opp created: 30% each; 10% spread across the rest
+    lookback_days: 180
+  consent:
+    regions_opt_in_required: [EMEA]          # GDPR: lawful basis required before marketing email
+    regions_express_or_implied: [NA]         # CASL applies to Canadian contacts; record consent type + date
+  list_import_sla_hours: 48                  # event and webinar lists in the CRM and routed within 48h
+  demand_plan:
+    sourced_mix_pct: {Marketing: 40, SDR: 15, Partner: 15, AE: 30}   # target share of new opps by source; agree with Marketing + Sales
+    create_ahead_quarters: 1                 # pipeline for quarter Q is created in Q-1 (about one sales cycle)

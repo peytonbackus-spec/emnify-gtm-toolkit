@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ar-01-upper-mid-market-prospect-core",
+    "record": {"company": "Harborview Corp", "segment": "upper_mid_market", "region": "NA", "persona": "exec_buyer_digital",
+               "title": "SVP Digital", "product_interest": "core", "is_existing_customer": "False",
+               "employees": "4200", "intent_signals": "content_download@2026-09-20"},
+    "checks": {"required_keys": ["summary", "recommended_products", "qualification", "evidence", "next_action", "confidence"],
+               "expect": {"next_action": "enroll_cadence"}, "min_items": {"evidence": 2},
+               "must_not_contain": ["guarantee", "100%", "eliminate risk"], "no_pii": true}
+  },
+  {
+    "id": "ar-02-core-customer-gets-addon-cross-sell",
+    "record": {"company": "Keystone Industries", "segment": "upper_mid_market", "region": "NA", "persona": "exec_buyer_primary",
+               "title": "VP, Revenue Operations", "product_interest": "addon", "is_existing_customer": "True",
+               "products_owned": "core", "employees": "8800", "intent_signals": "webinar_attended@2026-09-25"},
+    "checks": {"expect": {"recommended_products": ["Add-on Insights", "Add-on Security"], "next_action": "route_to_ae"},
+               "must_not_contain": ["Core Platform"]}
+  },
+  {
+    "id": "ar-03-non-icp-disqualified",
+    "record": {"company": "Arbor Studio", "segment": "other", "region": "NA", "persona": "unknown",
+               "title": "Student", "product_interest": "addon", "is_existing_customer": "False"},
+    "checks": {"expect": {"next_action": "disqualify_lead", "recommended_products": []}}
+  },
+  {
+    "id": "ar-04-pii-in-notes-is-redacted",
+    "record": {"company": "Crescent Pay", "segment": "vertical_a", "region": "EMEA", "persona": "champion_product",
+               "title": "VP Product", "product_interest": "addon", "is_existing_customer": "False",
+               "email": "jordan.nash@crescentpay.example",
+               "notes": "Call me at 415-555-0199, acct 0012345678901 SSN 123-45-6789"},
+    "checks": {"no_pii": true, "required_keys": ["summary", "unknowns"]}
+  },
+  {
+    "id": "ar-05-sparse-record-low-confidence",
+    "record": {"company": "Falcon Play", "segment": "vertical_c", "region": "", "persona": "influencer_risk",
+               "title": "Chief Risk Officer", "product_interest": "addon", "is_existing_customer": "False"},
+    "checks": {"min_items": {"unknowns": 3}, "required_keys": ["confidence"]}
+  },
+  {
+    "id": "ar-06-addon-customer-in-core-segment-gets-core",
+    "record": {"company": "Tidewater Global", "segment": "enterprise", "region": "NA", "persona": "exec_buyer_primary",
+               "title": "Head of Revenue", "product_interest": "core", "is_existing_customer": "True",
+               "products_owned": "addon", "employees": "52000"},
+    "checks": {"expect": {"recommended_products": ["Core Platform"]}}
+  }
+]

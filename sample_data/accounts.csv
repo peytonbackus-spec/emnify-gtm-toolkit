@@ -1,0 +1,451 @@
+account_id,account_name,segment,region,employees,is_customer,products_owned
+ACC-1000,Harborview Stack,vertical_a,NA,601,False,
+ACC-1001,Meridian Market,vertical_b,NA,310,True,addon
+ACC-1002,Maple Leaf Works,mid_market,NA,104,False,
+ACC-1003,Highland Network,vertical_b,NA,4877,False,
+ACC-1004,Sterling Insurance,adjacent,NA,11349,False,
+ACC-1005,Sterling Solutions,mid_market,NA,259,True,core
+ACC-1006,Falcon Industries,upper_mid_market,NA,2923,False,
+ACC-1007,Arbor Flow,vertical_a,NA,1230,False,
+ACC-1008,Falcon Stack,vertical_a,NA,2915,True,core;addon
+ACC-1009,Sterling Hub,vertical_b,LATAM,1957,False,
+ACC-1010,Evergreen Labs,small_business,NA,196,True,core;addon
+ACC-1011,Crescent Studio,small_business,NA,46,False,
+ACC-1012,Redwood Systems,mid_market,NA,384,False,
+ACC-1013,Arbor Works,mid_market,NA,1459,False,
+ACC-1014,Clearwater Market,vertical_b,NA,312,False,
+ACC-1015,Cedar Valley Co,small_business,NA,300,False,
+ACC-1016,Pinecrest Studio,small_business,NA,212,False,
+ACC-1017,Northgate Hub,vertical_b,NA,4648,False,
+ACC-1018,Copper State Live,vertical_c,NA,616,False,
+ACC-1019,Summit Ridge Corp,upper_mid_market,NA,6742,False,
+ACC-1020,Cedar Valley Studio,small_business,NA,205,False,
+ACC-1021,Riverbend Neo,vertical_a,EMEA,77,False,
+ACC-1022,Meridian Partners,upper_mid_market,EMEA,12646,True,addon
+ACC-1023,Evergreen Co,small_business,NA,144,False,
+ACC-1024,Maple Leaf Play,vertical_c,EMEA,1272,False,
+ACC-1025,Lakeshore Cloud,vertical_a,NA,691,False,
+ACC-1026,Westfield Games,vertical_c,NA,508,False,
+ACC-1027,Clearwater Studio,other,NA,128,False,
+ACC-1028,Cedar Valley Consulting,other,EMEA,422,False,
+ACC-1029,Sterling Partners,upper_mid_market,EMEA,5707,False,
+ACC-1030,Ironwood Studio,other,NA,315,False,
+ACC-1031,Lakeshore Labs,small_business,NA,112,False,
+ACC-1032,Crescent Labs,small_business,NA,201,True,core
+ACC-1033,Blue Mesa Cloud,vertical_a,NA,1414,True,core;addon
+ACC-1034,Stonebridge Cloud,vertical_a,NA,2929,False,
+ACC-1035,Meridian Systems,mid_market,NA,726,True,core
+ACC-1036,Crescent Solutions,mid_market,NA,488,False,
+ACC-1037,Meridian Network,vertical_b,NA,3924,False,
+ACC-1038,Blue Mesa Works,mid_market,NA,932,True,core
+ACC-1039,Falcon Labs,small_business,NA,37,False,
+ACC-1040,Blue Mesa Consulting,other,NA,178,False,
+ACC-1041,Blue Mesa Media,vertical_c,NA,2246,False,
+ACC-1042,Riverbend Studio,small_business,NA,137,False,
+ACC-1043,Union Square Partners,upper_mid_market,NA,19213,False,
+ACC-1044,Arbor Agency,other,NA,253,False,
+ACC-1045,Falcon Flow,vertical_a,APAC,704,False,
+ACC-1046,Riverbend Collective,other,NA,361,False,
+ACC-1047,Union Square Collective,other,NA,156,False,
+ACC-1048,Summit Ridge Works,mid_market,NA,1160,True,core
+ACC-1049,Summit Ridge Labs,small_business,NA,254,False,
+ACC-1050,Ironwood Health,adjacent,LATAM,2825,False,
+ACC-1051,Cedar Valley Partners,upper_mid_market,EMEA,14730,True,core
+ACC-1052,Granite Peak Consulting,other,NA,219,False,
+ACC-1053,Stonebridge Hub,vertical_b,APAC,1723,False,
+ACC-1054,Northgate Labs,small_business,NA,163,False,
+ACC-1055,Arbor Consulting,other,NA,323,False,
+ACC-1056,Tidewater Agency,other,NA,72,False,
+ACC-1057,Meridian Consulting,other,EMEA,194,False,
+ACC-1058,Evergreen Works,mid_market,NA,1490,True,addon
+ACC-1059,Union Square Consulting,other,NA,288,False,
+ACC-1060,Crescent Co,small_business,NA,78,True,core
+ACC-1061,Redwood Agency,other,NA,314,False,
+ACC-1062,Oakmont Systems,mid_market,NA,1457,False,
+ACC-1063,Keystone Solutions,mid_market,NA,154,True,core
+ACC-1064,Riverbend Co,small_business,NA,11,True,core
+ACC-1065,Riverbend Corp,upper_mid_market,EMEA,19577,False,
+ACC-1066,Blue Mesa Pay,vertical_a,APAC,2860,False,
+ACC-1067,Clearwater Stack,vertical_a,NA,636,False,
+ACC-1068,Prairie First Corp,upper_mid_market,EMEA,8383,False,
+ACC-1069,Prairie First Network,vertical_b,LATAM,1316,False,
+ACC-1070,Ironwood Systems,mid_market,NA,894,True,core;addon
+ACC-1071,Oakmont Live,vertical_c,EMEA,3589,False,
+ACC-1072,Ironwood Works,mid_market,NA,271,True,addon
+ACC-1073,Keystone Corp,upper_mid_market,NA,16583,True,core;addon
+ACC-1074,Falcon Insurance,adjacent,NA,21827,False,
+ACC-1075,Falcon Co,small_business,NA,152,True,core;addon
+ACC-1076,Crescent Neo,vertical_a,NA,143,True,core;addon
+ACC-1077,Summit Ridge Consulting,other,NA,181,False,
+ACC-1078,Westfield Play,vertical_c,NA,2411,False,
+ACC-1079,Copper State Corp,upper_mid_market,NA,19143,False,
+ACC-1080,Prairie First Collective,other,NA,345,False,
+ACC-1081,Westfield Studio,other,NA,68,False,
+ACC-1082,Silverline Hub,vertical_b,NA,2722,False,
+ACC-1083,Northgate Co,small_business,NA,225,False,
+ACC-1084,Redwood Co,small_business,NA,164,True,core
+ACC-1085,Silverline Mutual,adjacent,NA,25947,False,
+ACC-1086,Evergreen Network,vertical_b,NA,1800,False,
+ACC-1087,Union Square Media,vertical_c,NA,1212,False,
+ACC-1088,Oakmont Pay,vertical_a,EMEA,992,False,
+ACC-1089,Lakeshore Systems,mid_market,NA,100,True,core
+ACC-1090,Westfield Consulting,other,NA,458,False,
+ACC-1091,Lakeshore Flow,vertical_a,NA,1029,True,addon
+ACC-1092,Sterling Network,vertical_b,NA,4293,False,
+ACC-1093,Arbor Pay,vertical_a,NA,1933,False,
+ACC-1094,Sterling Collective,other,NA,373,False,
+ACC-1095,Copper State Collective,other,EMEA,385,False,
+ACC-1096,Evergreen Mutual,adjacent,EMEA,27720,False,
+ACC-1097,Maple Leaf Live,vertical_c,NA,1174,False,
+ACC-1098,Granite Peak Hub,vertical_b,NA,4474,True,core
+ACC-1099,Bayfront Partners,upper_mid_market,NA,8510,True,addon
+ACC-1100,Tidewater Studio,small_business,NA,222,True,core
+ACC-1101,Bayfront Health,adjacent,EMEA,25287,False,
+ACC-1102,Prairie First Stack,vertical_a,EMEA,1746,False,
+ACC-1103,Keystone Media,vertical_c,NA,2039,True,core
+ACC-1104,Arbor Co,small_business,NA,283,True,core
+ACC-1105,Stonebridge Labs,small_business,NA,23,True,addon
+ACC-1106,Falcon Studio,small_business,NA,103,True,core;addon
+ACC-1107,Lakeshore Studio,small_business,NA,177,True,core
+ACC-1108,Riverbend Consulting,other,NA,388,False,
+ACC-1109,Prairie First Cloud,vertical_a,NA,2699,True,addon
+ACC-1110,Granite Peak Global,enterprise,EMEA,182879,True,core;addon
+ACC-1111,Crescent Corp,upper_mid_market,NA,8642,False,
+ACC-1112,Prairie First Systems,mid_market,NA,1290,False,
+ACC-1113,Silverline Play,vertical_c,NA,3854,False,
+ACC-1114,Bayfront Network,vertical_b,APAC,1674,True,core
+ACC-1115,Pinecrest Exchange,vertical_b,NA,2520,False,
+ACC-1116,Blue Mesa Neo,vertical_a,EMEA,1452,False,
+ACC-1117,Cedar Valley Hub,vertical_b,NA,3491,False,
+ACC-1118,Prairie First Partners,upper_mid_market,EMEA,16564,False,
+ACC-1119,Redwood Labs,small_business,NA,148,False,
+ACC-1120,Evergreen Collective,other,EMEA,308,False,
+ACC-1121,Falcon Systems,mid_market,NA,227,True,core
+ACC-1122,Sterling Flow,vertical_a,NA,2766,False,
+ACC-1123,Falcon Holdings,enterprise,NA,75605,True,core
+ACC-1124,Riverbend Works,mid_market,NA,1486,False,
+ACC-1125,Maple Leaf Cloud,vertical_a,NA,2979,False,
+ACC-1126,Granite Peak Flow,vertical_a,NA,2040,False,
+ACC-1127,Silverline Global,enterprise,NA,83780,True,core
+ACC-1128,Keystone Neo,vertical_a,NA,1772,False,
+ACC-1129,Prairie First Flow,vertical_a,NA,1059,False,
+ACC-1130,Oakmont Market,vertical_b,EMEA,1566,False,
+ACC-1131,Riverbend Games,vertical_c,LATAM,3460,False,
+ACC-1132,Ironwood Solutions,mid_market,NA,78,False,
+ACC-1133,Tidewater Industries,upper_mid_market,NA,5637,False,
+ACC-1134,Blue Mesa Play,vertical_c,NA,1972,False,
+ACC-1135,Summit Ridge Studio,small_business,NA,254,True,core;addon
+ACC-1136,Stonebridge Partners,upper_mid_market,NA,6471,True,core
+ACC-1137,Silverline Pay,vertical_a,LATAM,515,False,
+ACC-1138,Westfield Labs,small_business,NA,125,False,
+ACC-1139,Arbor Studio,small_business,NA,162,False,
+ACC-1140,Silverline Consulting,other,NA,383,False,
+ACC-1141,Sterling Corp,upper_mid_market,NA,10171,False,
+ACC-1142,Ironwood Partners,upper_mid_market,NA,1587,True,core;addon
+ACC-1143,Keystone Hub,vertical_b,NA,2410,False,
+ACC-1144,Evergreen Market,vertical_b,NA,2217,False,
+ACC-1145,Crescent Cloud,vertical_a,NA,2260,False,
+ACC-1146,Cedar Valley Corp,upper_mid_market,NA,11579,False,
+ACC-1147,Arbor Mutual,adjacent,NA,15558,False,
+ACC-1148,Riverbend Network,vertical_b,NA,4949,True,core
+ACC-1149,Oakmont Labs,small_business,NA,138,True,addon
+ACC-1150,Crescent Works,mid_market,NA,1252,False,
+ACC-1151,Stonebridge Consulting,other,EMEA,94,False,
+ACC-1152,Pinecrest Flow,vertical_a,APAC,773,False,
+ACC-1153,Prairie First Studio,small_business,NA,180,True,core
+ACC-1154,Ironwood Industries,upper_mid_market,NA,17735,True,core
+ACC-1155,Clearwater Consulting,other,NA,166,False,
+ACC-1156,Blue Mesa Solutions,mid_market,NA,1103,False,
+ACC-1157,Falcon Group,enterprise,NA,34209,True,core
+ACC-1158,Sterling Studio,small_business,NA,236,False,
+ACC-1159,Tidewater Systems,mid_market,NA,639,True,core
+ACC-1160,Blue Mesa Market,vertical_b,LATAM,2010,False,
+ACC-1161,Harborview Labs,small_business,NA,218,True,core
+ACC-1162,Evergreen Consulting,other,NA,83,False,
+ACC-1163,Highland Stack,vertical_a,NA,1149,False,
+ACC-1164,Keystone Cloud,vertical_a,NA,622,False,
+ACC-1165,Maple Leaf Agency,other,EMEA,146,False,
+ACC-1166,Falcon Live,vertical_c,NA,3276,False,
+ACC-1167,Clearwater County Services,adjacent,EMEA,14832,False,
+ACC-1168,Tidewater Labs,small_business,NA,203,False,
+ACC-1169,Granite Peak Labs,small_business,NA,206,True,core
+ACC-1170,Summit Ridge Games,vertical_c,EMEA,2938,False,
+ACC-1171,Northgate Studio,small_business,NA,28,True,core;addon
+ACC-1172,Oakmont Consulting,other,EMEA,230,False,
+ACC-1173,Arbor Industries,upper_mid_market,NA,6223,True,addon
+ACC-1174,Northgate Market,vertical_b,NA,2221,False,
+ACC-1175,Pinecrest Market,vertical_b,EMEA,4421,False,
+ACC-1176,Highland Studio,small_business,NA,287,True,addon
+ACC-1177,Pinecrest Partners,upper_mid_market,APAC,8954,False,
+ACC-1178,Blue Mesa Labs,small_business,NA,61,True,core
+ACC-1179,Summit Ridge Hub,vertical_b,EMEA,2453,False,
+ACC-1180,Copper State Labs,small_business,NA,102,True,addon
+ACC-1181,Westfield Partners,upper_mid_market,NA,6189,True,core
+ACC-1182,Evergreen Stack,vertical_a,NA,1935,False,
+ACC-1183,Ironwood Market,vertical_b,NA,2880,False,
+ACC-1184,Blue Mesa Co,small_business,NA,205,False,
+ACC-1185,Harborview Flow,vertical_a,NA,2348,False,
+ACC-1186,Summit Ridge Live,vertical_c,EMEA,3748,False,
+ACC-1187,Granite Peak Media,vertical_c,NA,2826,False,
+ACC-1188,Crescent Media,vertical_c,NA,3750,False,
+ACC-1189,Union Square Industries,upper_mid_market,NA,13455,False,
+ACC-1190,Silverline Industries,upper_mid_market,EMEA,7255,True,addon
+ACC-1191,Meridian Games,vertical_c,NA,3791,False,
+ACC-1192,Arbor Solutions,mid_market,NA,654,False,
+ACC-1193,Blue Mesa Studio,small_business,NA,48,True,core
+ACC-1194,Falcon Collective,other,LATAM,416,False,
+ACC-1195,Cedar Valley Flow,vertical_a,NA,2227,True,core
+ACC-1196,Riverbend Labs,small_business,NA,205,False,
+ACC-1197,Blue Mesa Agency,other,NA,322,False,
+ACC-1198,Pinecrest Consulting,other,NA,242,False,
+ACC-1199,Silverline Collective,other,NA,28,False,
+ACC-1200,Granite Peak Agency,other,NA,194,False,
+ACC-1201,Redwood Network,vertical_b,NA,1315,False,
+ACC-1202,Clearwater Network,vertical_b,NA,2341,True,addon
+ACC-1203,Evergreen Studio,small_business,NA,130,False,
+ACC-1204,Crescent Industries,upper_mid_market,NA,13253,True,core;addon
+ACC-1205,Cedar Valley Works,mid_market,NA,484,False,
+ACC-1206,Harborview Pay,vertical_a,EMEA,1027,False,
+ACC-1207,Lakeshore Play,vertical_c,EMEA,2320,False,
+ACC-1208,Union Square Works,mid_market,NA,55,True,addon
+ACC-1209,Union Square Agency,other,NA,448,False,
+ACC-1210,Harborview Holdings,enterprise,EMEA,82372,False,
+ACC-1211,Riverbend Global,enterprise,NA,130352,False,
+ACC-1212,Keystone Live,vertical_c,EMEA,2152,False,
+ACC-1213,Granite Peak Neo,vertical_a,NA,2728,False,
+ACC-1214,Keystone Flow,vertical_a,NA,472,False,
+ACC-1215,Oakmont Agency,other,NA,145,False,
+ACC-1216,Stonebridge Neo,vertical_a,EMEA,1590,False,
+ACC-1217,Evergreen Neo,vertical_a,NA,436,False,
+ACC-1218,Redwood Corp,upper_mid_market,NA,8987,True,core
+ACC-1219,Bayfront County Services,adjacent,EMEA,10441,False,
+ACC-1220,Prairie First Exchange,vertical_b,NA,3935,True,addon
+ACC-1221,Cedar Valley County Services,adjacent,NA,24408,False,
+ACC-1222,Summit Ridge Partners,upper_mid_market,APAC,19905,True,core
+ACC-1223,Sterling Industries,upper_mid_market,EMEA,3185,False,
+ACC-1224,Prairie First Pay,vertical_a,NA,901,False,
+ACC-1225,Falcon Pay,vertical_a,NA,2308,False,
+ACC-1226,Stonebridge Media,vertical_c,EMEA,3511,False,
+ACC-1227,Harborview Media,vertical_c,NA,3172,False,
+ACC-1228,Harborview Co,small_business,NA,83,False,
+ACC-1229,Pinecrest Co,small_business,NA,56,False,
+ACC-1230,Copper State Solutions,mid_market,NA,748,True,core;addon
+ACC-1231,Westfield Co,small_business,NA,36,True,core;addon
+ACC-1232,Summit Ridge Play,vertical_c,NA,2761,False,
+ACC-1233,Copper State Stack,vertical_a,NA,2128,True,addon
+ACC-1234,Silverline Labs,small_business,NA,259,False,
+ACC-1235,Granite Peak Studio,small_business,NA,38,True,core
+ACC-1236,Lakeshore Co,small_business,NA,140,True,core;addon
+ACC-1237,Keystone Partners,upper_mid_market,NA,5733,True,core
+ACC-1238,Maple Leaf Hub,vertical_b,NA,396,False,
+ACC-1239,Cedar Valley Stack,vertical_a,NA,2378,False,
+ACC-1240,Bayfront Pay,vertical_a,LATAM,733,False,
+ACC-1241,Stonebridge Flow,vertical_a,NA,1651,False,
+ACC-1242,Granite Peak Games,vertical_c,EMEA,362,False,
+ACC-1243,Maple Leaf Corp,upper_mid_market,APAC,12948,True,addon
+ACC-1244,Pinecrest Agency,other,NA,79,False,
+ACC-1245,Northgate Works,mid_market,NA,204,True,core
+ACC-1246,Sterling Live,vertical_c,NA,3662,False,
+ACC-1247,Westfield Stack,vertical_a,EMEA,2599,False,
+ACC-1248,Keystone Studio,small_business,NA,165,False,
+ACC-1249,Prairie First Neo,vertical_a,NA,1921,False,
+ACC-1250,Clearwater Industries,upper_mid_market,NA,4458,False,
+ACC-1251,Tidewater Pay,vertical_a,NA,2371,False,
+ACC-1252,Keystone Labs,small_business,NA,87,False,
+ACC-1253,Union Square Stack,vertical_a,LATAM,375,False,
+ACC-1254,Granite Peak Works,mid_market,NA,946,False,
+ACC-1255,Westfield Cloud,vertical_a,NA,1188,False,
+ACC-1256,Crescent Play,vertical_c,EMEA,2701,False,
+ACC-1257,Bayfront Studio,small_business,NA,139,False,
+ACC-1258,Arbor Exchange,vertical_b,NA,4823,False,
+ACC-1259,Northgate Consulting,other,NA,197,False,
+ACC-1260,Oakmont Exchange,vertical_b,NA,4362,True,addon
+ACC-1261,Harborview Hub,vertical_b,NA,1804,False,
+ACC-1262,Lakeshore Media,vertical_c,LATAM,684,True,core
+ACC-1263,Blue Mesa Health,adjacent,NA,28917,False,
+ACC-1264,Bayfront Corp,upper_mid_market,NA,6924,False,
+ACC-1265,Evergreen Partners,upper_mid_market,NA,16210,True,core
+ACC-1266,Union Square Solutions,mid_market,NA,447,True,core
+ACC-1267,Maple Leaf Collective,other,LATAM,423,False,
+ACC-1268,Westfield Systems,mid_market,NA,562,True,core
+ACC-1269,Highland Neo,vertical_a,EMEA,1197,True,core
+ACC-1270,Northgate Industries,upper_mid_market,NA,8775,False,
+ACC-1271,Copper State Consulting,other,NA,196,False,
+ACC-1272,Cedar Valley Solutions,mid_market,NA,509,True,core
+ACC-1273,Highland Agency,other,EMEA,245,False,
+ACC-1274,Tidewater Neo,vertical_a,NA,485,False,
+ACC-1275,Blue Mesa Systems,mid_market,NA,538,True,core
+ACC-1276,Evergreen Play,vertical_c,NA,3757,False,
+ACC-1277,Pinecrest Neo,vertical_a,NA,2973,True,core
+ACC-1278,Copper State Co,small_business,NA,53,False,
+ACC-1279,Maple Leaf Labs,small_business,NA,269,False,
+ACC-1280,Summit Ridge Flow,vertical_a,LATAM,1068,False,
+ACC-1281,Redwood Studio,small_business,NA,78,True,core;addon
+ACC-1282,Clearwater Cloud,vertical_a,EMEA,2834,False,
+ACC-1283,Union Square Exchange,vertical_b,NA,3799,True,addon
+ACC-1284,Union Square Systems,mid_market,NA,135,True,core;addon
+ACC-1285,Bayfront Labs,small_business,NA,252,True,core
+ACC-1286,Lakeshore Games,vertical_c,NA,3248,True,core
+ACC-1287,Riverbend Market,vertical_b,EMEA,3629,False,
+ACC-1288,Meridian Live,vertical_c,NA,815,False,
+ACC-1289,Arbor Neo,vertical_a,NA,368,False,
+ACC-1290,Westfield Corp,upper_mid_market,NA,12025,True,core
+ACC-1291,Silverline Studio,small_business,NA,238,False,
+ACC-1292,Union Square Co,small_business,NA,48,False,
+ACC-1293,Summit Ridge Co,small_business,NA,44,True,core;addon
+ACC-1294,Stonebridge Market,vertical_b,NA,3735,False,
+ACC-1295,Sterling Co,small_business,NA,80,False,
+ACC-1296,Granite Peak Co,small_business,NA,23,False,
+ACC-1297,Bayfront Neo,vertical_a,NA,1096,False,
+ACC-1298,Westfield Solutions,mid_market,NA,1471,False,
+ACC-1299,Evergreen Cloud,vertical_a,EMEA,1853,False,
+ACC-1300,Falcon Mutual,adjacent,NA,23450,True,core
+ACC-1301,Meridian Stack,vertical_a,EMEA,2945,False,
+ACC-1302,Ironwood Hub,vertical_b,NA,1044,False,
+ACC-1303,Granite Peak Live,vertical_c,NA,2319,False,
+ACC-1304,Tidewater Cloud,vertical_a,NA,383,True,addon
+ACC-1305,Highland Labs,small_business,NA,255,False,
+ACC-1306,Clearwater Play,vertical_c,NA,1348,False,
+ACC-1307,Meridian Neo,vertical_a,NA,775,False,
+ACC-1308,Clearwater Corp,upper_mid_market,NA,11465,True,core
+ACC-1309,Highland Co,small_business,NA,187,False,
+ACC-1310,Riverbend Cloud,vertical_a,NA,2286,False,
+ACC-1311,Westfield Neo,vertical_a,NA,2655,False,
+ACC-1312,Northgate Agency,other,NA,373,False,
+ACC-1313,Keystone Agency,other,EMEA,355,False,
+ACC-1314,Copper State Studio,small_business,NA,247,True,core;addon
+ACC-1315,Oakmont Stack,vertical_a,EMEA,1444,False,
+ACC-1316,Tidewater Corp,upper_mid_market,NA,16785,True,addon
+ACC-1317,Northgate Pay,vertical_a,NA,1603,False,
+ACC-1318,Arbor Labs,small_business,NA,170,True,addon
+ACC-1319,Maple Leaf Industries,upper_mid_market,NA,11610,False,
+ACC-1320,Evergreen Corp,upper_mid_market,NA,13063,True,core
+ACC-1321,Westfield Works,mid_market,NA,1427,False,
+ACC-1322,Copper State Cloud,vertical_a,EMEA,1528,False,
+ACC-1323,Bayfront Co,small_business,NA,297,True,addon
+ACC-1324,Maple Leaf Flow,vertical_a,EMEA,1175,False,
+ACC-1325,Westfield Pay,vertical_a,NA,426,False,
+ACC-1326,Oakmont Games,vertical_c,EMEA,865,False,
+ACC-1327,Union Square Studio,small_business,NA,275,False,
+ACC-1328,Oakmont Neo,vertical_a,NA,1639,False,
+ACC-1329,Silverline Games,vertical_c,NA,2137,False,
+ACC-1330,Silverline Network,vertical_b,EMEA,3067,False,
+ACC-1331,Copper State Partners,upper_mid_market,NA,2373,False,
+ACC-1332,Pinecrest Works,mid_market,NA,1232,True,core
+ACC-1333,Maple Leaf Partners,upper_mid_market,EMEA,13958,True,core
+ACC-1334,Summit Ridge Market,vertical_b,NA,3662,False,
+ACC-1335,Highland Corp,upper_mid_market,NA,16953,False,
+ACC-1336,Summit Ridge Media,vertical_c,NA,2347,False,
+ACC-1337,Maple Leaf Network,vertical_b,NA,1468,False,
+ACC-1338,Tidewater Stack,vertical_a,NA,2982,False,
+ACC-1339,Riverbend Live,vertical_c,NA,1059,False,
+ACC-1340,Silverline Co,small_business,NA,157,False,
+ACC-1341,Pinecrest Industries,upper_mid_market,EMEA,8511,True,core
+ACC-1342,Granite Peak Cloud,vertical_a,NA,2205,False,
+ACC-1343,Oakmont Works,mid_market,NA,1017,True,core
+ACC-1344,Sterling Games,vertical_c,NA,2695,True,core
+ACC-1345,Pinecrest Media,vertical_c,NA,3011,False,
+ACC-1346,Arbor Corp,upper_mid_market,NA,7260,False,
+ACC-1347,Meridian Corp,upper_mid_market,NA,5016,False,
+ACC-1348,Keystone Co,small_business,NA,268,False,
+ACC-1349,Redwood Solutions,mid_market,NA,654,False,
+ACC-1350,Ironwood Live,vertical_c,EMEA,2160,False,
+ACC-1351,Oakmont Co,small_business,NA,13,True,core;addon
+ACC-1352,Oakmont Solutions,mid_market,NA,1242,False,
+ACC-1353,Pinecrest Holdings,enterprise,NA,36285,False,
+ACC-1354,Ironwood Flow,vertical_a,NA,2911,False,
+ACC-1355,Pinecrest Hub,vertical_b,NA,1859,False,
+ACC-1356,Redwood Partners,upper_mid_market,NA,19497,False,
+ACC-1357,Sterling Media,vertical_c,NA,2490,False,
+ACC-1358,Highland Industries,upper_mid_market,NA,19986,True,core
+ACC-1359,Meridian Insurance,adjacent,NA,5110,False,
+ACC-1360,Evergreen Health,adjacent,NA,23691,False,
+ACC-1361,Union Square Corp,upper_mid_market,NA,18318,True,core;addon
+ACC-1362,Tidewater Flow,vertical_a,NA,1292,False,
+ACC-1363,Clearwater Co,small_business,NA,121,False,
+ACC-1364,Summit Ridge Industries,upper_mid_market,NA,5937,False,
+ACC-1365,Pinecrest Collective,other,NA,461,False,
+ACC-1366,Maple Leaf Co,small_business,NA,124,False,
+ACC-1367,Silverline Live,vertical_c,NA,2280,False,
+ACC-1368,Tidewater Co,small_business,NA,38,True,addon
+ACC-1369,Stonebridge Studio,other,NA,453,False,
+ACC-1370,Crescent Partners,upper_mid_market,NA,11346,True,addon
+ACC-1371,Summit Ridge Stack,vertical_a,APAC,2779,False,
+ACC-1372,Highland Flow,vertical_a,NA,1258,False,
+ACC-1373,Falcon Media,vertical_c,NA,2948,True,addon
+ACC-1374,Summit Ridge Neo,vertical_a,NA,1736,False,
+ACC-1375,Granite Peak Industries,upper_mid_market,NA,4090,False,
+ACC-1376,Cedar Valley Insurance,adjacent,NA,12559,False,
+ACC-1377,Lakeshore Neo,vertical_a,EMEA,2319,False,
+ACC-1378,Silverline Systems,mid_market,NA,483,False,
+ACC-1379,Blue Mesa Collective,other,APAC,361,False,
+ACC-1380,Arbor Cloud,vertical_a,NA,1189,False,
+ACC-1381,Riverbend Stack,vertical_a,NA,2066,False,
+ACC-1382,Redwood Live,vertical_c,EMEA,1361,False,
+ACC-1383,Stonebridge Co,small_business,NA,84,True,core
+ACC-1384,Redwood Flow,vertical_a,NA,833,False,
+ACC-1385,Pinecrest Labs,small_business,NA,182,True,core;addon
+ACC-1386,Redwood County Services,adjacent,NA,24211,False,
+ACC-1387,Redwood Works,mid_market,NA,1050,True,core
+ACC-1388,Maple Leaf Consulting,other,EMEA,43,False,
+ACC-1389,Crescent Consulting,other,EMEA,216,False,
+ACC-1390,Pinecrest Corp,upper_mid_market,NA,6448,True,addon
+ACC-1391,Crescent Flow,vertical_a,NA,2209,False,
+ACC-1392,Maple Leaf Group,enterprise,NA,95153,True,core
+ACC-1393,Crescent County Services,adjacent,EMEA,6074,True,addon
+ACC-1394,Northgate Corp,upper_mid_market,NA,18750,True,addon
+ACC-1395,Ironwood Co,small_business,NA,265,False,
+ACC-1396,Granite Peak Exchange,vertical_b,APAC,4693,False,
+ACC-1397,Harborview Corp,upper_mid_market,NA,14551,False,
+ACC-1398,Oakmont Studio,small_business,NA,81,False,
+ACC-1399,Copper State Exchange,vertical_b,EMEA,2840,False,
+ACC-1400,Westfield Flow,vertical_a,LATAM,1366,True,core
+ACC-1401,Evergreen Solutions,mid_market,NA,517,True,core;addon
+ACC-1402,Copper State Agency,other,NA,343,False,
+ACC-1403,Sterling Labs,small_business,NA,161,False,
+ACC-1404,Northgate Network,vertical_b,EMEA,1313,False,
+ACC-1405,Harborview Studio,small_business,NA,237,True,addon
+ACC-1406,Northgate Systems,mid_market,NA,433,True,core;addon
+ACC-1407,Copper State Flow,vertical_a,EMEA,2998,False,
+ACC-1408,Crescent Collective,other,NA,142,False,
+ACC-1409,Clearwater Labs,small_business,NA,204,False,
+ACC-1410,Prairie First Co,small_business,NA,298,True,core
+ACC-1411,Ironwood Consulting,other,APAC,241,False,
+ACC-1412,Lakeshore Collective,other,EMEA,430,False,
+ACC-1413,Crescent Network,vertical_b,NA,2530,False,
+ACC-1414,Union Square Network,vertical_b,NA,4948,False,
+ACC-1415,Northgate Studio 41,small_business,NA,185,False,
+ACC-1416,Keystone Systems,mid_market,NA,947,False,
+ACC-1417,Summit Ridge Pay,vertical_a,NA,1435,False,
+ACC-1418,Ironwood Exchange,vertical_b,NA,4571,False,
+ACC-1419,Union Square Flow,vertical_a,NA,793,False,
+ACC-1420,Union Square Labs,small_business,NA,105,True,core
+ACC-1421,Bayfront Works,mid_market,NA,853,False,
+ACC-1422,Prairie First Labs,small_business,NA,82,False,
+ACC-1423,Cedar Valley Labs,small_business,NA,25,False,
+ACC-1424,Summit Ridge Solutions,mid_market,NA,510,False,
+ACC-1425,Tidewater Works,mid_market,NA,281,False,
+ACC-1426,Tidewater Solutions,mid_market,NA,1160,False,
+ACC-1427,Redwood Industries,upper_mid_market,NA,15431,True,core
+ACC-1428,Silverline Health,adjacent,NA,11622,False,
+ACC-1429,Falcon Corp,upper_mid_market,EMEA,9264,True,core
+ACC-1430,Highland Games,vertical_c,EMEA,2549,False,
+ACC-1431,Clearwater Systems,mid_market,NA,171,False,
+ACC-1432,Ironwood Stack,vertical_a,LATAM,1228,False,
+ACC-1433,Falcon Works,mid_market,NA,1441,False,
+ACC-1434,Riverbend Partners,upper_mid_market,NA,5848,True,core;addon
+ACC-1435,Clearwater Exchange,vertical_b,EMEA,3267,False,
+ACC-1436,Riverbend Flow,vertical_a,NA,339,False,
+ACC-1437,Cedar Valley Collective,other,NA,147,False,
+ACC-1438,Meridian Hub,vertical_b,NA,4048,False,
+ACC-1439,Sterling Group,enterprise,NA,140179,False,
+ACC-1440,Falcon Market,vertical_b,EMEA,3308,False,
+ACC-1441,Meridian Labs,small_business,NA,34,True,core
+ACC-1442,Clearwater Flow,vertical_a,NA,677,False,
+ACC-1443,Copper State Global,enterprise,LATAM,54580,False,
+ACC-1444,Maple Leaf Labs 3,small_business,NA,94,True,core
+ACC-1445,Arbor Network,vertical_b,NA,3674,False,
+ACC-1446,Blue Mesa Corp,upper_mid_market,EMEA,14083,True,addon
+ACC-1447,Meridian Studio,small_business,NA,115,False,
+ACC-1448,Union Square Cloud,vertical_a,NA,491,False,
+ACC-1449,Cedar Valley Neo,vertical_a,EMEA,79,False,

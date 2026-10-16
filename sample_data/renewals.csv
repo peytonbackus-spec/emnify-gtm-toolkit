@@ -1,0 +1,152 @@
+account_id,account_name,segment,region,product_line,arr,renewal_date,volume_trend_90d_pct,utilization_pct,sev1_tickets_90d,exec_sponsor_active,competitor_signal,products_owned,owner
+ACC-1001,Meridian Market,vertical_b,NA,addon,112000,2027-06-19,-4.7,102,1,True,True,addon,AE - Iris Bell
+ACC-1005,Sterling Solutions,mid_market,NA,core,55000,2027-02-08,5.2,125,0,True,False,core,AE - Grace Tan
+ACC-1008,Falcon Stack,vertical_a,NA,core,110000,2026-09-30,0.4,61,0,True,False,core;addon,AE - Jon Reyes
+ACC-1008,Falcon Stack,vertical_a,NA,addon,87000,2027-05-10,29.0,91,0,True,False,core;addon,AE - Grace Tan
+ACC-1010,Evergreen Labs,small_business,NA,core,31000,2027-03-16,-13.8,29,2,True,True,core;addon,AE - Grace Tan
+ACC-1010,Evergreen Labs,small_business,NA,addon,58000,2027-02-10,10.2,63,0,False,False,core;addon,AE - Iris Bell
+ACC-1022,Meridian Partners,upper_mid_market,EMEA,addon,90000,2027-06-05,7.1,32,0,False,False,addon,AE - Klara Weiss
+ACC-1032,Crescent Labs,small_business,NA,core,48000,2027-01-02,-13.2,75,1,True,False,core,AE - Grace Tan
+ACC-1033,Blue Mesa Cloud,vertical_a,NA,core,94000,2026-11-04,-4.4,51,1,False,False,core;addon,AE - Hugo Park
+ACC-1033,Blue Mesa Cloud,vertical_a,NA,addon,48000,2026-11-01,0.4,92,0,True,False,core;addon,AE - Jon Reyes
+ACC-1035,Meridian Systems,mid_market,NA,core,56000,2027-04-05,-5.4,67,0,False,False,core,AE - Hugo Park
+ACC-1038,Blue Mesa Works,mid_market,NA,core,39000,2026-10-27,7.3,97,1,False,False,core,AE - Jon Reyes
+ACC-1048,Summit Ridge Works,mid_market,NA,core,44000,2026-11-29,-28.9,88,0,True,False,core,AE - Iris Bell
+ACC-1051,Cedar Valley Partners,upper_mid_market,EMEA,core,184000,2027-06-20,-15.0,120,2,True,False,core,AE - Klara Weiss
+ACC-1058,Evergreen Works,mid_market,NA,addon,66000,2027-05-21,0.9,95,0,True,False,addon,AE - Grace Tan
+ACC-1060,Crescent Co,small_business,NA,core,35000,2027-01-21,12.5,126,0,False,False,core,AE - Jon Reyes
+ACC-1063,Keystone Solutions,mid_market,NA,core,32000,2027-03-26,8.6,87,0,False,False,core,AE - Iris Bell
+ACC-1064,Riverbend Co,small_business,NA,core,55000,2027-04-15,-0.7,57,0,True,True,core,AE - Jon Reyes
+ACC-1070,Ironwood Systems,mid_market,NA,core,34000,2027-05-25,-15.9,90,1,False,False,core;addon,AE - Hugo Park
+ACC-1070,Ironwood Systems,mid_market,NA,addon,47000,2026-10-12,7.4,113,0,True,True,core;addon,AE - Hugo Park
+ACC-1072,Ironwood Works,mid_market,NA,addon,65000,2027-02-09,15.6,42,0,True,False,addon,AE - Hugo Park
+ACC-1073,Keystone Corp,upper_mid_market,NA,core,164000,2026-12-02,-14.6,76,1,True,False,core;addon,AE - Hugo Park
+ACC-1073,Keystone Corp,upper_mid_market,NA,addon,277000,2026-12-15,-21.0,69,3,True,False,core;addon,AE - Hugo Park
+ACC-1075,Falcon Co,small_business,NA,core,20000,2027-03-23,-6.2,72,2,False,False,core;addon,AE - Iris Bell
+ACC-1075,Falcon Co,small_business,NA,addon,29000,2027-06-18,17.9,80,0,True,False,core;addon,AE - Hugo Park
+ACC-1076,Crescent Neo,vertical_a,NA,core,201000,2027-04-19,-7.7,38,0,True,False,core;addon,AE - Grace Tan
+ACC-1076,Crescent Neo,vertical_a,NA,addon,184000,2027-06-02,18.9,70,0,True,True,core;addon,AE - Iris Bell
+ACC-1084,Redwood Co,small_business,NA,core,55000,2027-01-09,-3.8,108,0,True,False,core,AE - Hugo Park
+ACC-1089,Lakeshore Systems,mid_market,NA,core,46000,2027-07-03,-8.1,90,2,True,False,core,AE - Iris Bell
+ACC-1091,Lakeshore Flow,vertical_a,NA,addon,180000,2027-02-18,11.3,119,0,True,False,addon,AE - Jon Reyes
+ACC-1098,Granite Peak Hub,vertical_b,NA,core,92000,2027-03-03,-7.6,97,1,True,False,core,AE - Hugo Park
+ACC-1099,Bayfront Partners,upper_mid_market,NA,addon,263000,2027-06-07,2.4,133,0,False,False,addon,AE - Hugo Park
+ACC-1100,Tidewater Studio,small_business,NA,core,40000,2026-12-25,6.3,120,0,True,False,core,AE - Grace Tan
+ACC-1103,Keystone Media,vertical_c,NA,core,164000,2027-05-06,6.8,53,0,True,False,core,AE - Grace Tan
+ACC-1104,Arbor Co,small_business,NA,core,39000,2026-10-10,-1.5,71,2,True,False,core,AE - Jon Reyes
+ACC-1105,Stonebridge Labs,small_business,NA,addon,46000,2027-01-08,12.5,88,0,True,False,addon,AE - Hugo Park
+ACC-1106,Falcon Studio,small_business,NA,core,46000,2026-12-11,8.5,134,1,False,False,core;addon,AE - Grace Tan
+ACC-1106,Falcon Studio,small_business,NA,addon,24000,2027-01-25,9.6,108,0,True,False,core;addon,AE - Grace Tan
+ACC-1107,Lakeshore Studio,small_business,NA,core,59000,2027-04-29,-31.5,97,0,True,False,core,AE - Jon Reyes
+ACC-1109,Prairie First Cloud,vertical_a,NA,addon,206000,2027-04-27,7.0,80,0,True,True,addon,AE - Hugo Park
+ACC-1110,Granite Peak Global,enterprise,EMEA,core,386000,2027-04-10,1.5,71,2,True,False,core;addon,AE - Klara Weiss
+ACC-1110,Granite Peak Global,enterprise,EMEA,addon,811000,2027-04-24,10.1,102,0,False,False,core;addon,AE - Klara Weiss
+ACC-1114,Bayfront Network,vertical_b,APAC,core,97000,2027-06-26,10.8,90,2,True,True,core,AE - Mei Lin
+ACC-1121,Falcon Systems,mid_market,NA,core,53000,2027-07-21,4.3,56,0,True,False,core,AE - Hugo Park
+ACC-1123,Falcon Holdings,enterprise,NA,core,333000,2026-11-30,13.3,83,0,True,False,core,AE - Grace Tan
+ACC-1127,Silverline Global,enterprise,NA,core,784000,2027-01-02,-5.5,91,3,True,False,core,AE - Hugo Park
+ACC-1135,Summit Ridge Studio,small_business,NA,core,57000,2027-04-13,-22.3,96,1,True,True,core;addon,AE - Iris Bell
+ACC-1135,Summit Ridge Studio,small_business,NA,addon,36000,2026-12-25,-5.3,75,1,True,True,core;addon,AE - Grace Tan
+ACC-1136,Stonebridge Partners,upper_mid_market,NA,core,191000,2027-06-17,-26.6,103,0,True,False,core,AE - Jon Reyes
+ACC-1142,Ironwood Partners,upper_mid_market,NA,core,266000,2026-09-22,5.5,112,0,False,False,core;addon,AE - Hugo Park
+ACC-1142,Ironwood Partners,upper_mid_market,NA,addon,211000,2026-12-04,6.2,94,0,False,False,core;addon,AE - Hugo Park
+ACC-1148,Riverbend Network,vertical_b,NA,core,106000,2027-02-01,-4.0,118,0,True,False,core,AE - Iris Bell
+ACC-1149,Oakmont Labs,small_business,NA,addon,63000,2027-01-15,4.4,88,0,True,True,addon,AE - Iris Bell
+ACC-1153,Prairie First Studio,small_business,NA,core,61000,2027-02-27,-24.0,141,0,False,False,core,AE - Iris Bell
+ACC-1154,Ironwood Industries,upper_mid_market,NA,core,142000,2026-09-28,-0.9,110,0,True,False,core,AE - Hugo Park
+ACC-1157,Falcon Group,enterprise,NA,core,655000,2027-01-14,-0.1,99,1,True,True,core,AE - Jon Reyes
+ACC-1159,Tidewater Systems,mid_market,NA,core,31000,2027-06-13,14.8,90,1,False,False,core,AE - Hugo Park
+ACC-1161,Harborview Labs,small_business,NA,core,57000,2027-01-26,-2.9,74,1,True,False,core,AE - Jon Reyes
+ACC-1169,Granite Peak Labs,small_business,NA,core,34000,2027-07-21,-9.0,77,0,True,False,core,AE - Jon Reyes
+ACC-1171,Northgate Studio,small_business,NA,core,29000,2027-05-15,-21.1,93,0,True,True,core;addon,AE - Hugo Park
+ACC-1171,Northgate Studio,small_business,NA,addon,47000,2027-01-26,-7.5,60,2,True,False,core;addon,AE - Grace Tan
+ACC-1173,Arbor Industries,upper_mid_market,NA,addon,209000,2026-12-12,-0.4,91,0,True,False,addon,AE - Jon Reyes
+ACC-1176,Highland Studio,small_business,NA,addon,26000,2027-04-15,10.9,69,0,True,False,addon,AE - Jon Reyes
+ACC-1178,Blue Mesa Labs,small_business,NA,core,31000,2026-11-02,3.2,77,0,True,True,core,AE - Hugo Park
+ACC-1180,Copper State Labs,small_business,NA,addon,21000,2027-06-30,-13.1,65,1,False,False,addon,AE - Hugo Park
+ACC-1181,Westfield Partners,upper_mid_market,NA,core,140000,2026-12-17,0.3,95,0,True,False,core,AE - Grace Tan
+ACC-1190,Silverline Industries,upper_mid_market,EMEA,addon,150000,2027-01-27,10.0,127,0,True,False,addon,AE - Klara Weiss
+ACC-1193,Blue Mesa Studio,small_business,NA,core,43000,2027-04-25,-21.6,88,0,True,False,core,AE - Hugo Park
+ACC-1195,Cedar Valley Flow,vertical_a,NA,core,107000,2027-01-17,2.1,74,0,True,False,core,AE - Iris Bell
+ACC-1202,Clearwater Network,vertical_b,NA,addon,107000,2027-02-22,-1.3,55,0,True,False,addon,AE - Grace Tan
+ACC-1204,Crescent Industries,upper_mid_market,NA,core,147000,2027-06-15,-7.1,86,0,True,False,core;addon,AE - Hugo Park
+ACC-1204,Crescent Industries,upper_mid_market,NA,addon,274000,2026-12-07,-30.7,46,0,True,False,core;addon,AE - Grace Tan
+ACC-1208,Union Square Works,mid_market,NA,addon,32000,2027-05-08,-0.3,49,3,True,False,addon,AE - Iris Bell
+ACC-1218,Redwood Corp,upper_mid_market,NA,core,220000,2027-03-13,-4.6,54,1,True,False,core,AE - Iris Bell
+ACC-1220,Prairie First Exchange,vertical_b,NA,addon,115000,2027-05-13,20.3,118,0,True,False,addon,AE - Hugo Park
+ACC-1222,Summit Ridge Partners,upper_mid_market,APAC,core,225000,2026-12-06,-23.6,128,1,True,False,core,AE - Mei Lin
+ACC-1230,Copper State Solutions,mid_market,NA,core,29000,2027-07-07,-16.9,105,0,False,True,core;addon,AE - Grace Tan
+ACC-1230,Copper State Solutions,mid_market,NA,addon,49000,2027-03-10,1.3,48,0,True,False,core;addon,AE - Iris Bell
+ACC-1231,Westfield Co,small_business,NA,core,40000,2027-06-20,-18.8,103,0,True,True,core;addon,AE - Hugo Park
+ACC-1231,Westfield Co,small_business,NA,addon,56000,2027-01-14,9.3,80,0,True,True,core;addon,AE - Grace Tan
+ACC-1233,Copper State Stack,vertical_a,NA,addon,149000,2027-04-12,-16.8,114,0,True,False,addon,AE - Iris Bell
+ACC-1235,Granite Peak Studio,small_business,NA,core,61000,2027-03-05,-0.8,78,0,True,False,core,AE - Jon Reyes
+ACC-1236,Lakeshore Co,small_business,NA,core,58000,2026-10-01,7.1,87,0,True,True,core;addon,AE - Hugo Park
+ACC-1236,Lakeshore Co,small_business,NA,addon,31000,2026-12-22,-4.5,81,0,False,True,core;addon,AE - Hugo Park
+ACC-1237,Keystone Partners,upper_mid_market,NA,core,164000,2026-09-13,-8.0,60,0,True,False,core,AE - Grace Tan
+ACC-1243,Maple Leaf Corp,upper_mid_market,APAC,addon,150000,2027-02-01,-21.7,118,1,False,True,addon,AE - Mei Lin
+ACC-1245,Northgate Works,mid_market,NA,core,64000,2027-03-30,-7.3,124,1,True,True,core,AE - Iris Bell
+ACC-1260,Oakmont Exchange,vertical_b,NA,addon,61000,2026-12-08,8.6,110,0,True,True,addon,AE - Hugo Park
+ACC-1262,Lakeshore Media,vertical_c,LATAM,core,151000,2026-12-25,26.0,79,1,True,False,core,AE - Nico Duarte
+ACC-1265,Evergreen Partners,upper_mid_market,NA,core,142000,2026-10-28,8.5,80,2,True,False,core,AE - Iris Bell
+ACC-1266,Union Square Solutions,mid_market,NA,core,65000,2027-02-05,14.3,113,0,True,False,core,AE - Jon Reyes
+ACC-1268,Westfield Systems,mid_market,NA,core,49000,2027-05-13,25.3,69,1,True,False,core,AE - Iris Bell
+ACC-1269,Highland Neo,vertical_a,EMEA,core,149000,2026-12-12,-6.0,80,0,True,True,core,AE - Liam Byrne
+ACC-1272,Cedar Valley Solutions,mid_market,NA,core,64000,2026-11-01,-18.1,83,3,False,False,core,AE - Hugo Park
+ACC-1275,Blue Mesa Systems,mid_market,NA,core,33000,2026-12-13,5.2,89,0,True,False,core,AE - Iris Bell
+ACC-1277,Pinecrest Neo,vertical_a,NA,core,54000,2027-05-23,2.4,102,0,True,False,core,AE - Jon Reyes
+ACC-1281,Redwood Studio,small_business,NA,core,46000,2027-04-28,-46.7,48,0,False,False,core;addon,AE - Iris Bell
+ACC-1281,Redwood Studio,small_business,NA,addon,54000,2027-03-23,8.2,74,0,True,False,core;addon,AE - Hugo Park
+ACC-1283,Union Square Exchange,vertical_b,NA,addon,58000,2027-04-21,2.9,65,0,False,True,addon,AE - Iris Bell
+ACC-1284,Union Square Systems,mid_market,NA,core,35000,2027-03-02,-11.5,70,1,True,True,core;addon,AE - Iris Bell
+ACC-1284,Union Square Systems,mid_market,NA,addon,36000,2027-07-10,-17.2,56,0,False,False,core;addon,AE - Grace Tan
+ACC-1285,Bayfront Labs,small_business,NA,core,32000,2027-04-17,12.4,94,0,True,True,core,AE - Hugo Park
+ACC-1286,Lakeshore Games,vertical_c,NA,core,118000,2027-06-05,-3.7,102,0,True,True,core,AE - Jon Reyes
+ACC-1290,Westfield Corp,upper_mid_market,NA,core,266000,2027-03-09,4.8,72,0,True,False,core,AE - Jon Reyes
+ACC-1293,Summit Ridge Co,small_business,NA,core,54000,2027-04-05,-27.1,70,3,True,False,core;addon,AE - Grace Tan
+ACC-1293,Summit Ridge Co,small_business,NA,addon,43000,2027-06-02,3.6,52,2,True,False,core;addon,AE - Hugo Park
+ACC-1300,Falcon Mutual,adjacent,NA,core,82000,2026-11-06,13.8,87,0,True,False,core,AE - Jon Reyes
+ACC-1304,Tidewater Cloud,vertical_a,NA,addon,44000,2027-01-09,-11.3,117,0,True,True,addon,AE - Hugo Park
+ACC-1308,Clearwater Corp,upper_mid_market,NA,core,178000,2027-04-16,-11.8,75,0,True,False,core,AE - Hugo Park
+ACC-1314,Copper State Studio,small_business,NA,core,21000,2027-04-06,-27.4,93,2,True,True,core;addon,AE - Hugo Park
+ACC-1314,Copper State Studio,small_business,NA,addon,39000,2027-05-12,21.0,66,1,True,False,core;addon,AE - Jon Reyes
+ACC-1316,Tidewater Corp,upper_mid_market,NA,addon,192000,2027-05-28,-4.9,92,1,True,False,addon,AE - Grace Tan
+ACC-1318,Arbor Labs,small_business,NA,addon,37000,2026-12-25,-4.5,78,0,True,False,addon,AE - Jon Reyes
+ACC-1320,Evergreen Corp,upper_mid_market,NA,core,297000,2026-09-23,-3.6,63,3,True,True,core,AE - Iris Bell
+ACC-1323,Bayfront Co,small_business,NA,addon,46000,2026-11-21,14.2,51,0,True,False,addon,AE - Grace Tan
+ACC-1332,Pinecrest Works,mid_market,NA,core,50000,2027-04-04,-9.2,60,0,True,False,core,AE - Grace Tan
+ACC-1333,Maple Leaf Partners,upper_mid_market,EMEA,core,168000,2026-12-03,-34.6,55,2,True,False,core,AE - Klara Weiss
+ACC-1341,Pinecrest Industries,upper_mid_market,EMEA,core,249000,2027-05-29,0.0,76,3,False,False,core,AE - Liam Byrne
+ACC-1343,Oakmont Works,mid_market,NA,core,30000,2026-11-28,-13.8,96,2,True,False,core,AE - Jon Reyes
+ACC-1344,Sterling Games,vertical_c,NA,core,64000,2026-09-14,-28.4,75,0,True,False,core,AE - Iris Bell
+ACC-1351,Oakmont Co,small_business,NA,core,27000,2026-12-25,-6.7,52,0,True,False,core;addon,AE - Grace Tan
+ACC-1351,Oakmont Co,small_business,NA,addon,50000,2027-01-10,15.5,79,3,True,True,core;addon,AE - Iris Bell
+ACC-1358,Highland Industries,upper_mid_market,NA,core,159000,2027-06-27,-14.2,68,0,True,True,core,AE - Iris Bell
+ACC-1361,Union Square Corp,upper_mid_market,NA,core,260000,2027-04-23,1.9,107,3,True,False,core;addon,AE - Iris Bell
+ACC-1361,Union Square Corp,upper_mid_market,NA,addon,131000,2027-05-31,3.5,65,1,False,False,core;addon,AE - Grace Tan
+ACC-1368,Tidewater Co,small_business,NA,addon,41000,2027-06-13,16.1,103,1,True,False,addon,AE - Iris Bell
+ACC-1370,Crescent Partners,upper_mid_market,NA,addon,226000,2026-11-08,-7.2,115,0,False,False,addon,AE - Grace Tan
+ACC-1373,Falcon Media,vertical_c,NA,addon,65000,2027-01-18,17.7,63,1,True,False,addon,AE - Grace Tan
+ACC-1383,Stonebridge Co,small_business,NA,core,35000,2026-12-22,19.4,69,0,True,False,core,AE - Hugo Park
+ACC-1385,Pinecrest Labs,small_business,NA,core,39000,2027-02-10,24.8,99,0,True,False,core;addon,AE - Grace Tan
+ACC-1385,Pinecrest Labs,small_business,NA,addon,40000,2027-04-04,8.9,97,2,True,False,core;addon,AE - Iris Bell
+ACC-1387,Redwood Works,mid_market,NA,core,62000,2027-06-07,-18.6,139,0,True,True,core,AE - Iris Bell
+ACC-1390,Pinecrest Corp,upper_mid_market,NA,addon,289000,2026-12-14,-5.9,63,0,True,False,addon,AE - Jon Reyes
+ACC-1392,Maple Leaf Group,enterprise,NA,core,859000,2026-11-07,-8.6,34,0,True,False,core,AE - Jon Reyes
+ACC-1393,Crescent County Services,adjacent,EMEA,addon,65000,2026-09-18,-12.1,74,1,True,True,addon,AE - Klara Weiss
+ACC-1394,Northgate Corp,upper_mid_market,NA,addon,220000,2026-12-09,18.6,84,0,False,False,addon,AE - Hugo Park
+ACC-1400,Westfield Flow,vertical_a,LATAM,core,99000,2027-07-12,-17.9,110,0,True,False,core,AE - Nico Duarte
+ACC-1401,Evergreen Solutions,mid_market,NA,core,65000,2026-10-22,6.9,122,0,True,False,core;addon,AE - Iris Bell
+ACC-1401,Evergreen Solutions,mid_market,NA,addon,32000,2027-03-21,8.1,118,0,False,True,core;addon,AE - Hugo Park
+ACC-1405,Harborview Studio,small_business,NA,addon,41000,2027-01-16,21.7,87,0,True,False,addon,AE - Grace Tan
+ACC-1406,Northgate Systems,mid_market,NA,core,36000,2027-03-22,-12.1,63,0,False,False,core;addon,AE - Iris Bell
+ACC-1406,Northgate Systems,mid_market,NA,addon,31000,2027-02-15,16.7,91,0,True,False,core;addon,AE - Grace Tan
+ACC-1410,Prairie First Co,small_business,NA,core,51000,2027-04-24,3.0,43,0,True,False,core,AE - Jon Reyes
+ACC-1420,Union Square Labs,small_business,NA,core,57000,2027-01-28,13.1,40,0,True,False,core,AE - Jon Reyes
+ACC-1427,Redwood Industries,upper_mid_market,NA,core,300000,2027-01-16,-14.2,83,1,True,False,core,AE - Hugo Park
+ACC-1429,Falcon Corp,upper_mid_market,EMEA,core,131000,2026-09-30,-21.6,116,0,True,False,core,AE - Liam Byrne
+ACC-1434,Riverbend Partners,upper_mid_market,NA,core,209000,2026-11-16,-11.4,100,1,False,False,core;addon,AE - Hugo Park
+ACC-1434,Riverbend Partners,upper_mid_market,NA,addon,110000,2026-10-06,12.6,80,0,True,False,core;addon,AE - Hugo Park
+ACC-1441,Meridian Labs,small_business,NA,core,20000,2027-04-12,-32.3,124,2,True,False,core,AE - Hugo Park
+ACC-1444,Maple Leaf Labs 3,small_business,NA,core,60000,2027-03-23,-17.4,64,2,True,False,core,AE - Hugo Park
+ACC-1446,Blue Mesa Corp,upper_mid_market,EMEA,addon,127000,2027-06-21,1.3,35,0,True,False,addon,AE - Liam Byrne

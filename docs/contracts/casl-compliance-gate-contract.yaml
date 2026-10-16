@@ -1,0 +1,21 @@
+contract_id: casl_compliance_gate_agent
+version: 1.0.0
+objective: "Block any outbound cold-email send to a Canadian contact that fails CASL consent or formatting requirements before it leaves the sequencer -- this is a gate, not a sender"
+boundaries:
+  readable_paths:
+    - "raw-sources/articles/gap-and-subagent-research/01-casl-compliance"
+  writeable_paths:
+    - "intelligence/logs/decision-log.md"
+  allowed_mcp_tools:
+    - "consent_db_read"
+    - "sequencer_read_draft"
+    - "slack_notify"
+role_map:
+  consent_check_agent: "Runs compliance-consent-checker sub-agent -- verifies implied consent (existing business relationship, documented) or express consent (opt-in record with timestamp+IP) exists before allowing send"
+  format_check_agent: "Verifies sender name, company, physical address, phone/email, functional one-click unsubscribe, and non-deceptive subject line are present"
+evidence_standard: "Must log consent type (implied/express), timestamp, and source record for every send checked -- this log is the audit trail if the CRTC investigates a complaint"
+stop_rules:
+  - "No consent record found -> BLOCK the send, never warn-and-allow, given the $1,000,000 CAD per-violation exposure"
+  - "Missing any required sender-identification field -> BLOCK"
+  - "Unsubscribe link non-functional or untested -> BLOCK"
+  - "This gate defaults to blocking on any ambiguity -- false positives (blocking a compliant send) are the acceptable failure mode, not false negatives"

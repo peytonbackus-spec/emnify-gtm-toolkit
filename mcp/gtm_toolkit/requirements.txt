@@ -1,0 +1,5 @@
+mcp>=1.2,<2
+pytest
+pyyaml
+# anthropic is only needed for live LLM mode (GTM_LLM_MODE=anthropic)
+anthropic>=0.40

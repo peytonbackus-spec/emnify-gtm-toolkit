@@ -1,0 +1,1872 @@
+member_id,campaign_id,lead_id,status,responded,touch_date,utm_source,utm_medium
+CM-50000,CMP-125,L-5000,Demo Requested,True,2026-06-25,google,cpc
+CM-50002,CMP-117,L-5000,Downloaded,True,2026-06-26,linkedin,organic
+CM-50001,CMP-129,L-5000,Attended,True,2026-08-16,webinar_platform,webinar
+CM-50003,CMP-127,L-5001,Met at Booth,True,2026-08-04,events,event
+CM-50004,CMP-133,L-5001,Converted,True,2026-09-23,LinkedIn,paid_social
+CM-50005,CMP-114,L-5002,Attended,True,2026-05-18,events,event
+CM-50006,CMP-116,L-5002,Attended,True,2026-05-21,webinar_platform,webinar
+CM-50007,CMP-126,L-5002,Registered,False,2026-07-06,events,event
+CM-50008,CMP-125,L-5003,Demo Requested,True,2026-05-20,google,cpc
+CM-50009,CMP-120,L-5003,Clicked,False,2026-05-21,linkedin,paid_social
+CM-50011,CMP-129,L-5003,No Show,False,2026-07-26,webinar_platform,webinar
+CM-50010,CMP-134,L-5003,Replied,True,2026-08-29,email_platform,email
+CM-50012,CMP-124,L-5004,Demo Requested,True,2026-04-04,google,cpc
+CM-50013,CMP-122,L-5005,Meeting Booked,True,2026-04-16,email_platform,email
+CM-50014,CMP-122,L-5006,Replied,True,2026-06-05,email_platform,email
+CM-50015,CMP-126,L-5007,Met at Booth,True,2026-07-19,events,event
+CM-50016,CMP-130,L-5007,Downloaded,True,2026-08-20,linkedin,organic
+CM-50017,CMP-126,L-5007,Attended,True,2026-09-07,events,event
+CM-50018,CMP-116,L-5008,Attended,True,2026-05-04,webinar_platform,webinar
+CM-50019,CMP-135,L-5008,Replied,True,2026-08-20,email_platform,email
+CM-50020,CMP-117,L-5009,Downloaded,True,2026-04-05,linkedin,organic
+CM-50021,CMP-134,L-5009,Replied,True,2026-09-10,email_platform,email
+CM-50022,CMP-110,L-5010,Referred,True,2026-01-15,partner,referral
+CM-50023,CMP-111,L-5011,Demo Requested,True,2026-03-18,google,cpc
+CM-50024,CMP-116,L-5011,Watched On-Demand,True,2026-04-21,webinar_platform,webinar
+CM-50025,CMP-115,L-5012,Attended,True,2026-04-29,webinar_platform,webinar
+CM-50026,CMP-132,L-5012,Converted,True,2026-07-30,linkedin,paid_social
+CM-50027,CMP-105,L-5013,Downloaded,True,2026-02-13,linkedin,organic
+CM-50028,CMP-135,L-5014,Meeting Booked,True,2026-07-21,email_platform,email
+CM-50031,CMP-134,L-5014,Replied,True,2026-07-23,email_platform,email
+CM-50029,CMP-133,L-5014,Converted,True,2026-08-07,linkedin,paid_social
+CM-50030,CMP-129,L-5014,Watched On-Demand,True,2026-09-13,webinar_platform,webinar
+CM-50032,CMP-112,L-5015,Chat Engaged,True,2026-02-11,google,cpc
+CM-50034,CMP-116,L-5015,Watched On-Demand,True,2026-06-23,webinar_platform_,webinar
+CM-50033,CMP-127,L-5015,Attended,True,2026-07-10,events,event
+CM-50035,CMP-137,L-5016,Chat Engaged,True,2026-09-09,google,cpc
+CM-50036,CMP-132,L-5016,Converted,True,2026-09-25,linkedin,paid_social
+CM-50037,CMP-119,L-5017,Converted,True,2026-05-29,linkedin,paid_social
+CM-50038,CMP-125,L-5018,Chat Engaged,True,2026-06-03,google,cpc
+CM-50039,CMP-138,L-5019,Demo Requested,True,2026-08-21,google,cpc
+CM-50041,CMP-127,L-5019,Registered,False,2026-08-30,events,event
+CM-50040,CMP-131,L-5019,Downloaded,True,2026-09-03,linkedin,organic
+CM-50042,CMP-135,L-5020,Replied,True,2026-09-29,email_platform,email
+CM-50043,CMP-127,L-5020,Met at Booth,True,2026-09-30,events,event
+CM-50044,CMP-118,L-5021,Downloaded,True,2026-04-23,linkedin,organic
+CM-50045,CMP-108,L-5022,Meeting Booked,True,2026-02-18,email_platform,email
+CM-50046,CMP-111,L-5023,Demo Requested,True,2026-02-25,google,cpc
+CM-50047,CMP-109,L-5024,Replied,True,2026-01-30,email_platform,email
+CM-50048,CMP-129,L-5024,Watched On-Demand,True,2026-07-11,webinar_platform,webinar
+CM-50049,CMP-130,L-5024,Downloaded,True,2026-07-25,linkedin,organic
+CM-50050,CMP-104,L-5025,Downloaded,True,2026-02-19,linkedin,organic
+CM-50051,CMP-137,L-5026,Chat Engaged,True,2026-08-26,google,cpc
+CM-50052,CMP-134,L-5026,Replied,True,2026-09-29,email_platform,email
+CM-50053,CMP-138,L-5027,Demo Requested,True,2026-07-21,google,cpc
+CM-50054,CMP-121,L-5028,Meeting Booked,True,2026-05-25,email_platform,email
+CM-50055,CMP-127,L-5028,Attended,True,2026-08-21,events,event
+CM-50056,CMP-124,L-5029,Demo Requested,True,2026-06-06,google,cpc
+CM-50057,CMP-120,L-5029,Converted,True,2026-06-18,linkedin,paid_social
+CM-50058,CMP-126,L-5030,Attended,True,2026-07-30,events,event
+CM-50059,CMP-133,L-5030,Clicked,False,2026-09-18,linkedin,paid_social
+CM-50060,CMP-119,L-5031,Converted,True,2026-04-07,linkedin,paid_social
+CM-50061,CMP-122,L-5032,Replied,True,2026-06-11,email_platform,email
+CM-50064,CMP-131,L-5032,Downloaded,True,2026-08-22,linkedin,organic
+CM-50063,CMP-128,L-5032,Watched On-Demand,True,2026-09-08,webinar_platform,webinar
+CM-50062,CMP-135,L-5032,Sent,False,2026-09-12,email_platform,email
+CM-50065,CMP-137,L-5033,Chat Engaged,True,2026-08-04,google,cpc
+CM-50068,CMP-134,L-5033,Replied,True,2026-08-30,email_platform,email
+CM-50066,CMP-133,L-5033,Converted,True,2026-09-07,linkedin,paid_social
+CM-50067,CMP-126,L-5033,Attended,True,2026-09-12,events,event
+CM-50069,CMP-112,L-5034,Chat Engaged,True,2026-02-03,google,cpc
+CM-50070,CMP-119,L-5034,Converted,True,2026-05-18,linkedin,paid_social
+CM-50071,CMP-127,L-5034,Met at Booth,True,2026-09-22,events,event
+CM-50072,CMP-101,L-5035,Attended,True,2026-01-12,events,event
+CM-50073,CMP-104,L-5035,Downloaded,True,2026-01-31,linkedin,organic
+CM-50075,CMP-118,L-5035,Downloaded,True,2026-05-21,linkedin,organic
+CM-50074,CMP-131,L-5035,Downloaded,True,2026-07-13,linkedin,organic
+CM-50076,CMP-136,L-5036,Referred,True,2026-09-28,partner,referral
+CM-50077,CMP-134,L-5036,Sent,False,2026-09-29,email_platform,email
+CM-50078,CMP-105,L-5037,Downloaded,True,2026-03-13,linkedin,organic
+CM-50079,CMP-110,L-5038,Referred,True,2026-03-09,partner,referral
+CM-50080,CMP-106,L-5039,Converted,True,2026-03-06,linkedin,paid_social
+CM-50081,CMP-111,L-5040,Chat Engaged,True,2026-03-28,google,cpc
+CM-50082,CMP-134,L-5040,Replied,True,2026-07-14,email_platform,email
+CM-50083,CMP-118,L-5041,Downloaded,True,2026-05-16,linkedin,organic
+CM-50084,CMP-134,L-5041,Sent,False,2026-08-12,email_platform,email
+CM-50085,CMP-111,L-5042,Chat Engaged,True,2026-02-22,google,cpc
+CM-50086,CMP-134,L-5043,Replied,True,2026-07-28,email_platform,email
+CM-50087,CMP-134,L-5043,Meeting Booked,True,2026-08-10,email_platform,email
+CM-50088,CMP-133,L-5043,Converted,True,2026-08-10,linkedin,paid_social
+CM-50089,CMP-128,L-5043,Registered,False,2026-09-14,webinar_platform,webinar
+CM-50090,CMP-122,L-5044,Meeting Booked,True,2026-04-07,email_platform,email
+CM-50091,CMP-113,L-5045,Attended,True,2026-04-29,events,event
+CM-50092,CMP-108,L-5046,Meeting Booked,True,2026-02-12,email_platform,email
+CM-50093,CMP-127,L-5047,Met at Booth,True,2026-08-21,events,event
+CM-50094,CMP-136,L-5048,Referred,True,2026-09-22,partner,referral
+CM-50095,CMP-125,L-5049,Chat Engaged,True,2026-04-28,google,cpc
+CM-50096,CMP-116,L-5049,Attended,True,2026-06-15,webinar_platform_,webinar
+CM-50097,CMP-118,L-5050,Downloaded,True,2026-04-15,linkedin,organic
+CM-50098,CMP-132,L-5050,Converted,True,2026-07-01,linkedin,paid_social
+CM-50099,CMP-135,L-5050,Replied,True,2026-07-24,email_platform,email
+CM-50100,CMP-128,L-5050,Attended,True,2026-09-10,webinar_platform,webinar
+CM-50101,CMP-109,L-5051,Replied,True,2026-03-09,email_platform,email
+CM-50102,CMP-103,L-5051,Watched On-Demand,True,2026-03-12,webinar_platform,webinar
+CM-50103,CMP-112,L-5052,Demo Requested,True,2026-03-11,google,cpc
+CM-50104,CMP-108,L-5052,Replied,True,2026-03-31,email_platform,email
+CM-50105,CMP-113,L-5052,Met at Booth,True,2026-04-24,events,event
+CM-50106,CMP-109,L-5053,Meeting Booked,True,2026-03-16,email_platform,email
+CM-50107,CMP-122,L-5054,Meeting Booked,True,2026-05-31,email_platform,email
+CM-50108,CMP-115,L-5054,Attended,True,2026-06-04,webinar_platform,webinar
+CM-50109,CMP-126,L-5054,No Show,False,2026-08-27,events,event
+CM-50110,CMP-135,L-5055,Replied,True,2026-07-07,email_platform,email
+CM-50111,CMP-135,L-5056,Meeting Booked,True,2026-07-22,email_platform,email
+CM-50112,CMP-137,L-5057,Chat Engaged,True,2026-09-25,google,cpc
+CM-50113,CMP-134,L-5057,Meeting Booked,True,2026-09-27,email_platform,email
+CM-50114,CMP-129,L-5057,Attended,True,2026-09-27,webinar_platform,webinar
+CM-50115,CMP-127,L-5057,Met at Booth,True,2026-09-27,events,event
+CM-50116,CMP-124,L-5058,Chat Engaged,True,2026-06-19,google,cpc
+CM-50117,CMP-117,L-5059,Downloaded,True,2026-04-28,linkedin,organic
+CM-50118,CMP-133,L-5059,Converted,True,2026-07-29,linkedin,paid_social
+CM-50119,CMP-100,L-5060,Attended,True,2026-01-25,events,event
+CM-50120,CMP-130,L-5060,Downloaded,True,2026-07-12,linkedin,organic
+CM-50121,CMP-103,L-5061,Attended,True,2026-02-23,webinar_platform,webinar
+CM-50122,CMP-112,L-5062,Demo Requested,True,2026-03-24,google,cpc
+CM-50125,CMP-116,L-5062,Registered,False,2026-04-13,webinar_platform,webinar
+CM-50123,CMP-121,L-5062,Meeting Booked,True,2026-05-05,email_platform,email
+CM-50124,CMP-118,L-5062,Downloaded,True,2026-06-23,linkedin,organic
+CM-50126,CMP-135,L-5063,Meeting Booked,True,2026-08-23,email_platform,email
+CM-50127,CMP-132,L-5063,Converted,True,2026-09-13,linkedin,paid_social
+CM-50128,CMP-107,L-5064,Converted,True,2026-02-28,linkedin,paid_social
+CM-50129,CMP-107,L-5065,Converted,True,2026-03-19,linkedin,paid_social
+CM-50130,CMP-119,L-5065,Clicked,False,2026-04-08,linkedin,paid_social
+CM-50131,CMP-133,L-5065,Clicked,False,2026-07-24,linkedin,paid_social
+CM-50132,CMP-103,L-5066,Watched On-Demand,True,2026-03-18,webinar_platform,webinar
+CM-50133,CMP-107,L-5067,Converted,True,2026-02-08,linkedin,paid_social
+CM-50134,CMP-114,L-5067,Attended,True,2026-04-28,events,event
+CM-50135,CMP-132,L-5067,Converted,True,2026-09-09,linkedin,paid_social
+CM-50136,CMP-134,L-5068,Meeting Booked,True,2026-09-10,email_platform,email
+CM-50137,CMP-134,L-5068,Meeting Booked,True,2026-09-29,email_platform,email
+CM-50138,CMP-101,L-5069,Attended,True,2026-03-14,events,event
+CM-50139,CMP-111,L-5070,Chat Engaged,True,2026-02-12,google,cpc
+CM-50140,CMP-126,L-5070,Met at Booth,True,2026-09-06,events,event
+CM-50141,CMP-108,L-5071,Meeting Booked,True,2026-03-14,email_platform,email
+CM-50142,CMP-115,L-5071,Attended,True,2026-06-03,webinar_platform,webinar
+CM-50143,CMP-126,L-5071,Met at Booth,True,2026-08-28,events,event
+CM-50144,CMP-127,L-5072,Met at Booth,True,2026-09-09,events,event
+CM-50145,CMP-125,L-5073,Demo Requested,True,2026-06-19,google,cpc
+CM-50146,CMP-121,L-5073,Meeting Booked,True,2026-06-22,email_platform,email
+CM-50147,CMP-110,L-5074,Referred,True,2026-01-08,partner,referral
+CM-50148,CMP-109,L-5074,Replied,True,2026-01-21,email_platform,email
+CM-50150,CMP-118,L-5074,Downloaded,True,2026-06-22,linkedin,organic
+CM-50149,CMP-130,L-5074,Downloaded,True,2026-08-12,linkedin,organic
+CM-50151,CMP-134,L-5075,Meeting Booked,True,2026-09-08,email_platform,email
+CM-50152,CMP-106,L-5076,Converted,True,2026-01-14,linkedin,paid_social
+CM-50153,CMP-109,L-5076,Sent,False,2026-01-23,email_platform,email
+CM-50154,CMP-118,L-5076,Downloaded,True,2026-04-26,linkedin,organic
+CM-50155,CMP-105,L-5077,Downloaded,True,2026-02-09,linkedin,organic
+CM-50156,CMP-118,L-5077,Downloaded,True,2026-05-24,linkedin,organic
+CM-50157,CMP-114,L-5077,Attended,True,2026-06-14,events,event
+CM-50158,CMP-137,L-5078,Chat Engaged,True,2026-09-19,google.com,cpc
+CM-50160,CMP-129,L-5078,No Show,False,2026-09-23,webinar_platform,webinar
+CM-50159,CMP-135,L-5078,Replied,True,2026-09-26,email_platform,email
+CM-50161,CMP-134,L-5078,Meeting Booked,True,2026-09-26,email_platform,email
+CM-50162,CMP-108,L-5079,Meeting Booked,True,2026-02-24,email_platform,email
+CM-50163,CMP-137,L-5080,Demo Requested,True,2026-09-29,google,cpc
+CM-50164,CMP-130,L-5080,Downloaded,True,2026-09-30,linkedin,organic
+CM-50165,CMP-129,L-5080,Attended,True,2026-09-30,webinar_platform,webinar
+CM-50166,CMP-126,L-5080,Met at Booth,True,2026-09-30,events,event
+CM-50167,CMP-126,L-5081,Met at Booth,True,2026-08-09,events,event
+CM-50168,CMP-133,L-5081,Converted,True,2026-09-14,linkedin,paid_social
+CM-50169,CMP-104,L-5082,Downloaded,True,2026-03-06,linkedin,organic
+CM-50170,CMP-129,L-5082,Watched On-Demand,True,2026-09-14,webinar_platform,webinar
+CM-50171,CMP-112,L-5083,Demo Requested,True,2026-02-14,google,cpc
+CM-50172,CMP-136,L-5084,Referred,True,2026-09-23,partner,referral
+CM-50173,CMP-123,L-5085,Referred,True,2026-05-30,partner,referral
+CM-50175,CMP-133,L-5085,Converted,True,2026-07-12,linkedin,paid_social
+CM-50174,CMP-129,L-5085,Watched On-Demand,True,2026-08-10,webinar_platform,webinar
+CM-50176,CMP-122,L-5086,Replied,True,2026-05-13,email_platform,email
+CM-50177,CMP-117,L-5086,Downloaded,True,2026-06-16,linkedin,organic
+CM-50178,CMP-117,L-5087,Downloaded,True,2026-05-19,linkedin,organic
+CM-50179,CMP-117,L-5088,Downloaded,True,2026-05-20,linkedin,organic
+CM-50180,CMP-122,L-5089,Replied,True,2026-05-25,email_platform,email
+CM-50182,CMP-130,L-5089,Downloaded,True,2026-08-15,linkedin,organic
+CM-50181,CMP-127,L-5089,Registered,False,2026-09-01,events,event
+CM-50183,CMP-138,L-5090,Demo Requested,True,2026-08-27,google,cpc
+CM-50184,CMP-135,L-5091,Meeting Booked,True,2026-07-10,email_platform,email
+CM-50185,CMP-133,L-5091,Converted,True,2026-07-31,linkedin,paid_social
+CM-50186,CMP-108,L-5092,Replied,True,2026-03-22,email_platform,email
+CM-50187,CMP-130,L-5092,Downloaded,True,2026-09-22,linkedin,organic
+CM-50188,CMP-137,L-5093,Demo Requested,True,2026-09-05,google,cpc
+CM-50189,CMP-132,L-5093,Clicked,False,2026-09-16,linkedin,paid_social
+CM-50190,CMP-113,L-5094,Met at Booth,True,2026-05-30,events,event
+CM-50191,CMP-111,L-5095,Chat Engaged,True,2026-02-10,google,cpc
+CM-50192,CMP-132,L-5095,Converted,True,2026-09-28,linkedin,paid_social
+CM-50193,CMP-132,L-5095,Converted,True,2026-09-28,linkedin,paid_social
+CM-50194,CMP-124,L-5096,Demo Requested,True,2026-05-13,google,cpc
+CM-50195,CMP-120,L-5096,Converted,True,2026-06-18,linkedin,paid_social
+CM-50196,CMP-118,L-5097,Downloaded,True,2026-06-12,LinkedIn,organic
+CM-50197,CMP-122,L-5097,Replied,True,2026-06-28,email_platform,email
+CM-50198,CMP-123,L-5098,Referred,True,2026-05-24,partner,referral
+CM-50199,CMP-134,L-5099,Meeting Booked,True,2026-07-01,email_platform,email
+CM-50200,CMP-133,L-5099,Clicked,False,2026-08-31,linkedin,paid_social
+CM-50201,CMP-136,L-5100,Referred,True,2026-09-02,partner,referral
+CM-50202,CMP-126,L-5100,Met at Booth,True,2026-09-16,events,event
+CM-50203,CMP-126,L-5100,Attended,True,2026-09-16,events,event
+CM-50204,CMP-131,L-5101,Downloaded,True,2026-08-09,linkedin,organic
+CM-50205,CMP-134,L-5101,Meeting Booked,True,2026-08-29,email_platform,email
+CM-50206,CMP-129,L-5101,Attended,True,2026-09-04,webinar_platform,webinar
+CM-50207,CMP-114,L-5102,Attended,True,2026-04-11,events,event
+CM-50210,CMP-116,L-5102,Attended,True,2026-04-14,webinar_platform,webinar
+CM-50208,CMP-122,L-5102,Replied,True,2026-04-17,email_platform,email
+CM-50209,CMP-121,L-5102,Sent,False,2026-04-18,email_platform,email
+CM-50211,CMP-100,L-5103,Met at Booth,True,2026-01-21,events,event
+CM-50212,CMP-122,L-5103,Replied,True,2026-05-17,Email-Platform,email
+CM-50213,CMP-124,L-5104,Chat Engaged,True,2026-05-11,google,cpc
+CM-50214,CMP-118,L-5105,Downloaded,True,2026-06-06,linkedin,organic
+CM-50217,CMP-117,L-5105,Downloaded,True,2026-06-08,linkedin,organic
+CM-50215,CMP-117,L-5105,Downloaded,True,2026-06-10,linkedin,organic
+CM-50216,CMP-120,L-5105,Converted,True,2026-06-13,linkedin,paid_social
+CM-50218,CMP-138,L-5106,Chat Engaged,True,2026-07-14,google,cpc
+CM-50219,CMP-133,L-5106,Converted,True,2026-08-01,linkedin,paid_social
+CM-50220,CMP-128,L-5106,Attended,True,2026-08-23,webinar_platform,webinar
+CM-50221,CMP-131,L-5107,Downloaded,True,2026-08-17,linkedin,organic
+CM-50222,CMP-134,L-5107,Sent,False,2026-08-25,email_platform,email
+CM-50223,CMP-123,L-5108,Referred,True,2026-04-10,partner,referral
+CM-50224,CMP-100,L-5109,Met at Booth,True,2026-01-14,events,event
+CM-50225,CMP-102,L-5110,Attended,True,2026-01-27,webinar_platform,webinar
+CM-50226,CMP-125,L-5111,Chat Engaged,True,2026-05-16,google,cpc
+CM-50227,CMP-107,L-5112,Converted,True,2026-02-03,linkedin,paid_social
+CM-50228,CMP-137,L-5113,Demo Requested,True,2026-08-05,google,cpc
+CM-50229,CMP-126,L-5114,Met at Booth,True,2026-08-13,events,event
+CM-50230,CMP-126,L-5114,Met at Booth,True,2026-08-14,events,event
+CM-50231,CMP-114,L-5115,Attended,True,2026-04-24,events,event
+CM-50232,CMP-121,L-5115,Replied,True,2026-05-05,email_platform,email
+CM-50233,CMP-131,L-5116,Downloaded,True,2026-07-28,linkedin,organic
+CM-50234,CMP-131,L-5116,Downloaded,True,2026-08-30,linkedin,organic
+CM-50235,CMP-138,L-5117,Chat Engaged,True,2026-08-06,google.com,cpc
+CM-50236,CMP-129,L-5117,Registered,False,2026-09-21,webinar_platform,webinar
+CM-50237,CMP-121,L-5118,Meeting Booked,True,2026-04-28,email_platform,email
+CM-50238,CMP-128,L-5118,Attended,True,2026-07-05,webinar_platform,webinar
+CM-50239,CMP-134,L-5119,Replied,True,2026-09-11,email_platform,email
+CM-50240,CMP-135,L-5119,Meeting Booked,True,2026-09-22,email_platform,email
+CM-50241,CMP-126,L-5120,Met at Booth,True,2026-08-09,events,event
+CM-50242,CMP-114,L-5121,Attended,True,2026-04-17,events,event
+CM-50243,CMP-115,L-5121,Attended,True,2026-06-12,webinar_platform,webinar
+CM-50244,CMP-138,L-5122,Demo Requested,True,2026-09-03,google.com,cpc
+CM-50245,CMP-130,L-5122,Downloaded,True,2026-09-20,linkedin,organic
+CM-50246,CMP-108,L-5123,Replied,True,2026-01-14,email_platform,email
+CM-50248,CMP-105,L-5123,Downloaded,True,2026-01-17,LinkedIn,organic
+CM-50247,CMP-105,L-5123,Downloaded,True,2026-02-03,linkedin,organic
+CM-50249,CMP-122,L-5124,Replied,True,2026-05-03,email_platform,email
+CM-50250,CMP-114,L-5124,Registered,False,2026-06-18,events,event
+CM-50251,CMP-134,L-5125,Replied,True,2026-09-12,email_platform,email
+CM-50252,CMP-117,L-5126,Downloaded,True,2026-05-28,linkedin,organic
+CM-50253,CMP-109,L-5127,Meeting Booked,True,2026-03-24,email_platform,email
+CM-50254,CMP-131,L-5127,Downloaded,True,2026-09-01,linkedin,organic
+CM-50255,CMP-100,L-5128,Met at Booth,True,2026-01-20,events,event
+CM-50256,CMP-108,L-5129,Replied,True,2026-02-14,email_platform,email
+CM-50257,CMP-131,L-5129,Downloaded,True,2026-07-10,linkedin,organic
+CM-50258,CMP-122,L-5130,Replied,True,2026-05-23,email_platform,email
+CM-50259,CMP-116,L-5130,No Show,False,2026-06-23,webinar_platform,webinar
+CM-50260,CMP-133,L-5130,Converted,True,2026-08-29,linkedin,paid_social
+CM-50261,CMP-108,L-5131,Meeting Booked,True,2026-01-26,Email-Platform,email
+CM-50262,CMP-137,L-5132,Demo Requested,True,2026-09-26,google,cpc
+CM-50263,CMP-134,L-5132,Meeting Booked,True,2026-09-30,email_platform,email
+CM-50264,CMP-110,L-5133,Referred,True,2026-02-20,partner,referral
+CM-50265,CMP-112,L-5134,Chat Engaged,True,2026-03-09,google,cpc
+CM-50266,CMP-117,L-5134,Downloaded,True,2026-06-09,linkedin,organic
+CM-50267,CMP-124,L-5135,Demo Requested,True,2026-04-06,google,cpc
+CM-50269,CMP-118,L-5135,Downloaded,True,2026-04-09,linkedin,organic
+CM-50268,CMP-121,L-5135,Sent,False,2026-04-22,email_platform,email
+CM-50270,CMP-135,L-5136,Replied,True,2026-09-05,email_platform,email
+CM-50271,CMP-125,L-5137,Demo Requested,True,2026-06-23,google,cpc
+CM-50272,CMP-127,L-5137,Met at Booth,True,2026-07-30,events,event
+CM-50274,CMP-133,L-5137,Clicked,False,2026-09-27,linkedin,paid_social
+CM-50273,CMP-131,L-5137,Downloaded,True,2026-09-30,linkedin,organic
+CM-50275,CMP-114,L-5138,Attended,True,2026-06-19,events,event
+CM-50276,CMP-108,L-5139,Meeting Booked,True,2026-02-18,email_platform,email
+CM-50277,CMP-135,L-5139,Meeting Booked,True,2026-09-23,email_platform,email
+CM-50278,CMP-119,L-5140,Converted,True,2026-05-04,LinkedIn,paid_social
+CM-50279,CMP-122,L-5141,Meeting Booked,True,2026-06-28,email_platform,email
+CM-50280,CMP-127,L-5141,Met at Booth,True,2026-07-22,events_,event
+CM-50281,CMP-113,L-5142,Attended,True,2026-06-07,events,event
+CM-50282,CMP-135,L-5142,Replied,True,2026-07-30,email_platform,email
+CM-50283,CMP-114,L-5143,Met at Booth,True,2026-06-11,events,event
+CM-50284,CMP-122,L-5143,Meeting Booked,True,2026-06-16,email_platform,email
+CM-50285,CMP-128,L-5144,Attended,True,2026-09-18,webinar_platform,webinar
+CM-50286,CMP-109,L-5145,Replied,True,2026-01-23,email_platform,email
+CM-50287,CMP-114,L-5146,Attended,True,2026-04-22,events,event
+CM-50288,CMP-129,L-5146,Attended,True,2026-09-10,webinar_platform,webinar
+CM-50289,CMP-123,L-5147,Referred,True,2026-04-20,partner,referral
+CM-50290,CMP-117,L-5147,Downloaded,True,2026-06-09,linkedin,organic
+CM-50291,CMP-138,L-5148,Chat Engaged,True,2026-07-20,google,cpc
+CM-50292,CMP-126,L-5148,Met at Booth,True,2026-09-27,events,event
+CM-50293,CMP-111,L-5149,Demo Requested,True,2026-03-13,google,cpc
+CM-50294,CMP-119,L-5149,Clicked,False,2026-04-09,LinkedIn,paid_social
+CM-50295,CMP-127,L-5149,Met at Booth,True,2026-08-20,events,event
+CM-50296,CMP-127,L-5149,Met at Booth,True,2026-09-19,events,event
+CM-50297,CMP-109,L-5150,Replied,True,2026-02-07,email_platform,email
+CM-50299,CMP-109,L-5150,Sent,False,2026-03-12,email_platform,email
+CM-50298,CMP-134,L-5150,Meeting Booked,True,2026-09-11,email_platform,email
+CM-50300,CMP-135,L-5151,Replied,True,2026-08-29,email_platform,email
+CM-50303,CMP-133,L-5151,Converted,True,2026-09-11,linkedin,paid_social
+CM-50302,CMP-126,L-5151,Attended,True,2026-09-24,events,event
+CM-50301,CMP-134,L-5151,Meeting Booked,True,2026-09-29,email_platform,email
+CM-50304,CMP-124,L-5152,Chat Engaged,True,2026-04-03,google,cpc
+CM-50305,CMP-112,L-5153,Chat Engaged,True,2026-02-05,google,cpc
+CM-50307,CMP-100,L-5153,No Show,False,2026-02-10,events,event
+CM-50306,CMP-105,L-5153,Downloaded,True,2026-02-19,linkedin,organic
+CM-50308,CMP-112,L-5154,Demo Requested,True,2026-02-19,google,cpc
+CM-50310,CMP-116,L-5154,Watched On-Demand,True,2026-04-19,webinar_platform,webinar
+CM-50309,CMP-121,L-5154,Meeting Booked,True,2026-04-30,email_platform,email
+CM-50311,CMP-121,L-5155,Replied,True,2026-05-05,Email-Platform,email
+CM-50313,CMP-114,L-5155,Met at Booth,True,2026-05-12,events,event
+CM-50312,CMP-115,L-5155,Watched On-Demand,True,2026-05-27,webinar_platform,webinar
+CM-50314,CMP-112,L-5156,Demo Requested,True,2026-02-10,google,cpc
+CM-50315,CMP-135,L-5156,Meeting Booked,True,2026-09-10,email_platform,email
+CM-50316,CMP-135,L-5157,Replied,True,2026-08-23,email_platform,email
+CM-50317,CMP-137,L-5158,Demo Requested,True,2026-07-12,google,cpc
+CM-50318,CMP-134,L-5159,Meeting Booked,True,2026-09-02,email_platform,email
+CM-50319,CMP-129,L-5159,Watched On-Demand,True,2026-09-09,webinar_platform,webinar
+CM-50320,CMP-125,L-5160,Chat Engaged,True,2026-04-01,google,cpc
+CM-50321,CMP-129,L-5160,Watched On-Demand,True,2026-09-19,webinar_platform,webinar
+CM-50322,CMP-111,L-5161,Demo Requested,True,2026-01-12,google,cpc
+CM-50323,CMP-105,L-5162,Downloaded,True,2026-03-31,linkedin,organic
+CM-50324,CMP-133,L-5163,Converted,True,2026-09-04,linkedin,paid_social
+CM-50325,CMP-135,L-5164,Replied,True,2026-07-05,email_platform,email
+CM-50326,CMP-113,L-5165,Attended,True,2026-04-07,events_,event
+CM-50327,CMP-112,L-5166,Demo Requested,True,2026-03-08,google,cpc
+CM-50328,CMP-106,L-5167,Converted,True,2026-02-11,linkedin,paid_social
+CM-50329,CMP-100,L-5167,Met at Booth,True,2026-02-14,events,event
+CM-50330,CMP-110,L-5168,Referred,True,2026-03-19,partner,referral
+CM-50331,CMP-111,L-5169,Chat Engaged,True,2026-01-05,google,cpc
+CM-50334,CMP-105,L-5169,Downloaded,True,2026-01-11,linkedin,organic
+CM-50333,CMP-101,L-5169,No Show,False,2026-02-10,events,event
+CM-50332,CMP-114,L-5169,Attended,True,2026-04-28,events,event
+CM-50335,CMP-109,L-5170,Meeting Booked,True,2026-01-06,email_platform,email
+CM-50336,CMP-134,L-5170,Meeting Booked,True,2026-09-22,email_platform,email
+CM-50337,CMP-138,L-5171,Chat Engaged,True,2026-07-23,google,cpc
+CM-50338,CMP-134,L-5171,Replied,True,2026-09-10,email_platform,email
+CM-50339,CMP-136,L-5172,Referred,True,2026-09-17,partner,referral
+CM-50340,CMP-108,L-5173,Meeting Booked,True,2026-03-18,email_platform,email
+CM-50341,CMP-122,L-5173,Meeting Booked,True,2026-05-23,email_platform,email
+CM-50342,CMP-105,L-5174,Downloaded,True,2026-02-06,linkedin,organic
+CM-50343,CMP-129,L-5175,Attended,True,2026-08-05,webinar_platform,webinar
+CM-50345,CMP-130,L-5175,Downloaded,True,2026-08-10,linkedin,organic
+CM-50344,CMP-130,L-5175,Downloaded,True,2026-09-16,linkedin,organic
+CM-50346,CMP-112,L-5176,Chat Engaged,True,2026-01-08,google,cpc
+CM-50347,CMP-131,L-5177,Downloaded,True,2026-08-03,linkedin,organic
+CM-50349,CMP-126,L-5177,Attended,True,2026-08-08,events,event
+CM-50350,CMP-132,L-5177,Converted,True,2026-08-13,linkedin,paid_social
+CM-50348,CMP-128,L-5177,Watched On-Demand,True,2026-08-19,webinar_platform,webinar
+CM-50351,CMP-124,L-5178,Chat Engaged,True,2026-05-26,google,cpc
+CM-50352,CMP-112,L-5179,Demo Requested,True,2026-01-27,google,cpc
+CM-50353,CMP-126,L-5179,Attended,True,2026-09-15,events,event
+CM-50354,CMP-118,L-5180,Downloaded,True,2026-06-20,linkedin,organic
+CM-50356,CMP-130,L-5180,Downloaded,True,2026-07-17,linkedin,organic
+CM-50355,CMP-129,L-5180,Watched On-Demand,True,2026-08-08,webinar_platform,webinar
+CM-50357,CMP-128,L-5180,Watched On-Demand,True,2026-08-19,webinar_platform,webinar
+CM-50358,CMP-129,L-5181,Watched On-Demand,True,2026-07-15,webinar_platform,webinar
+CM-50361,CMP-134,L-5181,Sent,False,2026-08-02,email_platform,email
+CM-50359,CMP-133,L-5181,Converted,True,2026-08-11,linkedin,paid_social
+CM-50360,CMP-127,L-5181,No Show,False,2026-08-19,events,event
+CM-50362,CMP-114,L-5182,Attended,True,2026-04-02,events,event
+CM-50363,CMP-113,L-5183,Met at Booth,True,2026-05-11,events,event
+CM-50364,CMP-109,L-5184,Replied,True,2026-01-11,email_platform,email
+CM-50365,CMP-134,L-5184,Replied,True,2026-08-11,email_platform,email
+CM-50366,CMP-135,L-5185,Meeting Booked,True,2026-07-13,email_platform,email
+CM-50367,CMP-132,L-5185,Converted,True,2026-08-17,LinkedIn,paid_social
+CM-50368,CMP-109,L-5186,Replied,True,2026-03-02,email_platform,email
+CM-50370,CMP-100,L-5186,Met at Booth,True,2026-03-28,events_,event
+CM-50369,CMP-114,L-5186,Attended,True,2026-06-10,events,event
+CM-50371,CMP-130,L-5187,Downloaded,True,2026-09-06,linkedin,organic
+CM-50372,CMP-131,L-5187,Downloaded,True,2026-09-07,linkedin,organic
+CM-50373,CMP-126,L-5187,Registered,False,2026-09-17,events,event
+CM-50374,CMP-122,L-5188,Meeting Booked,True,2026-06-03,email_platform,email
+CM-50375,CMP-128,L-5188,Watched On-Demand,True,2026-09-01,webinar_platform,webinar
+CM-50376,CMP-136,L-5189,Referred,True,2026-08-06,partner,referral
+CM-50377,CMP-126,L-5189,Attended,True,2026-09-08,events_,event
+CM-50378,CMP-135,L-5189,Meeting Booked,True,2026-09-17,email_platform,email
+CM-50379,CMP-121,L-5190,Meeting Booked,True,2026-06-21,email_platform,email
+CM-50380,CMP-103,L-5191,Attended,True,2026-03-31,webinar_platform,webinar
+CM-50381,CMP-134,L-5191,Replied,True,2026-08-22,email_platform,email
+CM-50382,CMP-136,L-5192,Referred,True,2026-08-22,partner,referral
+CM-50383,CMP-124,L-5193,Chat Engaged,True,2026-06-27,google,cpc
+CM-50385,CMP-134,L-5193,Replied,True,2026-07-19,email_platform,email
+CM-50384,CMP-135,L-5193,Replied,True,2026-07-29,email_platform,email
+CM-50386,CMP-110,L-5194,Referred,True,2026-02-16,partner,referral
+CM-50387,CMP-121,L-5194,Replied,True,2026-06-01,email_platform,email
+CM-50388,CMP-137,L-5195,Chat Engaged,True,2026-07-14,google,cpc
+CM-50389,CMP-126,L-5195,Attended,True,2026-07-18,events,event
+CM-50390,CMP-135,L-5196,Replied,True,2026-08-10,email_platform,email
+CM-50391,CMP-127,L-5196,Registered,False,2026-09-22,events,event
+CM-50392,CMP-111,L-5197,Demo Requested,True,2026-02-19,google,cpc
+CM-50393,CMP-107,L-5198,Converted,True,2026-01-26,linkedin,paid_social
+CM-50394,CMP-114,L-5198,Met at Booth,True,2026-05-29,events,event
+CM-50395,CMP-130,L-5199,Downloaded,True,2026-09-13,linkedin,organic
+CM-50396,CMP-138,L-5200,Chat Engaged,True,2026-09-05,google,cpc
+CM-50397,CMP-110,L-5201,Referred,True,2026-02-13,partners,referral
+CM-50398,CMP-122,L-5201,Meeting Booked,True,2026-04-13,email_platform,email
+CM-50399,CMP-111,L-5202,Demo Requested,True,2026-03-19,google,cpc
+CM-50400,CMP-120,L-5202,Clicked,False,2026-05-22,linkedin,paid_social
+CM-50401,CMP-108,L-5203,Meeting Booked,True,2026-01-13,email_platform,email
+CM-50402,CMP-116,L-5204,Attended,True,2026-06-11,webinar_platform,webinar
+CM-50403,CMP-112,L-5205,Chat Engaged,True,2026-01-10,google,cpc
+CM-50404,CMP-106,L-5205,Converted,True,2026-02-25,linkedin,paid_social
+CM-50405,CMP-123,L-5206,Referred,True,2026-05-08,partner,referral
+CM-50407,CMP-121,L-5206,Sent,False,2026-05-30,email_platform,email
+CM-50406,CMP-132,L-5206,Clicked,False,2026-07-21,LinkedIn,paid_social
+CM-50408,CMP-123,L-5207,Referred,True,2026-04-24,partner,referral
+CM-50409,CMP-115,L-5207,Watched On-Demand,True,2026-04-30,webinar_platform,webinar
+CM-50410,CMP-111,L-5208,Chat Engaged,True,2026-01-25,google,cpc
+CM-50411,CMP-129,L-5208,Attended,True,2026-08-19,webinar_platform,webinar
+CM-50412,CMP-125,L-5209,Demo Requested,True,2026-04-11,google,cpc
+CM-50413,CMP-134,L-5209,Sent,False,2026-09-26,email_platform,email
+CM-50414,CMP-101,L-5210,Attended,True,2026-02-07,events,event
+CM-50415,CMP-109,L-5211,Meeting Booked,True,2026-03-21,email_platform,email
+CM-50416,CMP-118,L-5211,Downloaded,True,2026-06-26,linkedin,organic
+CM-50417,CMP-128,L-5211,Watched On-Demand,True,2026-07-23,webinar_platform,webinar
+CM-50418,CMP-107,L-5212,Converted,True,2026-03-24,linkedin,paid_social
+CM-50419,CMP-127,L-5212,Met at Booth,True,2026-08-05,events,event
+CM-50420,CMP-111,L-5213,Chat Engaged,True,2026-01-23,google,cpc
+CM-50421,CMP-100,L-5213,Met at Booth,True,2026-02-16,events,event
+CM-50422,CMP-110,L-5214,Referred,True,2026-03-26,partner,referral
+CM-50424,CMP-121,L-5214,Sent,False,2026-04-12,email_platform,email
+CM-50423,CMP-113,L-5214,Met at Booth,True,2026-05-31,events,event
+CM-50425,CMP-121,L-5215,Replied,True,2026-06-28,email_platform,email
+CM-50426,CMP-132,L-5215,Converted,True,2026-09-23,linkedin,paid_social
+CM-50427,CMP-125,L-5216,Chat Engaged,True,2026-06-20,google,cpc
+CM-50428,CMP-133,L-5216,Converted,True,2026-09-26,linkedin,paid_social
+CM-50429,CMP-137,L-5217,Chat Engaged,True,2026-09-12,google,cpc
+CM-50430,CMP-131,L-5217,Downloaded,True,2026-09-22,linkedin,organic
+CM-50431,CMP-133,L-5217,Converted,True,2026-09-24,LinkedIn,paid_social
+CM-50432,CMP-101,L-5218,Met at Booth,True,2026-02-22,events,event
+CM-50433,CMP-113,L-5218,Met at Booth,True,2026-05-01,events,event
+CM-50434,CMP-121,L-5219,Meeting Booked,True,2026-04-17,email_platform,email
+CM-50435,CMP-121,L-5219,Replied,True,2026-05-21,email_platform,email
+CM-50436,CMP-133,L-5219,Converted,True,2026-09-15,linkedin,paid_social
+CM-50437,CMP-110,L-5220,Referred,True,2026-02-04,partner,referral
+CM-50438,CMP-131,L-5220,Downloaded,True,2026-08-10,linkedin,organic
+CM-50439,CMP-106,L-5221,Converted,True,2026-03-28,linkedin,paid_social
+CM-50440,CMP-119,L-5221,Converted,True,2026-04-16,linkedin,paid_social
+CM-50441,CMP-133,L-5221,Clicked,False,2026-07-01,linkedin,paid_social
+CM-50442,CMP-128,L-5221,Attended,True,2026-09-15,webinar_platform,webinar
+CM-50443,CMP-106,L-5222,Converted,True,2026-03-27,linkedin,paid_social
+CM-50444,CMP-120,L-5223,Converted,True,2026-06-14,linkedin,paid_social
+CM-50446,CMP-121,L-5223,Meeting Booked,True,2026-06-18,email_platform,email
+CM-50445,CMP-113,L-5223,Attended,True,2026-06-28,events,event
+CM-50447,CMP-121,L-5224,Meeting Booked,True,2026-05-05,email_platform,email
+CM-50449,CMP-121,L-5224,Sent,False,2026-05-28,email_platform,email
+CM-50448,CMP-113,L-5224,Met at Booth,True,2026-06-14,events,event
+CM-50450,CMP-132,L-5224,Converted,True,2026-07-21,linkedin,paid_social
+CM-50451,CMP-130,L-5225,Downloaded,True,2026-09-05,linkedin,organic
+CM-50452,CMP-126,L-5225,Met at Booth,True,2026-09-12,events,event
+CM-50454,CMP-135,L-5225,Replied,True,2026-09-16,email_platform,email
+CM-50453,CMP-128,L-5225,Watched On-Demand,True,2026-09-18,webinar_platform,webinar
+CM-50455,CMP-135,L-5226,Replied,True,2026-08-19,email_platform,email
+CM-50456,CMP-125,L-5227,Chat Engaged,True,2026-05-25,google,cpc
+CM-50458,CMP-118,L-5227,Downloaded,True,2026-05-31,linkedin,organic
+CM-50457,CMP-131,L-5227,Downloaded,True,2026-07-12,linkedin,organic
+CM-50459,CMP-128,L-5227,Attended,True,2026-07-17,webinar_platform,webinar
+CM-50460,CMP-121,L-5228,Meeting Booked,True,2026-04-09,email_platform,email
+CM-50461,CMP-120,L-5228,Converted,True,2026-05-15,linkedin,paid_social
+CM-50462,CMP-120,L-5229,Converted,True,2026-06-21,linkedin,paid_social
+CM-50463,CMP-132,L-5229,Converted,True,2026-07-21,linkedin,paid_social
+CM-50464,CMP-124,L-5230,Chat Engaged,True,2026-04-01,google,cpc
+CM-50465,CMP-113,L-5230,Attended,True,2026-04-15,events,event
+CM-50466,CMP-117,L-5230,Downloaded,True,2026-05-12,linkedin,organic
+CM-50467,CMP-119,L-5230,Clicked,False,2026-06-22,linkedin,paid_social
+CM-50468,CMP-138,L-5231,Demo Requested,True,2026-09-15,google,cpc
+CM-50469,CMP-128,L-5232,Watched On-Demand,True,2026-08-07,webinar_platform,webinar
+CM-50471,CMP-133,L-5232,Converted,True,2026-08-15,linkedin,paid_social
+CM-50470,CMP-130,L-5232,Downloaded,True,2026-08-25,linkedin,organic
+CM-50472,CMP-135,L-5233,Meeting Booked,True,2026-07-20,email_platform,email
+CM-50473,CMP-134,L-5234,Replied,True,2026-09-20,email_platform,email
+CM-50474,CMP-123,L-5235,Referred,True,2026-06-16,partner,referral
+CM-50475,CMP-120,L-5235,Converted,True,2026-06-30,linkedin,paid_social
+CM-50476,CMP-123,L-5236,Referred,True,2026-05-20,partners,referral
+CM-50477,CMP-109,L-5237,Replied,True,2026-01-23,email_platform,email
+CM-50478,CMP-116,L-5237,Attended,True,2026-06-12,webinar_platform,webinar
+CM-50479,CMP-104,L-5238,Downloaded,True,2026-02-21,LinkedIn,organic
+CM-50480,CMP-121,L-5238,Replied,True,2026-06-29,email_platform,email
+CM-50481,CMP-100,L-5239,Met at Booth,True,2026-02-28,events,event
+CM-50482,CMP-127,L-5240,Met at Booth,True,2026-08-24,events,event
+CM-50483,CMP-132,L-5240,Clicked,False,2026-08-27,linkedin,paid_social
+CM-50484,CMP-127,L-5240,Met at Booth,True,2026-09-03,events,event
+CM-50485,CMP-134,L-5241,Meeting Booked,True,2026-09-13,email_platform,email
+CM-50488,CMP-127,L-5241,Met at Booth,True,2026-09-17,events,event
+CM-50486,CMP-131,L-5241,Downloaded,True,2026-09-23,linkedin,organic
+CM-50487,CMP-132,L-5241,Converted,True,2026-09-24,linkedin,paid_social
+CM-50489,CMP-129,L-5242,Watched On-Demand,True,2026-07-12,webinar_platform,webinar
+CM-50490,CMP-122,L-5243,Replied,True,2026-06-02,email_platform,email
+CM-50492,CMP-135,L-5243,Meeting Booked,True,2026-07-03,email_platform,email
+CM-50491,CMP-135,L-5243,Meeting Booked,True,2026-07-08,email_platform,email
+CM-50493,CMP-134,L-5243,Replied,True,2026-08-23,email_platform,email
+CM-50494,CMP-138,L-5244,Chat Engaged,True,2026-08-04,google,cpc
+CM-50495,CMP-122,L-5245,Replied,True,2026-06-14,email_platform,email
+CM-50496,CMP-132,L-5245,Converted,True,2026-08-11,linkedin,paid_social
+CM-50497,CMP-111,L-5246,Demo Requested,True,2026-03-05,google,cpc
+CM-50498,CMP-111,L-5247,Demo Requested,True,2026-03-15,google,cpc
+CM-50499,CMP-129,L-5248,Watched On-Demand,True,2026-08-30,webinar_platform,webinar
+CM-50500,CMP-126,L-5248,Registered,False,2026-09-29,events,event
+CM-50501,CMP-138,L-5249,Chat Engaged,True,2026-07-24,google,cpc
+CM-50502,CMP-135,L-5250,Replied,True,2026-09-24,email_platform,email
+CM-50503,CMP-127,L-5250,Attended,True,2026-09-28,events,event
+CM-50504,CMP-135,L-5251,Meeting Booked,True,2026-07-01,email_platform,email
+CM-50505,CMP-128,L-5251,Attended,True,2026-07-07,webinar_platform,webinar
+CM-50506,CMP-128,L-5251,Watched On-Demand,True,2026-09-19,webinar_platform,webinar
+CM-50507,CMP-134,L-5252,Replied,True,2026-07-23,email_platform,email
+CM-50508,CMP-133,L-5252,Clicked,False,2026-08-06,linkedin,paid_social
+CM-50509,CMP-123,L-5253,Referred,True,2026-04-22,partner,referral
+CM-50510,CMP-110,L-5254,Referred,True,2026-01-28,partner,referral
+CM-50511,CMP-102,L-5254,Attended,True,2026-02-07,webinar_platform,webinar
+CM-50512,CMP-129,L-5255,Attended,True,2026-07-09,webinar_platform,webinar
+CM-50513,CMP-129,L-5255,Watched On-Demand,True,2026-07-20,webinar_platform,webinar
+CM-50514,CMP-130,L-5256,Downloaded,True,2026-07-08,linkedin,organic
+CM-50515,CMP-109,L-5257,Meeting Booked,True,2026-01-20,email_platform,email
+CM-50516,CMP-135,L-5257,Meeting Booked,True,2026-07-01,email_platform,email
+CM-50517,CMP-110,L-5258,Referred,True,2026-02-03,partner,referral
+CM-50520,CMP-116,L-5258,No Show,False,2026-05-31,webinar_platform,webinar
+CM-50519,CMP-133,L-5258,Converted,True,2026-07-03,linkedin,paid_social
+CM-50518,CMP-130,L-5258,Downloaded,True,2026-07-11,linkedin,organic
+CM-50521,CMP-122,L-5259,Replied,True,2026-06-30,email_platform,email
+CM-50522,CMP-118,L-5260,Downloaded,True,2026-05-17,linkedin,organic
+CM-50524,CMP-128,L-5260,Attended,True,2026-08-30,webinar_platform,webinar
+CM-50525,CMP-126,L-5260,Met at Booth,True,2026-09-16,events,event
+CM-50523,CMP-134,L-5260,Replied,True,2026-09-22,email_platform,email
+CM-50526,CMP-117,L-5261,Downloaded,True,2026-06-27,linkedin,organic
+CM-50528,CMP-118,L-5261,Downloaded,True,2026-06-30,linkedin,organic
+CM-50527,CMP-135,L-5261,Sent,False,2026-08-29,email_platform,email
+CM-50529,CMP-128,L-5262,Watched On-Demand,True,2026-08-10,webinar_platform,webinar
+CM-50530,CMP-131,L-5262,Downloaded,True,2026-09-07,linkedin,organic
+CM-50531,CMP-129,L-5263,Watched On-Demand,True,2026-08-06,webinar_platform,webinar
+CM-50532,CMP-109,L-5264,Meeting Booked,True,2026-03-06,email_platform,email
+CM-50533,CMP-100,L-5264,Met at Booth,True,2026-03-15,events,event
+CM-50534,CMP-116,L-5265,Watched On-Demand,True,2026-04-25,webinar_platform,webinar
+CM-50535,CMP-134,L-5266,Meeting Booked,True,2026-09-20,email_platform,email
+CM-50536,CMP-133,L-5266,Converted,True,2026-09-27,linkedin,paid_social
+CM-50537,CMP-110,L-5267,Referred,True,2026-03-09,partner,referral
+CM-50538,CMP-107,L-5268,Converted,True,2026-01-14,linkedin,paid_social
+CM-50539,CMP-132,L-5269,Converted,True,2026-07-19,linkedin,paid_social
+CM-50541,CMP-131,L-5269,Downloaded,True,2026-07-23,linkedin,organic
+CM-50540,CMP-133,L-5269,Converted,True,2026-09-01,linkedin,paid_social
+CM-50542,CMP-133,L-5269,Converted,True,2026-09-30,linkedin,paid_social
+CM-50543,CMP-116,L-5270,Watched On-Demand,True,2026-06-20,webinar_platform,webinar
+CM-50544,CMP-117,L-5271,Downloaded,True,2026-05-07,linkedin,organic
+CM-50545,CMP-134,L-5271,Sent,False,2026-08-28,email_platform,email
+CM-50546,CMP-104,L-5272,Downloaded,True,2026-02-25,LinkedIn,organic
+CM-50547,CMP-119,L-5272,Converted,True,2026-04-10,linkedin,paid_social
+CM-50548,CMP-111,L-5273,Chat Engaged,True,2026-03-31,google,cpc
+CM-50549,CMP-121,L-5273,Replied,True,2026-06-19,email_platform,email
+CM-50550,CMP-106,L-5274,Converted,True,2026-02-09,linkedin,paid_social
+CM-50551,CMP-125,L-5275,Demo Requested,True,2026-06-22,google,cpc
+CM-50552,CMP-109,L-5276,Meeting Booked,True,2026-01-20,email_platform,email
+CM-50553,CMP-133,L-5276,Clicked,False,2026-07-19,linkedin,paid_social
+CM-50554,CMP-132,L-5276,Converted,True,2026-07-19,linkedin,paid_social
+CM-50555,CMP-118,L-5277,Downloaded,True,2026-04-28,linkedin,organic
+CM-50556,CMP-131,L-5277,Downloaded,True,2026-07-19,linkedin,organic
+CM-50557,CMP-102,L-5278,Attended,True,2026-02-07,webinar_platform,webinar
+CM-50558,CMP-118,L-5278,Downloaded,True,2026-05-08,linkedin,organic
+CM-50559,CMP-137,L-5279,Demo Requested,True,2026-08-11,google,cpc
+CM-50560,CMP-128,L-5279,Attended,True,2026-09-25,webinar_platform,webinar
+CM-50561,CMP-125,L-5280,Chat Engaged,True,2026-06-15,google,cpc
+CM-50562,CMP-108,L-5281,Replied,True,2026-01-19,email_platform,email
+CM-50563,CMP-137,L-5282,Chat Engaged,True,2026-08-17,google,cpc
+CM-50564,CMP-134,L-5282,Meeting Booked,True,2026-09-01,Email-Platform,email
+CM-50565,CMP-133,L-5282,Converted,True,2026-09-05,linkedin,paid_social
+CM-50566,CMP-134,L-5283,Meeting Booked,True,2026-07-19,email_platform,email
+CM-50567,CMP-124,L-5284,Chat Engaged,True,2026-06-27,google,cpc
+CM-50568,CMP-116,L-5285,Attended,True,2026-05-09,webinar_platform,webinar
+CM-50569,CMP-133,L-5285,Converted,True,2026-09-16,linkedin,paid_social
+CM-50570,CMP-112,L-5286,Chat Engaged,True,2026-03-20,google,cpc
+CM-50571,CMP-109,L-5286,Replied,True,2026-03-31,email_platform,email
+CM-50572,CMP-127,L-5287,Met at Booth,True,2026-09-01,events,event
+CM-50573,CMP-134,L-5287,Sent,False,2026-09-14,email_platform,email
+CM-50574,CMP-121,L-5288,Meeting Booked,True,2026-05-02,email_platform,email
+CM-50575,CMP-129,L-5288,Attended,True,2026-07-21,webinar_platform,webinar
+CM-50576,CMP-130,L-5289,Downloaded,True,2026-08-18,linkedin,organic
+CM-50578,CMP-134,L-5289,Replied,True,2026-09-22,email_platform,email
+CM-50577,CMP-129,L-5289,Watched On-Demand,True,2026-09-28,webinar_platform,webinar
+CM-50579,CMP-100,L-5290,Met at Booth,True,2026-03-02,events,event
+CM-50580,CMP-132,L-5290,Converted,True,2026-07-20,linkedin,paid_social
+CM-50581,CMP-130,L-5291,Downloaded,True,2026-08-12,linkedin,organic
+CM-50582,CMP-134,L-5291,Sent,False,2026-09-17,email_platform,email
+CM-50584,CMP-130,L-5291,Downloaded,True,2026-09-27,linkedin,organic
+CM-50583,CMP-130,L-5291,Downloaded,True,2026-09-28,linkedin,organic
+CM-50585,CMP-103,L-5292,Watched On-Demand,True,2026-02-07,webinar_platform,webinar
+CM-50587,CMP-114,L-5292,Attended,True,2026-04-26,events,event
+CM-50586,CMP-115,L-5292,Registered,False,2026-04-30,webinar_platform,webinar
+CM-50588,CMP-104,L-5293,Downloaded,True,2026-01-23,linkedin,organic
+CM-50589,CMP-108,L-5294,Replied,True,2026-01-26,email_platform,email
+CM-50590,CMP-100,L-5295,Met at Booth,True,2026-02-12,events,event
+CM-50592,CMP-101,L-5295,Attended,True,2026-02-28,events,event
+CM-50591,CMP-129,L-5295,No Show,False,2026-08-11,webinar_platform,webinar
+CM-50593,CMP-124,L-5296,Demo Requested,True,2026-05-18,google.com,cpc
+CM-50595,CMP-113,L-5296,Met at Booth,True,2026-05-21,events,event
+CM-50596,CMP-121,L-5296,Meeting Booked,True,2026-06-07,email_platform,email
+CM-50594,CMP-135,L-5296,Replied,True,2026-08-22,email_platform,email
+CM-50597,CMP-136,L-5297,Referred,True,2026-09-26,partner,referral
+CM-50598,CMP-132,L-5297,Converted,True,2026-09-27,linkedin,paid_social
+CM-50599,CMP-131,L-5297,Downloaded,True,2026-09-27,linkedin,organic
+CM-50600,CMP-127,L-5298,Attended,True,2026-09-17,events,event
+CM-50601,CMP-134,L-5299,Replied,True,2026-07-24,email_platform,email
+CM-50602,CMP-134,L-5299,Meeting Booked,True,2026-08-03,email_platform,email
+CM-50603,CMP-125,L-5300,Demo Requested,True,2026-04-05,google,cpc
+CM-50604,CMP-121,L-5300,Meeting Booked,True,2026-04-06,email_platform,email
+CM-50605,CMP-138,L-5301,Chat Engaged,True,2026-09-06,google,cpc
+CM-50606,CMP-137,L-5302,Demo Requested,True,2026-08-21,google,cpc
+CM-50608,CMP-131,L-5302,Downloaded,True,2026-08-28,linkedin,organic
+CM-50607,CMP-128,L-5302,Watched On-Demand,True,2026-09-14,webinar_platform,webinar
+CM-50609,CMP-121,L-5303,Replied,True,2026-04-04,email_platform,email
+CM-50610,CMP-135,L-5303,Sent,False,2026-07-06,email_platform,email
+CM-50611,CMP-131,L-5303,Downloaded,True,2026-08-29,linkedin,organic
+CM-50612,CMP-124,L-5304,Chat Engaged,True,2026-06-03,google,cpc
+CM-50613,CMP-112,L-5305,Chat Engaged,True,2026-01-18,google,cpc
+CM-50614,CMP-129,L-5305,Attended,True,2026-08-26,webinar_platform,webinar
+CM-50615,CMP-133,L-5306,Converted,True,2026-09-03,linkedin,paid_social
+CM-50616,CMP-128,L-5306,Attended,True,2026-09-09,webinar_platform,webinar
+CM-50617,CMP-110,L-5307,Referred,True,2026-01-29,partner,referral
+CM-50618,CMP-100,L-5307,Registered,False,2026-02-15,events,event
+CM-50619,CMP-138,L-5308,Chat Engaged,True,2026-08-08,google,cpc
+CM-50620,CMP-133,L-5308,Converted,True,2026-08-24,linkedin,paid_social
+CM-50621,CMP-117,L-5309,Downloaded,True,2026-05-03,linkedin,organic
+CM-50622,CMP-121,L-5310,Meeting Booked,True,2026-06-08,email_platform,email
+CM-50623,CMP-136,L-5311,Referred,True,2026-07-19,partner,referral
+CM-50624,CMP-130,L-5312,Downloaded,True,2026-07-16,linkedin,organic
+CM-50625,CMP-133,L-5312,Clicked,False,2026-08-18,linkedin,paid_social
+CM-50626,CMP-104,L-5313,Downloaded,True,2026-02-01,linkedin,organic
+CM-50627,CMP-134,L-5314,Replied,True,2026-08-11,email_platform,email
+CM-50628,CMP-134,L-5315,Meeting Booked,True,2026-07-27,email_platform,email
+CM-50629,CMP-126,L-5315,No Show,False,2026-09-13,events,event
+CM-50630,CMP-123,L-5316,Referred,True,2026-06-07,partner,referral
+CM-50631,CMP-125,L-5317,Chat Engaged,True,2026-04-12,google,cpc
+CM-50632,CMP-122,L-5317,Replied,True,2026-05-23,email_platform,email
+CM-50633,CMP-129,L-5317,Watched On-Demand,True,2026-07-15,webinar_platform,webinar
+CM-50634,CMP-127,L-5317,Met at Booth,True,2026-07-22,events,event
+CM-50635,CMP-113,L-5318,Attended,True,2026-05-15,events,event
+CM-50636,CMP-113,L-5318,Attended,True,2026-06-23,events,event
+CM-50637,CMP-128,L-5319,Watched On-Demand,True,2026-08-26,webinar_platform,webinar
+CM-50638,CMP-109,L-5320,Replied,True,2026-03-30,email_platform,email
+CM-50639,CMP-106,L-5321,Converted,True,2026-03-19,linkedin,paid_social
+CM-50640,CMP-104,L-5322,Downloaded,True,2026-03-14,linkedin,organic
+CM-50641,CMP-107,L-5323,Converted,True,2026-02-14,linkedin,paid_social
+CM-50643,CMP-108,L-5323,Sent,False,2026-03-14,email_platform,email
+CM-50642,CMP-116,L-5323,Watched On-Demand,True,2026-04-28,webinar_platform,webinar
+CM-50644,CMP-130,L-5323,Downloaded,True,2026-09-05,linkedin,organic
+CM-50645,CMP-112,L-5324,Chat Engaged,True,2026-01-26,google,cpc
+CM-50646,CMP-113,L-5325,Met at Booth,True,2026-06-29,events,event
+CM-50648,CMP-134,L-5325,Meeting Booked,True,2026-07-05,email_platform,email
+CM-50649,CMP-135,L-5325,Sent,False,2026-09-08,email_platform,email
+CM-50647,CMP-131,L-5325,Downloaded,True,2026-09-17,linkedin,organic
+CM-50650,CMP-114,L-5326,Met at Booth,True,2026-05-12,events,event
+CM-50651,CMP-126,L-5326,Attended,True,2026-07-09,events,event
+CM-50652,CMP-127,L-5326,No Show,False,2026-07-14,events,event
+CM-50653,CMP-128,L-5326,Attended,True,2026-08-15,webinar_platform,webinar
+CM-50654,CMP-101,L-5327,Met at Booth,True,2026-02-15,events,event
+CM-50657,CMP-107,L-5327,Converted,True,2026-02-27,linkedin,paid_social
+CM-50655,CMP-119,L-5327,Converted,True,2026-06-01,linkedin,paid_social
+CM-50656,CMP-132,L-5327,Clicked,False,2026-07-09,linkedin,paid_social
+CM-50658,CMP-117,L-5328,Downloaded,True,2026-05-08,linkedin,organic
+CM-50659,CMP-121,L-5328,Meeting Booked,True,2026-06-14,email_platform,email
+CM-50660,CMP-110,L-5329,Referred,True,2026-03-15,partner,referral
+CM-50663,CMP-115,L-5329,Watched On-Demand,True,2026-04-04,webinar_platform,webinar
+CM-50661,CMP-114,L-5329,Met at Booth,True,2026-05-29,events_,event
+CM-50662,CMP-135,L-5329,Replied,True,2026-08-26,email_platform,email
+CM-50664,CMP-131,L-5330,Downloaded,True,2026-08-16,LinkedIn,organic
+CM-50665,CMP-132,L-5330,Converted,True,2026-09-08,linkedin,paid_social
+CM-50666,CMP-137,L-5331,Demo Requested,True,2026-07-18,google,cpc
+CM-50667,CMP-137,L-5332,Demo Requested,True,2026-07-26,google,cpc
+CM-50668,CMP-122,L-5333,Meeting Booked,True,2026-05-25,email_platform,email
+CM-50671,CMP-128,L-5333,No Show,False,2026-07-02,webinar_platform,webinar
+CM-50670,CMP-135,L-5333,Sent,False,2026-07-05,email_platform,email
+CM-50669,CMP-129,L-5333,Watched On-Demand,True,2026-09-19,webinar_platform,webinar
+CM-50672,CMP-132,L-5334,Converted,True,2026-07-24,linkedin,paid_social
+CM-50673,CMP-135,L-5334,Meeting Booked,True,2026-08-04,email_platform,email
+CM-50674,CMP-102,L-5335,Watched On-Demand,True,2026-03-29,webinar_platform,webinar
+CM-50675,CMP-124,L-5336,Demo Requested,True,2026-04-06,google,cpc
+CM-50676,CMP-134,L-5336,Replied,True,2026-09-24,email_platform,email
+CM-50677,CMP-121,L-5337,Meeting Booked,True,2026-04-03,email_platform,email
+CM-50678,CMP-130,L-5337,Downloaded,True,2026-08-22,LinkedIn,organic
+CM-50679,CMP-124,L-5338,Chat Engaged,True,2026-05-25,google,cpc
+CM-50680,CMP-131,L-5338,Downloaded,True,2026-09-15,linkedin,organic
+CM-50681,CMP-138,L-5339,Demo Requested,True,2026-09-12,google,cpc
+CM-50682,CMP-129,L-5339,No Show,False,2026-09-15,webinar_platform,webinar
+CM-50683,CMP-135,L-5339,Meeting Booked,True,2026-09-22,Email-Platform,email
+CM-50684,CMP-127,L-5339,Registered,False,2026-09-24,events,event
+CM-50685,CMP-125,L-5340,Chat Engaged,True,2026-06-14,google,cpc
+CM-50686,CMP-131,L-5340,Downloaded,True,2026-08-08,linkedin,organic
+CM-50687,CMP-110,L-5341,Referred,True,2026-01-28,partner,referral
+CM-50688,CMP-110,L-5342,Referred,True,2026-03-14,partner,referral
+CM-50689,CMP-113,L-5343,Met at Booth,True,2026-04-13,events,event
+CM-50690,CMP-137,L-5344,Demo Requested,True,2026-08-01,google,cpc
+CM-50691,CMP-102,L-5345,Watched On-Demand,True,2026-03-09,webinar_platform_,webinar
+CM-50692,CMP-113,L-5345,Met at Booth,True,2026-04-01,events,event
+CM-50693,CMP-134,L-5346,Meeting Booked,True,2026-07-30,email_platform,email
+CM-50696,CMP-132,L-5346,Converted,True,2026-09-06,linkedin,paid_social
+CM-50695,CMP-130,L-5346,Downloaded,True,2026-09-20,linkedin,organic
+CM-50694,CMP-128,L-5346,No Show,False,2026-09-29,webinar_platform,webinar
+CM-50697,CMP-132,L-5347,Converted,True,2026-09-19,linkedin,paid_social
+CM-50700,CMP-133,L-5347,Converted,True,2026-09-20,linkedin,paid_social
+CM-50699,CMP-127,L-5347,Met at Booth,True,2026-09-23,events,event
+CM-50698,CMP-126,L-5347,Met at Booth,True,2026-09-26,events,event
+CM-50701,CMP-103,L-5348,Watched On-Demand,True,2026-02-21,webinar_platform_,webinar
+CM-50702,CMP-122,L-5348,Replied,True,2026-05-18,email_platform,email
+CM-50703,CMP-117,L-5349,Downloaded,True,2026-06-30,linkedin,organic
+CM-50704,CMP-106,L-5350,Converted,True,2026-03-06,LinkedIn,paid_social
+CM-50705,CMP-103,L-5350,Attended,True,2026-03-12,webinar_platform_,webinar
+CM-50706,CMP-137,L-5351,Chat Engaged,True,2026-09-11,google,cpc
+CM-50707,CMP-129,L-5351,Watched On-Demand,True,2026-09-27,webinar_platform,webinar
+CM-50708,CMP-110,L-5352,Referred,True,2026-02-17,partner,referral
+CM-50709,CMP-134,L-5352,Sent,False,2026-07-16,email_platform,email
+CM-50710,CMP-134,L-5353,Meeting Booked,True,2026-07-05,Email-Platform,email
+CM-50711,CMP-132,L-5353,Clicked,False,2026-09-16,linkedin,paid_social
+CM-50712,CMP-109,L-5354,Meeting Booked,True,2026-03-06,Email-Platform,email
+CM-50713,CMP-138,L-5355,Chat Engaged,True,2026-08-12,google,cpc
+CM-50714,CMP-128,L-5355,Watched On-Demand,True,2026-09-11,webinar_platform,webinar
+CM-50715,CMP-121,L-5356,Replied,True,2026-05-11,email_platform,email
+CM-50716,CMP-129,L-5356,Attended,True,2026-09-07,webinar_platform,webinar
+CM-50717,CMP-118,L-5357,Downloaded,True,2026-05-25,linkedin,organic
+CM-50718,CMP-122,L-5357,Sent,False,2026-06-29,email_platform,email
+CM-50719,CMP-130,L-5358,Downloaded,True,2026-08-07,linkedin,organic
+CM-50720,CMP-133,L-5358,Converted,True,2026-09-22,linkedin,paid_social
+CM-50721,CMP-119,L-5359,Converted,True,2026-06-25,linkedin,paid_social
+CM-50722,CMP-102,L-5360,Attended,True,2026-02-28,webinar_platform,webinar
+CM-50723,CMP-126,L-5361,Met at Booth,True,2026-07-01,events,event
+CM-50726,CMP-129,L-5361,No Show,False,2026-07-05,webinar_platform,webinar
+CM-50725,CMP-130,L-5361,Downloaded,True,2026-07-12,linkedin,organic
+CM-50724,CMP-131,L-5361,Downloaded,True,2026-07-17,linkedin,organic
+CM-50727,CMP-137,L-5362,Demo Requested,True,2026-09-24,google.com,cpc
+CM-50728,CMP-118,L-5363,Downloaded,True,2026-06-09,linkedin,organic
+CM-50730,CMP-114,L-5363,Attended,True,2026-06-18,events,event
+CM-50731,CMP-134,L-5363,Meeting Booked,True,2026-08-05,email_platform,email
+CM-50729,CMP-131,L-5363,Downloaded,True,2026-08-06,linkedin,organic
+CM-50732,CMP-111,L-5364,Demo Requested,True,2026-03-05,google,cpc
+CM-50733,CMP-134,L-5364,Replied,True,2026-08-30,email_platform,email
+CM-50734,CMP-119,L-5365,Converted,True,2026-04-05,linkedin,paid_social
+CM-50735,CMP-129,L-5365,Attended,True,2026-07-01,webinar_platform,webinar
+CM-50736,CMP-128,L-5366,Watched On-Demand,True,2026-08-28,webinar_platform,webinar
+CM-50738,CMP-132,L-5366,Converted,True,2026-09-21,linkedin,paid_social
+CM-50737,CMP-126,L-5366,Attended,True,2026-09-27,events,event
+CM-50739,CMP-138,L-5367,Demo Requested,True,2026-07-30,google,cpc
+CM-50741,CMP-135,L-5367,Replied,True,2026-08-03,email_platform,email
+CM-50740,CMP-127,L-5367,Met at Booth,True,2026-08-13,events,event
+CM-50742,CMP-111,L-5368,Chat Engaged,True,2026-01-11,google,cpc
+CM-50743,CMP-109,L-5368,Replied,True,2026-01-14,email_platform,email
+CM-50744,CMP-105,L-5368,Downloaded,True,2026-02-02,linkedin,organic
+CM-50745,CMP-125,L-5369,Chat Engaged,True,2026-04-29,google,cpc
+CM-50746,CMP-135,L-5369,Meeting Booked,True,2026-07-07,email_platform,email
+CM-50747,CMP-131,L-5369,Downloaded,True,2026-09-29,linkedin,organic
+CM-50748,CMP-113,L-5370,Attended,True,2026-05-29,events,event
+CM-50751,CMP-116,L-5370,Attended,True,2026-05-31,webinar_platform,webinar
+CM-50750,CMP-122,L-5370,Meeting Booked,True,2026-06-04,email_platform,email
+CM-50749,CMP-117,L-5370,Downloaded,True,2026-06-08,linkedin,organic
+CM-50752,CMP-114,L-5371,Met at Booth,True,2026-05-31,events,event
+CM-50753,CMP-131,L-5371,Downloaded,True,2026-08-11,linkedin,organic
+CM-50754,CMP-129,L-5371,Attended,True,2026-08-14,webinar_platform,webinar
+CM-50755,CMP-134,L-5371,Sent,False,2026-09-01,email_platform,email
+CM-50756,CMP-101,L-5372,Met at Booth,True,2026-02-20,events,event
+CM-50757,CMP-115,L-5372,Registered,False,2026-04-30,webinar_platform,webinar
+CM-50758,CMP-124,L-5373,Chat Engaged,True,2026-04-27,google,cpc
+CM-50760,CMP-132,L-5373,Converted,True,2026-07-12,linkedin,paid_social
+CM-50759,CMP-131,L-5373,Downloaded,True,2026-09-23,linkedin,organic
+CM-50761,CMP-117,L-5374,Downloaded,True,2026-04-22,linkedin,organic
+CM-50763,CMP-135,L-5374,Sent,False,2026-07-17,email_platform,email
+CM-50762,CMP-126,L-5374,Attended,True,2026-09-20,events,event
+CM-50764,CMP-111,L-5375,Demo Requested,True,2026-02-28,google.com,cpc
+CM-50765,CMP-114,L-5375,Met at Booth,True,2026-04-10,events,event
+CM-50766,CMP-122,L-5375,Replied,True,2026-04-18,email_platform,email
+CM-50767,CMP-121,L-5376,Replied,True,2026-06-07,email_platform,email
+CM-50768,CMP-136,L-5377,Referred,True,2026-08-25,partner,referral
+CM-50769,CMP-128,L-5377,Attended,True,2026-09-26,webinar_platform,webinar
+CM-50770,CMP-108,L-5378,Replied,True,2026-02-13,email_platform,email
+CM-50771,CMP-106,L-5378,Clicked,False,2026-02-14,linkedin,paid_social
+CM-50772,CMP-105,L-5379,Downloaded,True,2026-01-19,linkedin,organic
+CM-50773,CMP-107,L-5379,Converted,True,2026-02-13,linkedin,paid_social
+CM-50774,CMP-125,L-5380,Chat Engaged,True,2026-06-15,google,cpc
+CM-50775,CMP-138,L-5381,Chat Engaged,True,2026-09-06,google.com,cpc
+CM-50776,CMP-131,L-5381,Downloaded,True,2026-09-24,linkedin,organic
+CM-50777,CMP-136,L-5382,Referred,True,2026-09-26,partner,referral
+CM-50778,CMP-111,L-5383,Chat Engaged,True,2026-02-23,google,cpc
+CM-50779,CMP-128,L-5384,Attended,True,2026-08-19,webinar_platform,webinar
+CM-50781,CMP-128,L-5384,Attended,True,2026-09-02,webinar_platform,webinar
+CM-50780,CMP-130,L-5384,Downloaded,True,2026-09-13,linkedin,organic
+CM-50782,CMP-123,L-5385,Referred,True,2026-05-10,partner,referral
+CM-50783,CMP-119,L-5385,Converted,True,2026-06-15,linkedin,paid_social
+CM-50784,CMP-134,L-5386,Meeting Booked,True,2026-08-31,email_platform,email
+CM-50785,CMP-128,L-5386,Watched On-Demand,True,2026-09-17,webinar_platform,webinar
+CM-50786,CMP-137,L-5387,Chat Engaged,True,2026-09-05,google,cpc
+CM-50787,CMP-133,L-5387,Converted,True,2026-09-12,linkedin,paid_social
+CM-50788,CMP-126,L-5387,Met at Booth,True,2026-09-21,events,event
+CM-50789,CMP-135,L-5388,Replied,True,2026-08-13,email_platform,email
+CM-50790,CMP-132,L-5388,Clicked,False,2026-08-31,linkedin,paid_social
+CM-50792,CMP-130,L-5388,Downloaded,True,2026-09-13,linkedin,organic
+CM-50791,CMP-129,L-5388,Attended,True,2026-09-17,webinar_platform,webinar
+CM-50793,CMP-124,L-5389,Demo Requested,True,2026-04-09,google,cpc
+CM-50794,CMP-113,L-5389,Attended,True,2026-05-17,events,event
+CM-50795,CMP-100,L-5390,Attended,True,2026-03-20,events,event
+CM-50796,CMP-137,L-5391,Chat Engaged,True,2026-08-23,google,cpc
+CM-50797,CMP-107,L-5392,Converted,True,2026-01-13,LinkedIn,paid_social
+CM-50798,CMP-121,L-5393,Replied,True,2026-05-30,email_platform,email
+CM-50799,CMP-117,L-5394,Downloaded,True,2026-04-23,linkedin,organic
+CM-50800,CMP-131,L-5394,Downloaded,True,2026-09-02,linkedin,organic
+CM-50801,CMP-130,L-5395,Downloaded,True,2026-08-05,linkedin,organic
+CM-50802,CMP-131,L-5396,Downloaded,True,2026-08-13,linkedin,organic
+CM-50803,CMP-123,L-5397,Referred,True,2026-05-18,partner,referral
+CM-50804,CMP-121,L-5398,Meeting Booked,True,2026-05-10,email_platform,email
+CM-50805,CMP-119,L-5398,Converted,True,2026-05-17,linkedin,paid_social
+CM-50806,CMP-137,L-5399,Demo Requested,True,2026-09-13,google,cpc
+CM-50807,CMP-124,L-5400,Chat Engaged,True,2026-04-06,google,cpc
+CM-50808,CMP-117,L-5400,Downloaded,True,2026-04-07,linkedin,organic
+CM-50809,CMP-136,L-5401,Referred,True,2026-09-27,partner,referral
+CM-50810,CMP-130,L-5401,Downloaded,True,2026-09-28,linkedin,organic
+CM-50811,CMP-135,L-5402,Replied,True,2026-09-15,email_platform,email
+CM-50812,CMP-134,L-5402,Meeting Booked,True,2026-09-24,email_platform,email
+CM-50813,CMP-121,L-5403,Meeting Booked,True,2026-04-20,Email-Platform,email
+CM-50814,CMP-126,L-5403,Registered,False,2026-08-15,events,event
+CM-50815,CMP-129,L-5404,Attended,True,2026-08-23,webinar_platform_,webinar
+CM-50816,CMP-134,L-5404,Meeting Booked,True,2026-09-04,email_platform,email
+CM-50817,CMP-100,L-5405,Met at Booth,True,2026-01-10,events,event
+CM-50818,CMP-119,L-5405,Converted,True,2026-05-01,linkedin,paid_social
+CM-50819,CMP-108,L-5406,Meeting Booked,True,2026-02-12,email_platform,email
+CM-50820,CMP-121,L-5406,Replied,True,2026-06-19,email_platform,email
+CM-50821,CMP-122,L-5406,Meeting Booked,True,2026-06-19,email_platform,email
+CM-50822,CMP-130,L-5407,Downloaded,True,2026-07-20,linkedin,organic
+CM-50823,CMP-127,L-5407,Met at Booth,True,2026-08-19,events,event
+CM-50824,CMP-132,L-5407,Clicked,False,2026-09-30,linkedin,paid_social
+CM-50825,CMP-109,L-5408,Replied,True,2026-02-22,email_platform,email
+CM-50826,CMP-117,L-5408,Downloaded,True,2026-05-10,linkedin,organic
+CM-50827,CMP-111,L-5409,Demo Requested,True,2026-02-26,google,cpc
+CM-50828,CMP-112,L-5410,Demo Requested,True,2026-03-02,google,cpc
+CM-50829,CMP-131,L-5410,Downloaded,True,2026-07-21,linkedin,organic
+CM-50830,CMP-135,L-5411,Meeting Booked,True,2026-09-06,email_platform,email
+CM-50831,CMP-135,L-5411,Sent,False,2026-09-10,email_platform,email
+CM-50832,CMP-127,L-5411,Met at Booth,True,2026-09-26,events,event
+CM-50833,CMP-104,L-5412,Downloaded,True,2026-01-11,linkedin,organic
+CM-50834,CMP-137,L-5413,Chat Engaged,True,2026-09-20,google,cpc
+CM-50835,CMP-133,L-5413,Converted,True,2026-09-27,linkedin,paid_social
+CM-50836,CMP-111,L-5414,Demo Requested,True,2026-02-28,google,cpc
+CM-50837,CMP-133,L-5414,Converted,True,2026-08-29,linkedin,paid_social
+CM-50838,CMP-133,L-5415,Converted,True,2026-08-18,linkedin,paid_social
+CM-50841,CMP-132,L-5415,Converted,True,2026-08-22,linkedin,paid_social
+CM-50840,CMP-130,L-5415,Downloaded,True,2026-08-28,LinkedIn,organic
+CM-50839,CMP-127,L-5415,Met at Booth,True,2026-09-13,events,event
+CM-50842,CMP-105,L-5416,Downloaded,True,2026-03-02,linkedin,organic
+CM-50843,CMP-132,L-5417,Converted,True,2026-07-01,linkedin,paid_social
+CM-50844,CMP-130,L-5417,Downloaded,True,2026-09-18,linkedin,organic
+CM-50845,CMP-112,L-5418,Chat Engaged,True,2026-03-18,google,cpc
+CM-50846,CMP-126,L-5418,Met at Booth,True,2026-07-06,events,event
+CM-50847,CMP-118,L-5419,Downloaded,True,2026-06-02,linkedin,organic
+CM-50848,CMP-134,L-5420,Replied,True,2026-09-27,email_platform,email
+CM-50849,CMP-128,L-5420,Watched On-Demand,True,2026-09-30,webinar_platform,webinar
+CM-50850,CMP-126,L-5421,Met at Booth,True,2026-08-13,events,event
+CM-50851,CMP-134,L-5421,Replied,True,2026-08-26,email_platform,email
+CM-50852,CMP-134,L-5422,Replied,True,2026-07-24,Email-Platform,email
+CM-50853,CMP-107,L-5423,Converted,True,2026-03-29,linkedin,paid_social
+CM-50854,CMP-134,L-5423,Replied,True,2026-08-18,email_platform,email
+CM-50855,CMP-107,L-5424,Converted,True,2026-01-30,LinkedIn,paid_social
+CM-50857,CMP-119,L-5424,Clicked,False,2026-04-05,linkedin,paid_social
+CM-50856,CMP-130,L-5424,Downloaded,True,2026-09-07,linkedin,organic
+CM-50858,CMP-107,L-5425,Converted,True,2026-02-15,linkedin,paid_social
+CM-50859,CMP-119,L-5425,Converted,True,2026-05-29,linkedin,paid_social
+CM-50860,CMP-105,L-5426,Downloaded,True,2026-03-17,linkedin,organic
+CM-50861,CMP-118,L-5426,Downloaded,True,2026-06-26,linkedin,organic
+CM-50862,CMP-126,L-5427,Met at Booth,True,2026-08-19,events,event
+CM-50863,CMP-110,L-5428,Referred,True,2026-03-11,partner,referral
+CM-50864,CMP-122,L-5428,Meeting Booked,True,2026-06-30,email_platform,email
+CM-50865,CMP-100,L-5429,Met at Booth,True,2026-02-28,events,event
+CM-50866,CMP-107,L-5430,Converted,True,2026-03-25,linkedin,paid_social
+CM-50867,CMP-117,L-5430,Downloaded,True,2026-06-24,linkedin,organic
+CM-50868,CMP-137,L-5431,Chat Engaged,True,2026-07-24,google,cpc
+CM-50869,CMP-123,L-5432,Referred,True,2026-04-02,partners,referral
+CM-50871,CMP-121,L-5432,Replied,True,2026-04-07,email_platform,email
+CM-50870,CMP-113,L-5432,Attended,True,2026-04-20,events,event
+CM-50872,CMP-121,L-5433,Meeting Booked,True,2026-05-30,email_platform,email
+CM-50873,CMP-127,L-5433,Met at Booth,True,2026-07-28,events,event
+CM-50874,CMP-113,L-5434,Attended,True,2026-04-22,events,event
+CM-50875,CMP-123,L-5435,Referred,True,2026-04-07,partner,referral
+CM-50876,CMP-125,L-5436,Chat Engaged,True,2026-05-06,google,cpc
+CM-50877,CMP-109,L-5437,Replied,True,2026-03-01,email_platform,email
+CM-50878,CMP-125,L-5438,Chat Engaged,True,2026-04-19,google,cpc
+CM-50879,CMP-122,L-5438,Meeting Booked,True,2026-04-25,email_platform,email
+CM-50880,CMP-127,L-5439,Met at Booth,True,2026-09-18,events,event
+CM-50881,CMP-108,L-5440,Meeting Booked,True,2026-03-06,email_platform,email
+CM-50882,CMP-123,L-5441,Referred,True,2026-05-08,partner,referral
+CM-50883,CMP-116,L-5441,Attended,True,2026-05-28,webinar_platform,webinar
+CM-50884,CMP-132,L-5441,Clicked,False,2026-07-24,linkedin,paid_social
+CM-50885,CMP-104,L-5442,Downloaded,True,2026-02-05,linkedin,organic
+CM-50887,CMP-135,L-5442,Meeting Booked,True,2026-07-10,email_platform,email
+CM-50886,CMP-131,L-5442,Downloaded,True,2026-07-25,linkedin,organic
+CM-50888,CMP-108,L-5443,Meeting Booked,True,2026-01-23,email_platform,email
+CM-50889,CMP-110,L-5444,Referred,True,2026-01-14,partners,referral
+CM-50891,CMP-120,L-5444,Converted,True,2026-05-31,linkedin,paid_social
+CM-50892,CMP-131,L-5444,Downloaded,True,2026-08-17,LinkedIn,organic
+CM-50890,CMP-130,L-5444,Downloaded,True,2026-09-11,linkedin,organic
+CM-50893,CMP-112,L-5445,Chat Engaged,True,2026-02-21,google,cpc
+CM-50894,CMP-138,L-5446,Chat Engaged,True,2026-09-07,google,cpc
+CM-50896,CMP-131,L-5446,Downloaded,True,2026-09-11,linkedin,organic
+CM-50895,CMP-130,L-5446,Downloaded,True,2026-09-19,linkedin,organic
+CM-50897,CMP-123,L-5447,Referred,True,2026-06-17,partner,referral
+CM-50898,CMP-100,L-5448,Met at Booth,True,2026-03-08,events,event
+CM-50899,CMP-131,L-5448,Downloaded,True,2026-09-07,linkedin,organic
+CM-50900,CMP-135,L-5449,Meeting Booked,True,2026-07-20,email_platform,email
+CM-50902,CMP-135,L-5449,Meeting Booked,True,2026-09-10,email_platform,email
+CM-50901,CMP-131,L-5449,Downloaded,True,2026-09-11,linkedin,organic
+CM-50903,CMP-129,L-5449,Attended,True,2026-09-13,webinar_platform,webinar
+CM-50904,CMP-124,L-5450,Chat Engaged,True,2026-04-25,google,cpc
+CM-50905,CMP-135,L-5450,Meeting Booked,True,2026-08-09,email_platform,email
+CM-50906,CMP-133,L-5451,Converted,True,2026-09-27,linkedin,paid_social
+CM-50907,CMP-123,L-5452,Referred,True,2026-05-12,partner,referral
+CM-50908,CMP-121,L-5452,Meeting Booked,True,2026-06-05,email_platform,email
+CM-50909,CMP-114,L-5452,Met at Booth,True,2026-06-28,events_,event
+CM-50910,CMP-121,L-5453,Replied,True,2026-04-06,email_platform,email
+CM-50911,CMP-131,L-5453,Downloaded,True,2026-08-21,linkedin,organic
+CM-50912,CMP-125,L-5454,Chat Engaged,True,2026-06-14,google,cpc
+CM-50913,CMP-113,L-5454,Registered,False,2026-06-19,events,event
+CM-50914,CMP-134,L-5455,Replied,True,2026-09-21,email_platform,email
+CM-50916,CMP-127,L-5455,Registered,False,2026-09-24,events_,event
+CM-50915,CMP-126,L-5455,Attended,True,2026-09-26,events,event
+CM-50917,CMP-110,L-5456,Referred,True,2026-02-13,partner,referral
+CM-50918,CMP-114,L-5457,Met at Booth,True,2026-06-21,events,event
+CM-50919,CMP-128,L-5457,Watched On-Demand,True,2026-08-07,webinar_platform,webinar
+CM-50920,CMP-126,L-5458,Attended,True,2026-09-22,events,event
+CM-50921,CMP-129,L-5458,Attended,True,2026-09-29,webinar_platform,webinar
+CM-50922,CMP-126,L-5458,Attended,True,2026-09-30,events,event
+CM-50923,CMP-136,L-5459,Referred,True,2026-09-03,partner,referral
+CM-50924,CMP-135,L-5459,Meeting Booked,True,2026-09-14,Email-Platform,email
+CM-50925,CMP-131,L-5459,Downloaded,True,2026-09-18,linkedin,organic
+CM-50926,CMP-138,L-5460,Demo Requested,True,2026-09-20,google,cpc
+CM-50927,CMP-114,L-5461,Met at Booth,True,2026-06-28,events,event
+CM-50928,CMP-132,L-5461,Clicked,False,2026-07-21,linkedin,paid_social
+CM-50929,CMP-108,L-5462,Meeting Booked,True,2026-03-07,email_platform,email
+CM-50930,CMP-124,L-5463,Demo Requested,True,2026-06-04,google,cpc
+CM-50931,CMP-132,L-5464,Converted,True,2026-08-16,linkedin,paid_social
+CM-50932,CMP-132,L-5464,Clicked,False,2026-08-27,linkedin,paid_social
+CM-50933,CMP-125,L-5465,Chat Engaged,True,2026-06-28,google,cpc
+CM-50934,CMP-132,L-5466,Converted,True,2026-09-27,linkedin,paid_social
+CM-50935,CMP-129,L-5466,Attended,True,2026-09-29,webinar_platform,webinar
+CM-50936,CMP-120,L-5467,Converted,True,2026-05-03,LinkedIn,paid_social
+CM-50937,CMP-116,L-5467,Attended,True,2026-06-19,webinar_platform,webinar
+CM-50938,CMP-135,L-5468,Meeting Booked,True,2026-08-11,email_platform,email
+CM-50939,CMP-131,L-5468,Downloaded,True,2026-09-25,linkedin,organic
+CM-50940,CMP-100,L-5469,Met at Booth,True,2026-02-12,events,event
+CM-50941,CMP-126,L-5470,Met at Booth,True,2026-09-28,events,event
+CM-50942,CMP-126,L-5470,Met at Booth,True,2026-09-29,events,event
+CM-50943,CMP-129,L-5470,Registered,False,2026-09-30,webinar_platform,webinar
+CM-50944,CMP-122,L-5471,Meeting Booked,True,2026-05-20,email_platform,email
+CM-50945,CMP-131,L-5471,Downloaded,True,2026-09-12,linkedin,organic
+CM-50946,CMP-136,L-5472,Referred,True,2026-09-13,partner,referral
+CM-50947,CMP-135,L-5473,Replied,True,2026-09-12,email_platform,email
+CM-50948,CMP-131,L-5473,Downloaded,True,2026-09-27,linkedin,organic
+CM-50949,CMP-138,L-5474,Demo Requested,True,2026-08-10,google,cpc
+CM-50950,CMP-129,L-5474,Registered,False,2026-08-19,webinar_platform,webinar
+CM-50951,CMP-119,L-5475,Converted,True,2026-06-02,linkedin,paid_social
+CM-50952,CMP-115,L-5475,Watched On-Demand,True,2026-06-30,webinar_platform,webinar
+CM-50953,CMP-131,L-5476,Downloaded,True,2026-09-10,linkedin,organic
+CM-50954,CMP-109,L-5477,Meeting Booked,True,2026-01-15,email_platform,email
+CM-50955,CMP-118,L-5477,Downloaded,True,2026-06-06,linkedin,organic
+CM-50956,CMP-131,L-5478,Downloaded,True,2026-07-26,linkedin,organic
+CM-50957,CMP-132,L-5478,Converted,True,2026-08-30,linkedin,paid_social
+CM-50958,CMP-118,L-5479,Downloaded,True,2026-05-02,linkedin,organic
+CM-50959,CMP-111,L-5480,Demo Requested,True,2026-01-15,google,cpc
+CM-50961,CMP-113,L-5480,Attended,True,2026-05-04,events,event
+CM-50960,CMP-121,L-5480,Meeting Booked,True,2026-06-17,email_platform,email
+CM-50962,CMP-124,L-5481,Chat Engaged,True,2026-04-18,google,cpc
+CM-50963,CMP-128,L-5481,Attended,True,2026-09-27,webinar_platform,webinar
+CM-50964,CMP-135,L-5482,Replied,True,2026-09-16,email_platform,email
+CM-50965,CMP-108,L-5483,Replied,True,2026-03-18,email_platform,email
+CM-50966,CMP-121,L-5483,Meeting Booked,True,2026-05-01,email_platform,email
+CM-50967,CMP-114,L-5484,Attended,True,2026-05-05,events,event
+CM-50968,CMP-123,L-5485,Referred,True,2026-04-02,partner,referral
+CM-50969,CMP-121,L-5485,Meeting Booked,True,2026-06-02,email_platform,email
+CM-50970,CMP-114,L-5486,Attended,True,2026-04-19,events,event
+CM-50971,CMP-116,L-5486,Attended,True,2026-05-09,webinar_platform,webinar
+CM-50972,CMP-126,L-5486,Attended,True,2026-09-25,events_,event
+CM-50973,CMP-129,L-5487,Attended,True,2026-08-06,webinar_platform,webinar
+CM-50974,CMP-134,L-5487,Meeting Booked,True,2026-09-20,email_platform,email
+CM-50975,CMP-100,L-5488,Met at Booth,True,2026-02-08,events,event
+CM-50976,CMP-101,L-5488,Registered,False,2026-03-25,events,event
+CM-50977,CMP-112,L-5489,Demo Requested,True,2026-03-24,google,cpc
+CM-50980,CMP-121,L-5489,Replied,True,2026-05-25,email_platform,email
+CM-50979,CMP-132,L-5489,Converted,True,2026-08-11,linkedin,paid_social
+CM-50978,CMP-126,L-5489,Registered,False,2026-09-04,events,event
+CM-50981,CMP-130,L-5490,Downloaded,True,2026-09-04,linkedin,organic
+CM-50982,CMP-132,L-5490,Converted,True,2026-09-21,linkedin,paid_social
+CM-50983,CMP-134,L-5491,Meeting Booked,True,2026-08-10,email_platform,email
+CM-50984,CMP-115,L-5492,Watched On-Demand,True,2026-04-24,webinar_platform,webinar
+CM-50986,CMP-118,L-5492,Downloaded,True,2026-05-12,linkedin,organic
+CM-50987,CMP-131,L-5492,Downloaded,True,2026-07-15,linkedin,organic
+CM-50985,CMP-129,L-5492,Watched On-Demand,True,2026-09-22,webinar_platform,webinar
+CM-50988,CMP-127,L-5493,Met at Booth,True,2026-07-19,events,event
+CM-50989,CMP-121,L-5494,Meeting Booked,True,2026-05-25,email_platform,email
+CM-50990,CMP-100,L-5495,Met at Booth,True,2026-01-24,events,event
+CM-50991,CMP-110,L-5496,Referred,True,2026-02-23,partner,referral
+CM-50992,CMP-108,L-5496,Meeting Booked,True,2026-02-24,email_platform,email
+CM-50993,CMP-101,L-5496,Met at Booth,True,2026-03-07,events,event
+CM-50994,CMP-119,L-5497,Converted,True,2026-06-13,linkedin,paid_social
+CM-50995,CMP-129,L-5497,Watched On-Demand,True,2026-08-16,webinar_platform,webinar
+CM-50996,CMP-103,L-5498,Watched On-Demand,True,2026-01-15,webinar_platform,webinar
+CM-50997,CMP-129,L-5498,Attended,True,2026-07-03,webinar_platform,webinar
+CM-50998,CMP-133,L-5499,Converted,True,2026-07-18,linkedin,paid_social
+CM-51000,CMP-135,L-5499,Sent,False,2026-08-16,email_platform,email
+CM-50999,CMP-128,L-5499,Watched On-Demand,True,2026-09-17,webinar_platform,webinar
+CM-51001,CMP-126,L-5500,Attended,True,2026-07-10,events,event
+CM-51002,CMP-124,L-5501,Chat Engaged,True,2026-05-18,google,cpc
+CM-51003,CMP-102,L-5502,Attended,True,2026-02-25,webinar_platform,webinar
+CM-51004,CMP-122,L-5503,Meeting Booked,True,2026-06-26,email_platform,email
+CM-51005,CMP-132,L-5503,Clicked,False,2026-08-01,linkedin,paid_social
+CM-51006,CMP-135,L-5503,Replied,True,2026-09-08,email_platform,email
+CM-51007,CMP-103,L-5504,Attended,True,2026-03-17,webinar_platform,webinar
+CM-51008,CMP-106,L-5504,Converted,True,2026-03-20,LinkedIn,paid_social
+CM-51009,CMP-138,L-5505,Demo Requested,True,2026-07-15,google,cpc
+CM-51010,CMP-134,L-5505,Replied,True,2026-07-23,email_platform,email
+CM-51012,CMP-135,L-5505,Replied,True,2026-07-26,email_platform,email
+CM-51011,CMP-128,L-5505,Attended,True,2026-09-12,webinar_platform,webinar
+CM-51013,CMP-115,L-5506,Watched On-Demand,True,2026-06-16,webinar_platform,webinar
+CM-51014,CMP-130,L-5506,Downloaded,True,2026-08-29,linkedin,organic
+CM-51015,CMP-134,L-5506,Meeting Booked,True,2026-09-06,email_platform,email
+CM-51016,CMP-134,L-5506,Sent,False,2026-09-21,email_platform,email
+CM-51017,CMP-117,L-5507,Downloaded,True,2026-04-06,linkedin,organic
+CM-51018,CMP-119,L-5507,Converted,True,2026-04-10,linkedin,paid_social
+CM-51019,CMP-122,L-5507,Replied,True,2026-06-04,email_platform,email
+CM-51020,CMP-130,L-5507,Downloaded,True,2026-07-19,linkedin,organic
+CM-51021,CMP-122,L-5508,Meeting Booked,True,2026-04-07,email_platform,email
+CM-51023,CMP-118,L-5508,Downloaded,True,2026-04-15,linkedin,organic
+CM-51024,CMP-113,L-5508,Met at Booth,True,2026-06-03,events,event
+CM-51022,CMP-132,L-5508,Converted,True,2026-07-02,LinkedIn,paid_social
+CM-51025,CMP-138,L-5509,Chat Engaged,True,2026-08-31,google,cpc
+CM-51026,CMP-129,L-5509,Attended,True,2026-09-09,webinar_platform,webinar
+CM-51027,CMP-107,L-5510,Converted,True,2026-02-01,linkedin,paid_social
+CM-51029,CMP-103,L-5510,Watched On-Demand,True,2026-03-22,webinar_platform,webinar
+CM-51028,CMP-130,L-5510,Downloaded,True,2026-07-25,linkedin,organic
+CM-51030,CMP-102,L-5511,Attended,True,2026-02-14,webinar_platform,webinar
+CM-51032,CMP-108,L-5511,Replied,True,2026-02-18,email_platform,email
+CM-51031,CMP-114,L-5511,Met at Booth,True,2026-04-02,events,event
+CM-51033,CMP-132,L-5511,Converted,True,2026-09-20,linkedin,paid_social
+CM-51034,CMP-100,L-5512,Attended,True,2026-01-30,events,event
+CM-51036,CMP-121,L-5512,Replied,True,2026-05-14,email_platform,email
+CM-51035,CMP-132,L-5512,Clicked,False,2026-08-07,linkedin,paid_social
+CM-51037,CMP-115,L-5513,Attended,True,2026-05-12,webinar_platform,webinar
+CM-51038,CMP-118,L-5513,Downloaded,True,2026-05-22,linkedin,organic
+CM-51039,CMP-112,L-5514,Chat Engaged,True,2026-01-25,google,cpc
+CM-51040,CMP-115,L-5514,Attended,True,2026-05-30,webinar_platform,webinar
+CM-51041,CMP-125,L-5515,Chat Engaged,True,2026-05-16,google,cpc
+CM-51042,CMP-114,L-5515,Met at Booth,True,2026-05-17,events,event
+CM-51043,CMP-129,L-5515,Attended,True,2026-07-31,webinar_platform,webinar
+CM-51044,CMP-116,L-5516,Watched On-Demand,True,2026-05-25,webinar_platform,webinar
+CM-51045,CMP-119,L-5516,Converted,True,2026-06-15,linkedin,paid_social
+CM-51046,CMP-127,L-5516,Met at Booth,True,2026-08-25,events,event
+CM-51047,CMP-101,L-5517,Met at Booth,True,2026-01-14,events,event
+CM-51048,CMP-108,L-5517,Replied,True,2026-02-18,email_platform,email
+CM-51049,CMP-107,L-5517,Converted,True,2026-02-28,linkedin,paid_social
+CM-51050,CMP-103,L-5517,Watched On-Demand,True,2026-03-03,webinar_platform,webinar
+CM-51051,CMP-135,L-5518,Replied,True,2026-07-01,email_platform,email
+CM-51052,CMP-136,L-5519,Referred,True,2026-09-11,partner,referral
+CM-51053,CMP-134,L-5519,Sent,False,2026-09-30,email_platform,email
+CM-51054,CMP-134,L-5520,Meeting Booked,True,2026-07-04,email_platform,email
+CM-51055,CMP-132,L-5520,Converted,True,2026-07-07,LinkedIn,paid_social
+CM-51056,CMP-133,L-5520,Clicked,False,2026-07-08,linkedin,paid_social
+CM-51057,CMP-136,L-5521,Referred,True,2026-07-29,partners,referral
+CM-51058,CMP-126,L-5521,Met at Booth,True,2026-09-07,events,event
+CM-51059,CMP-121,L-5522,Replied,True,2026-04-30,email_platform,email
+CM-51061,CMP-119,L-5522,Converted,True,2026-05-14,linkedin,paid_social
+CM-51060,CMP-129,L-5522,Attended,True,2026-07-24,webinar_platform,webinar
+CM-51062,CMP-124,L-5523,Chat Engaged,True,2026-04-11,google,cpc
+CM-51063,CMP-114,L-5523,Registered,False,2026-04-21,events,event
+CM-51064,CMP-130,L-5524,Downloaded,True,2026-09-23,linkedin,organic
+CM-51065,CMP-133,L-5524,Converted,True,2026-09-27,linkedin,paid_social
+CM-51066,CMP-116,L-5525,Watched On-Demand,True,2026-06-23,webinar_platform,webinar
+CM-51067,CMP-131,L-5525,Downloaded,True,2026-07-02,linkedin,organic
+CM-51068,CMP-128,L-5525,Watched On-Demand,True,2026-08-30,webinar_platform,webinar
+CM-51069,CMP-131,L-5525,Downloaded,True,2026-09-19,linkedin,organic
+CM-51070,CMP-109,L-5526,Replied,True,2026-01-17,Email-Platform,email
+CM-51071,CMP-132,L-5526,Converted,True,2026-07-29,linkedin,paid_social
+CM-51072,CMP-125,L-5527,Chat Engaged,True,2026-05-19,google,cpc
+CM-51074,CMP-126,L-5527,Attended,True,2026-07-09,events_,event
+CM-51073,CMP-129,L-5527,Watched On-Demand,True,2026-08-12,webinar_platform,webinar
+CM-51075,CMP-113,L-5528,Attended,True,2026-05-18,events,event
+CM-51076,CMP-122,L-5529,Replied,True,2026-06-10,email_platform,email
+CM-51077,CMP-113,L-5530,Attended,True,2026-05-17,events,event
+CM-51078,CMP-121,L-5530,Replied,True,2026-06-21,Email-Platform,email
+CM-51079,CMP-114,L-5530,No Show,False,2026-06-25,events,event
+CM-51080,CMP-128,L-5530,Watched On-Demand,True,2026-08-10,webinar_platform,webinar
+CM-51081,CMP-137,L-5531,Demo Requested,True,2026-07-18,google,cpc
+CM-51083,CMP-126,L-5531,Attended,True,2026-07-19,events_,event
+CM-51082,CMP-127,L-5531,Registered,False,2026-08-25,events,event
+CM-51084,CMP-118,L-5532,Downloaded,True,2026-05-01,linkedin,organic
+CM-51085,CMP-115,L-5532,Watched On-Demand,True,2026-06-03,webinar_platform,webinar
+CM-51086,CMP-118,L-5533,Downloaded,True,2026-04-08,linkedin,organic
+CM-51087,CMP-129,L-5533,Attended,True,2026-08-20,webinar_platform,webinar
+CM-51088,CMP-104,L-5534,Downloaded,True,2026-02-05,linkedin,organic
+CM-51090,CMP-100,L-5534,Attended,True,2026-03-18,events,event
+CM-51089,CMP-117,L-5534,Downloaded,True,2026-05-07,linkedin,organic
+CM-51091,CMP-122,L-5535,Replied,True,2026-04-25,email_platform,email
+CM-51092,CMP-116,L-5535,Attended,True,2026-06-24,webinar_platform,webinar
+CM-51093,CMP-132,L-5536,Converted,True,2026-08-01,linkedin,paid_social
+CM-51094,CMP-133,L-5536,Converted,True,2026-08-03,linkedin,paid_social
+CM-51095,CMP-135,L-5537,Meeting Booked,True,2026-09-22,email_platform,email
+CM-51096,CMP-123,L-5538,Referred,True,2026-06-17,partner,referral
+CM-51097,CMP-132,L-5539,Converted,True,2026-08-06,linkedin,paid_social
+CM-51098,CMP-126,L-5539,Registered,False,2026-08-14,events,event
+CM-51099,CMP-109,L-5540,Meeting Booked,True,2026-01-07,email_platform,email
+CM-51100,CMP-103,L-5540,Watched On-Demand,True,2026-02-12,webinar_platform,webinar
+CM-51101,CMP-114,L-5541,Met at Booth,True,2026-06-04,events,event
+CM-51102,CMP-129,L-5541,Attended,True,2026-09-18,webinar_platform_,webinar
+CM-51103,CMP-100,L-5542,Met at Booth,True,2026-03-28,events,event
+CM-51104,CMP-132,L-5542,Converted,True,2026-07-23,linkedin,paid_social
+CM-51105,CMP-128,L-5543,Watched On-Demand,True,2026-08-04,webinar_platform,webinar
+CM-51106,CMP-132,L-5543,Converted,True,2026-08-11,linkedin,paid_social
+CM-51107,CMP-116,L-5544,Attended,True,2026-04-24,webinar_platform,webinar
+CM-51108,CMP-114,L-5544,Met at Booth,True,2026-05-27,events,event
+CM-51109,CMP-138,L-5545,Chat Engaged,True,2026-07-15,google,cpc
+CM-51110,CMP-130,L-5546,Downloaded,True,2026-09-01,linkedin,organic
+CM-51112,CMP-134,L-5546,Meeting Booked,True,2026-09-10,email_platform,email
+CM-51111,CMP-135,L-5546,Sent,False,2026-09-22,email_platform,email
+CM-51113,CMP-108,L-5547,Meeting Booked,True,2026-01-15,email_platform,email
+CM-51114,CMP-134,L-5547,Meeting Booked,True,2026-07-14,email_platform,email
+CM-51115,CMP-129,L-5548,Watched On-Demand,True,2026-07-05,webinar_platform,webinar
+CM-51116,CMP-117,L-5549,Downloaded,True,2026-05-02,linkedin,organic
+CM-51117,CMP-134,L-5550,Meeting Booked,True,2026-08-17,email_platform,email
+CM-51118,CMP-135,L-5550,Replied,True,2026-09-10,email_platform,email
+CM-51119,CMP-122,L-5551,Replied,True,2026-06-16,email_platform,email
+CM-51121,CMP-134,L-5551,Sent,False,2026-07-27,email_platform,email
+CM-51120,CMP-135,L-5551,Sent,False,2026-09-03,email_platform,email
+CM-51122,CMP-127,L-5552,Met at Booth,True,2026-07-05,events,event
+CM-51123,CMP-127,L-5552,Met at Booth,True,2026-07-28,events,event
+CM-51124,CMP-135,L-5552,Sent,False,2026-09-08,email_platform,email
+CM-51125,CMP-105,L-5553,Downloaded,True,2026-02-05,linkedin,organic
+CM-51126,CMP-109,L-5553,Replied,True,2026-03-02,email_platform,email
+CM-51127,CMP-109,L-5554,Meeting Booked,True,2026-01-20,email_platform,email
+CM-51128,CMP-132,L-5554,Converted,True,2026-08-04,linkedin,paid_social
+CM-51129,CMP-138,L-5555,Demo Requested,True,2026-08-01,google,cpc
+CM-51131,CMP-135,L-5555,Replied,True,2026-09-14,email_platform,email
+CM-51130,CMP-128,L-5555,Attended,True,2026-09-29,webinar_platform,webinar
+CM-51132,CMP-107,L-5556,Converted,True,2026-01-05,linkedin,paid_social
+CM-51134,CMP-103,L-5556,Attended,True,2026-02-16,webinar_platform,webinar
+CM-51133,CMP-135,L-5556,Meeting Booked,True,2026-07-18,email_platform,email
+CM-51135,CMP-105,L-5557,Downloaded,True,2026-03-19,linkedin,organic
+CM-51136,CMP-118,L-5557,Downloaded,True,2026-05-11,linkedin,organic
+CM-51137,CMP-133,L-5558,Converted,True,2026-09-26,linkedin,paid_social
+CM-51138,CMP-134,L-5558,Meeting Booked,True,2026-09-29,email_platform,email
+CM-51139,CMP-124,L-5559,Demo Requested,True,2026-04-08,google,cpc
+CM-51140,CMP-122,L-5560,Replied,True,2026-04-24,email_platform,email
+CM-51141,CMP-132,L-5560,Converted,True,2026-08-02,linkedin,paid_social
+CM-51142,CMP-138,L-5561,Demo Requested,True,2026-08-11,google,cpc
+CM-51143,CMP-128,L-5561,Attended,True,2026-09-11,webinar_platform,webinar
+CM-51144,CMP-130,L-5562,Downloaded,True,2026-09-23,linkedin,organic
+CM-51145,CMP-137,L-5563,Chat Engaged,True,2026-09-30,google,cpc
+CM-51146,CMP-130,L-5564,Downloaded,True,2026-08-10,linkedin,organic
+CM-51147,CMP-108,L-5565,Replied,True,2026-02-04,email_platform,email
+CM-51148,CMP-118,L-5566,Downloaded,True,2026-04-14,linkedin,organic
+CM-51149,CMP-133,L-5567,Converted,True,2026-08-17,linkedin,paid_social
+CM-51150,CMP-126,L-5567,Attended,True,2026-09-06,events,event
+CM-51151,CMP-123,L-5568,Referred,True,2026-04-30,partner,referral
+CM-51152,CMP-129,L-5568,Registered,False,2026-09-10,webinar_platform,webinar
+CM-51153,CMP-119,L-5569,Converted,True,2026-05-26,linkedin,paid_social
+CM-51154,CMP-136,L-5570,Referred,True,2026-07-16,partner,referral
+CM-51157,CMP-134,L-5570,Meeting Booked,True,2026-08-20,email_platform,email
+CM-51156,CMP-132,L-5570,Converted,True,2026-08-21,linkedin,paid_social
+CM-51155,CMP-134,L-5570,Replied,True,2026-09-09,email_platform,email
+CM-51158,CMP-138,L-5571,Demo Requested,True,2026-07-25,google,cpc
+CM-51159,CMP-135,L-5571,Meeting Booked,True,2026-09-24,email_platform,email
+CM-51160,CMP-106,L-5572,Converted,True,2026-02-24,linkedin,paid_social
+CM-51161,CMP-105,L-5572,Downloaded,True,2026-03-11,linkedin,organic
+CM-51162,CMP-122,L-5573,Replied,True,2026-04-03,email_platform,email
+CM-51163,CMP-133,L-5573,Converted,True,2026-08-18,linkedin,paid_social
+CM-51164,CMP-131,L-5573,Downloaded,True,2026-08-29,linkedin,organic
+CM-51165,CMP-122,L-5574,Meeting Booked,True,2026-06-26,email_platform,email
+CM-51167,CMP-130,L-5574,Downloaded,True,2026-07-05,linkedin,organic
+CM-51168,CMP-127,L-5574,Met at Booth,True,2026-08-30,events,event
+CM-51166,CMP-130,L-5574,Downloaded,True,2026-09-20,linkedin,organic
+CM-51169,CMP-112,L-5575,Chat Engaged,True,2026-02-21,google,cpc
+CM-51170,CMP-116,L-5575,Attended,True,2026-05-10,webinar_platform,webinar
+CM-51171,CMP-138,L-5576,Demo Requested,True,2026-08-19,google,cpc
+CM-51172,CMP-118,L-5577,Downloaded,True,2026-06-05,linkedin,organic
+CM-51173,CMP-127,L-5578,Met at Booth,True,2026-08-13,events,event
+CM-51176,CMP-129,L-5578,Watched On-Demand,True,2026-09-07,webinar_platform,webinar
+CM-51175,CMP-132,L-5578,Converted,True,2026-09-11,linkedin,paid_social
+CM-51174,CMP-135,L-5578,Replied,True,2026-09-19,email_platform,email
+CM-51177,CMP-125,L-5579,Chat Engaged,True,2026-06-14,google,cpc
+CM-51178,CMP-137,L-5580,Demo Requested,True,2026-07-05,google,cpc
+CM-51179,CMP-133,L-5580,Converted,True,2026-08-05,linkedin,paid_social
+CM-51180,CMP-132,L-5580,Clicked,False,2026-09-13,linkedin,paid_social
+CM-51181,CMP-111,L-5581,Demo Requested,True,2026-03-07,google,cpc
+CM-51182,CMP-126,L-5581,Met at Booth,True,2026-07-20,events,event
+CM-51183,CMP-134,L-5582,Meeting Booked,True,2026-07-19,Email-Platform,email
+CM-51185,CMP-134,L-5582,Meeting Booked,True,2026-08-07,Email-Platform,email
+CM-51184,CMP-129,L-5582,Attended,True,2026-08-12,webinar_platform,webinar
+CM-51186,CMP-137,L-5583,Demo Requested,True,2026-07-03,google,cpc
+CM-51187,CMP-103,L-5584,Attended,True,2026-02-09,webinar_platform,webinar
+CM-51190,CMP-104,L-5584,Downloaded,True,2026-03-11,linkedin,organic
+CM-51189,CMP-119,L-5584,Converted,True,2026-06-27,linkedin,paid_social
+CM-51188,CMP-134,L-5584,Replied,True,2026-08-19,email_platform,email
+CM-51191,CMP-111,L-5585,Chat Engaged,True,2026-01-20,google,cpc
+CM-51192,CMP-118,L-5586,Downloaded,True,2026-06-27,linkedin,organic
+CM-51193,CMP-134,L-5586,Replied,True,2026-08-24,email_platform,email
+CM-51194,CMP-100,L-5587,Met at Booth,True,2026-02-20,events,event
+CM-51196,CMP-117,L-5587,Downloaded,True,2026-06-19,linkedin,organic
+CM-51195,CMP-131,L-5587,Downloaded,True,2026-08-15,linkedin,organic
+CM-51197,CMP-127,L-5587,Met at Booth,True,2026-08-29,events,event
+CM-51198,CMP-135,L-5588,Meeting Booked,True,2026-09-09,email_platform,email
+CM-51199,CMP-124,L-5589,Demo Requested,True,2026-06-14,google,cpc
+CM-51200,CMP-128,L-5589,No Show,False,2026-08-02,webinar_platform,webinar
+CM-51201,CMP-129,L-5589,Attended,True,2026-09-29,webinar_platform,webinar
+CM-51202,CMP-127,L-5590,Attended,True,2026-09-22,events,event
+CM-51203,CMP-133,L-5590,Converted,True,2026-09-24,linkedin,paid_social
+CM-51204,CMP-127,L-5590,Met at Booth,True,2026-09-27,events,event
+CM-51205,CMP-114,L-5591,Met at Booth,True,2026-05-08,events,event
+CM-51206,CMP-126,L-5591,Met at Booth,True,2026-08-06,events,event
+CM-51207,CMP-122,L-5592,Replied,True,2026-04-12,email_platform,email
+CM-51208,CMP-120,L-5592,Converted,True,2026-04-24,linkedin,paid_social
+CM-51209,CMP-132,L-5593,Converted,True,2026-07-27,linkedin,paid_social
+CM-51211,CMP-135,L-5593,Replied,True,2026-07-29,email_platform,email
+CM-51210,CMP-134,L-5593,Meeting Booked,True,2026-08-23,email_platform,email
+CM-51212,CMP-137,L-5594,Demo Requested,True,2026-09-27,google,cpc
+CM-51213,CMP-135,L-5594,Meeting Booked,True,2026-09-29,email_platform,email
+CM-51214,CMP-134,L-5595,Replied,True,2026-07-13,email_platform,email
+CM-51215,CMP-130,L-5595,Downloaded,True,2026-08-03,linkedin,organic
+CM-51216,CMP-134,L-5595,Replied,True,2026-09-03,email_platform,email
+CM-51217,CMP-126,L-5595,Attended,True,2026-09-22,events_,event
+CM-51218,CMP-125,L-5596,Chat Engaged,True,2026-04-17,google,cpc
+CM-51219,CMP-103,L-5597,Watched On-Demand,True,2026-03-28,webinar_platform,webinar
+CM-51220,CMP-119,L-5597,Clicked,False,2026-06-21,linkedin,paid_social
+CM-51221,CMP-105,L-5598,Downloaded,True,2026-02-27,linkedin,organic
+CM-51222,CMP-129,L-5598,Watched On-Demand,True,2026-08-06,webinar_platform,webinar
+CM-51223,CMP-126,L-5598,Met at Booth,True,2026-08-17,events,event
+CM-51224,CMP-132,L-5599,Converted,True,2026-07-21,linkedin,paid_social
+CM-51225,CMP-115,L-5600,Watched On-Demand,True,2026-05-31,webinar_platform,webinar
+CM-51227,CMP-133,L-5600,Converted,True,2026-08-29,linkedin,paid_social
+CM-51226,CMP-134,L-5600,Replied,True,2026-09-21,email_platform,email
+CM-51228,CMP-135,L-5601,Meeting Booked,True,2026-08-08,email_platform,email
+CM-51229,CMP-133,L-5601,Converted,True,2026-09-27,linkedin,paid_social
+CM-51230,CMP-136,L-5602,Referred,True,2026-08-30,partner,referral
+CM-51231,CMP-135,L-5602,Sent,False,2026-09-25,email_platform,email
+CM-51232,CMP-108,L-5603,Meeting Booked,True,2026-03-26,email_platform,email
+CM-51234,CMP-103,L-5603,Watched On-Demand,True,2026-03-29,webinar_platform,webinar
+CM-51233,CMP-115,L-5603,Watched On-Demand,True,2026-04-14,webinar_platform,webinar
+CM-51235,CMP-111,L-5604,Demo Requested,True,2026-01-23,google.com,cpc
+CM-51236,CMP-118,L-5604,Downloaded,True,2026-04-29,linkedin,organic
+CM-51237,CMP-126,L-5605,Attended,True,2026-09-05,events,event
+CM-51238,CMP-111,L-5606,Demo Requested,True,2026-02-23,google,cpc
+CM-51239,CMP-129,L-5606,Watched On-Demand,True,2026-08-19,webinar_platform,webinar
+CM-51240,CMP-124,L-5607,Demo Requested,True,2026-06-27,google.com,cpc
+CM-51241,CMP-127,L-5607,Met at Booth,True,2026-07-04,events,event
+CM-51242,CMP-132,L-5607,Clicked,False,2026-09-14,linkedin,paid_social
+CM-51243,CMP-137,L-5608,Demo Requested,True,2026-09-15,google,cpc
+CM-51244,CMP-119,L-5609,Converted,True,2026-06-10,linkedin,paid_social
+CM-51245,CMP-122,L-5610,Meeting Booked,True,2026-06-08,email_platform,email
+CM-51246,CMP-100,L-5611,Attended,True,2026-03-13,events,event
+CM-51247,CMP-127,L-5611,Met at Booth,True,2026-09-18,events,event
+CM-51248,CMP-105,L-5612,Downloaded,True,2026-02-28,linkedin,organic
+CM-51250,CMP-100,L-5612,No Show,False,2026-03-23,events,event
+CM-51249,CMP-134,L-5612,Replied,True,2026-08-10,email_platform,email
+CM-51251,CMP-103,L-5613,Attended,True,2026-02-10,webinar_platform,webinar
+CM-51252,CMP-133,L-5613,Converted,True,2026-07-07,linkedin,paid_social
+CM-51253,CMP-134,L-5613,Meeting Booked,True,2026-08-13,email_platform,email
+CM-51254,CMP-117,L-5614,Downloaded,True,2026-05-04,linkedin,organic
+CM-51255,CMP-113,L-5614,Registered,False,2026-06-03,events,event
+CM-51256,CMP-133,L-5615,Converted,True,2026-09-02,linkedin,paid_social
+CM-51257,CMP-105,L-5616,Downloaded,True,2026-02-12,linkedin,organic
+CM-51258,CMP-102,L-5616,Watched On-Demand,True,2026-03-24,webinar_platform,webinar
+CM-51259,CMP-123,L-5617,Referred,True,2026-05-08,partner,referral
+CM-51260,CMP-118,L-5617,Downloaded,True,2026-06-11,linkedin,organic
+CM-51261,CMP-107,L-5618,Converted,True,2026-02-07,linkedin,paid_social
+CM-51262,CMP-103,L-5618,Attended,True,2026-03-30,webinar_platform_,webinar
+CM-51263,CMP-134,L-5619,Replied,True,2026-08-02,email_platform,email
+CM-51264,CMP-130,L-5619,Downloaded,True,2026-08-05,LinkedIn,organic
+CM-51265,CMP-126,L-5619,Met at Booth,True,2026-09-15,events,event
+CM-51266,CMP-109,L-5620,Meeting Booked,True,2026-01-12,email_platform,email
+CM-51267,CMP-115,L-5620,Registered,False,2026-04-25,webinar_platform,webinar
+CM-51268,CMP-117,L-5620,Downloaded,True,2026-06-13,LinkedIn,organic
+CM-51269,CMP-134,L-5621,Replied,True,2026-08-14,email_platform,email
+CM-51270,CMP-134,L-5621,Replied,True,2026-08-16,email_platform,email
+CM-51271,CMP-103,L-5622,Attended,True,2026-03-08,webinar_platform,webinar
+CM-51273,CMP-120,L-5622,Converted,True,2026-04-19,linkedin,paid_social
+CM-51274,CMP-133,L-5622,Converted,True,2026-09-09,linkedin,paid_social
+CM-51272,CMP-126,L-5622,No Show,False,2026-09-16,events,event
+CM-51275,CMP-113,L-5623,Met at Booth,True,2026-06-28,events,event
+CM-51276,CMP-124,L-5624,Demo Requested,True,2026-06-18,google,cpc
+CM-51277,CMP-131,L-5624,Downloaded,True,2026-07-23,linkedin,organic
+CM-51278,CMP-127,L-5624,Attended,True,2026-09-14,events,event
+CM-51279,CMP-124,L-5625,Chat Engaged,True,2026-04-29,google,cpc
+CM-51280,CMP-121,L-5625,Sent,False,2026-05-19,email_platform,email
+CM-51281,CMP-132,L-5625,Clicked,False,2026-07-08,linkedin,paid_social
+CM-51282,CMP-133,L-5626,Converted,True,2026-09-20,linkedin,paid_social
+CM-51283,CMP-133,L-5626,Converted,True,2026-09-24,linkedin,paid_social
+CM-51285,CMP-129,L-5626,Registered,False,2026-09-24,webinar_platform,webinar
+CM-51284,CMP-126,L-5626,Attended,True,2026-09-27,events,event
+CM-51286,CMP-108,L-5627,Replied,True,2026-03-26,email_platform,email
+CM-51288,CMP-120,L-5627,Converted,True,2026-06-11,linkedin,paid_social
+CM-51289,CMP-114,L-5627,Attended,True,2026-06-15,events,event
+CM-51287,CMP-132,L-5627,Converted,True,2026-07-14,linkedin,paid_social
+CM-51290,CMP-126,L-5628,Met at Booth,True,2026-08-15,events,event
+CM-51291,CMP-102,L-5629,Attended,True,2026-02-08,webinar_platform,webinar
+CM-51293,CMP-104,L-5629,Downloaded,True,2026-03-26,linkedin,organic
+CM-51292,CMP-128,L-5629,Watched On-Demand,True,2026-08-23,webinar_platform,webinar
+CM-51294,CMP-110,L-5630,Referred,True,2026-02-05,partner,referral
+CM-51295,CMP-128,L-5630,No Show,False,2026-07-20,webinar_platform_,webinar
+CM-51296,CMP-103,L-5631,Watched On-Demand,True,2026-03-24,webinar_platform,webinar
+CM-51297,CMP-128,L-5631,Watched On-Demand,True,2026-09-16,webinar_platform,webinar
+CM-51298,CMP-117,L-5632,Downloaded,True,2026-04-21,linkedin,organic
+CM-51299,CMP-113,L-5632,Attended,True,2026-04-22,events,event
+CM-51300,CMP-120,L-5633,Converted,True,2026-06-21,linkedin,paid_social
+CM-51301,CMP-117,L-5634,Downloaded,True,2026-06-06,linkedin,organic
+CM-51302,CMP-121,L-5635,Meeting Booked,True,2026-06-21,email_platform,email
+CM-51305,CMP-128,L-5635,Attended,True,2026-07-07,webinar_platform,webinar
+CM-51303,CMP-130,L-5635,Downloaded,True,2026-07-17,linkedin,organic
+CM-51304,CMP-129,L-5635,Watched On-Demand,True,2026-08-01,webinar_platform,webinar
+CM-51306,CMP-112,L-5636,Demo Requested,True,2026-03-27,google,cpc
+CM-51307,CMP-133,L-5636,Converted,True,2026-09-21,linkedin,paid_social
+CM-51308,CMP-112,L-5637,Chat Engaged,True,2026-03-07,google,cpc
+CM-51309,CMP-118,L-5637,Downloaded,True,2026-04-23,linkedin,organic
+CM-51310,CMP-130,L-5637,Downloaded,True,2026-08-13,linkedin,organic
+CM-51311,CMP-108,L-5638,Meeting Booked,True,2026-01-24,email_platform,email
+CM-51312,CMP-107,L-5639,Converted,True,2026-01-17,linkedin,paid_social
+CM-51313,CMP-130,L-5639,Downloaded,True,2026-08-14,linkedin,organic
+CM-51314,CMP-114,L-5640,Met at Booth,True,2026-06-18,events,event
+CM-51315,CMP-127,L-5640,Attended,True,2026-09-19,events,event
+CM-51316,CMP-116,L-5641,Watched On-Demand,True,2026-05-14,webinar_platform,webinar
+CM-51317,CMP-104,L-5642,Downloaded,True,2026-03-17,linkedin,organic
+CM-51319,CMP-100,L-5642,No Show,False,2026-03-20,events,event
+CM-51318,CMP-113,L-5642,Attended,True,2026-06-17,events,event
+CM-51320,CMP-136,L-5643,Referred,True,2026-07-26,partner,referral
+CM-51321,CMP-129,L-5644,Attended,True,2026-09-15,webinar_platform,webinar
+CM-51322,CMP-132,L-5644,Converted,True,2026-09-19,linkedin,paid_social
+CM-51323,CMP-121,L-5645,Replied,True,2026-06-29,email_platform,email
+CM-51325,CMP-127,L-5645,Met at Booth,True,2026-07-01,events,event
+CM-51326,CMP-126,L-5645,Met at Booth,True,2026-08-12,events,event
+CM-51324,CMP-131,L-5645,Downloaded,True,2026-08-25,linkedin,organic
+CM-51327,CMP-134,L-5646,Meeting Booked,True,2026-09-04,email_platform,email
+CM-51328,CMP-126,L-5646,Attended,True,2026-09-11,events,event
+CM-51329,CMP-127,L-5646,Met at Booth,True,2026-09-25,events,event
+CM-51330,CMP-125,L-5647,Chat Engaged,True,2026-05-10,google,cpc
+CM-51331,CMP-110,L-5648,Referred,True,2026-01-19,partners,referral
+CM-51332,CMP-135,L-5649,Replied,True,2026-09-26,email_platform,email
+CM-51333,CMP-131,L-5649,Downloaded,True,2026-09-29,linkedin,organic
+CM-51334,CMP-121,L-5650,Meeting Booked,True,2026-04-16,email_platform,email
+CM-51335,CMP-112,L-5651,Demo Requested,True,2026-03-05,google,cpc
+CM-51337,CMP-115,L-5651,Registered,False,2026-04-22,webinar_platform,webinar
+CM-51336,CMP-127,L-5651,Attended,True,2026-09-29,events,event
+CM-51338,CMP-108,L-5652,Replied,True,2026-02-28,email_platform,email
+CM-51339,CMP-118,L-5652,Downloaded,True,2026-06-30,linkedin,organic
+CM-51340,CMP-126,L-5652,Met at Booth,True,2026-08-25,events,event
+CM-51341,CMP-111,L-5653,Chat Engaged,True,2026-03-07,google,cpc
+CM-51342,CMP-138,L-5654,Chat Engaged,True,2026-07-14,google,cpc
+CM-51343,CMP-134,L-5654,Sent,False,2026-08-12,email_platform,email
+CM-51344,CMP-131,L-5654,Downloaded,True,2026-08-24,linkedin,organic
+CM-51345,CMP-135,L-5655,Replied,True,2026-09-06,email_platform,email
+CM-51346,CMP-136,L-5656,Referred,True,2026-09-06,partner,referral
+CM-51347,CMP-104,L-5657,Downloaded,True,2026-01-19,linkedin,organic
+CM-51348,CMP-132,L-5658,Converted,True,2026-09-28,linkedin,paid_social
+CM-51349,CMP-127,L-5658,Registered,False,2026-09-29,events,event
+CM-51350,CMP-132,L-5659,Converted,True,2026-07-25,linkedin,paid_social
+CM-51351,CMP-135,L-5659,Replied,True,2026-09-24,email_platform,email
+CM-51352,CMP-127,L-5660,Attended,True,2026-09-02,events,event
+CM-51353,CMP-113,L-5661,Attended,True,2026-04-12,events,event
+CM-51354,CMP-128,L-5662,Attended,True,2026-09-28,webinar_platform,webinar
+CM-51355,CMP-115,L-5663,Attended,True,2026-06-28,webinar_platform,webinar
+CM-51357,CMP-134,L-5663,Replied,True,2026-07-31,email_platform,email
+CM-51356,CMP-128,L-5663,Attended,True,2026-08-03,webinar_platform,webinar
+CM-51358,CMP-138,L-5664,Demo Requested,True,2026-09-12,google,cpc
+CM-51359,CMP-134,L-5664,Sent,False,2026-09-16,email_platform,email
+CM-51360,CMP-116,L-5665,Watched On-Demand,True,2026-05-22,webinar_platform,webinar
+CM-51361,CMP-112,L-5666,Chat Engaged,True,2026-03-23,google,cpc
+CM-51362,CMP-126,L-5666,Registered,False,2026-07-29,events,event
+CM-51363,CMP-120,L-5667,Converted,True,2026-04-27,linkedin,paid_social
+CM-51364,CMP-110,L-5668,Referred,True,2026-01-16,partner,referral
+CM-51365,CMP-122,L-5669,Meeting Booked,True,2026-04-01,email_platform,email
+CM-51366,CMP-132,L-5669,Converted,True,2026-08-24,linkedin,paid_social
+CM-51367,CMP-127,L-5670,Met at Booth,True,2026-07-23,events,event
+CM-51368,CMP-129,L-5670,Watched On-Demand,True,2026-08-02,webinar_platform,webinar
+CM-51369,CMP-117,L-5671,Downloaded,True,2026-04-01,linkedin,organic
+CM-51370,CMP-113,L-5671,Attended,True,2026-04-02,events,event
+CM-51371,CMP-116,L-5671,No Show,False,2026-04-08,webinar_platform,webinar
+CM-51372,CMP-121,L-5671,Meeting Booked,True,2026-04-09,email_platform,email
+CM-51373,CMP-121,L-5672,Meeting Booked,True,2026-05-02,email_platform,email
+CM-51374,CMP-126,L-5672,Met at Booth,True,2026-09-01,events,event
+CM-51375,CMP-125,L-5673,Demo Requested,True,2026-05-05,google,cpc
+CM-51376,CMP-121,L-5673,Replied,True,2026-05-06,email_platform,email
+CM-51377,CMP-136,L-5674,Referred,True,2026-09-18,partner,referral
+CM-51378,CMP-129,L-5675,Watched On-Demand,True,2026-08-25,webinar_platform,webinar
+CM-51379,CMP-133,L-5675,Converted,True,2026-09-19,linkedin,paid_social
+CM-51380,CMP-126,L-5676,Attended,True,2026-09-28,events,event
+CM-51381,CMP-132,L-5676,Converted,True,2026-09-29,linkedin,paid_social
+CM-51382,CMP-127,L-5676,Attended,True,2026-09-29,events,event
+CM-51383,CMP-129,L-5676,Watched On-Demand,True,2026-09-29,webinar_platform,webinar
+CM-51384,CMP-138,L-5677,Chat Engaged,True,2026-07-15,google,cpc
+CM-51385,CMP-126,L-5677,Attended,True,2026-08-27,events,event
+CM-51386,CMP-128,L-5677,Attended,True,2026-09-10,webinar_platform,webinar
+CM-51387,CMP-111,L-5678,Demo Requested,True,2026-03-18,google,cpc
+CM-51388,CMP-105,L-5678,Downloaded,True,2026-03-20,linkedin,organic
+CM-51389,CMP-136,L-5679,Referred,True,2026-07-05,partner,referral
+CM-51392,CMP-135,L-5679,Meeting Booked,True,2026-07-09,email_platform,email
+CM-51391,CMP-128,L-5679,Attended,True,2026-08-18,webinar_platform,webinar
+CM-51390,CMP-131,L-5679,Downloaded,True,2026-09-10,linkedin,organic
+CM-51393,CMP-111,L-5680,Demo Requested,True,2026-02-04,google,cpc
+CM-51394,CMP-109,L-5680,Replied,True,2026-02-13,email_platform,email
+CM-51395,CMP-103,L-5680,Watched On-Demand,True,2026-02-14,webinar_platform,webinar
+CM-51396,CMP-104,L-5680,Downloaded,True,2026-02-14,LinkedIn,organic
+CM-51397,CMP-110,L-5681,Referred,True,2026-01-23,partner,referral
+CM-51398,CMP-109,L-5681,Meeting Booked,True,2026-01-28,email_platform,email
+CM-51399,CMP-102,L-5682,Attended,True,2026-02-07,webinar_platform,webinar
+CM-51400,CMP-123,L-5683,Referred,True,2026-06-21,partner,referral
+CM-51401,CMP-127,L-5683,Met at Booth,True,2026-08-21,events,event
+CM-51402,CMP-117,L-5684,Downloaded,True,2026-04-27,linkedin,organic
+CM-51403,CMP-100,L-5685,Attended,True,2026-02-07,events,event
+CM-51404,CMP-102,L-5685,No Show,False,2026-02-13,webinar_platform,webinar
+CM-51405,CMP-101,L-5686,Met at Booth,True,2026-03-30,events,event
+CM-51408,CMP-115,L-5686,Registered,False,2026-04-07,webinar_platform,webinar
+CM-51407,CMP-135,L-5686,Sent,False,2026-07-07,email_platform,email
+CM-51406,CMP-134,L-5686,Meeting Booked,True,2026-08-14,email_platform,email
+CM-51409,CMP-108,L-5687,Replied,True,2026-01-06,email_platform,email
+CM-51411,CMP-107,L-5687,Converted,True,2026-02-12,linkedin,paid_social
+CM-51410,CMP-120,L-5687,Converted,True,2026-04-05,linkedin,paid_social
+CM-51412,CMP-113,L-5688,Attended,True,2026-06-12,events,event
+CM-51415,CMP-128,L-5688,Attended,True,2026-08-23,webinar_platform,webinar
+CM-51413,CMP-135,L-5688,Replied,True,2026-08-25,email_platform,email
+CM-51414,CMP-126,L-5688,Met at Booth,True,2026-09-05,events,event
+CM-51416,CMP-116,L-5689,Watched On-Demand,True,2026-05-30,webinar_platform,webinar
+CM-51417,CMP-108,L-5690,Replied,True,2026-03-29,email_platform,email
+CM-51418,CMP-113,L-5690,Attended,True,2026-06-14,events,event
+CM-51419,CMP-111,L-5691,Demo Requested,True,2026-03-21,google,cpc
+CM-51420,CMP-128,L-5691,Watched On-Demand,True,2026-07-08,webinar_platform,webinar
+CM-51421,CMP-133,L-5691,Clicked,False,2026-09-16,linkedin,paid_social
+CM-51422,CMP-100,L-5692,Attended,True,2026-01-22,events,event
+CM-51424,CMP-105,L-5692,Downloaded,True,2026-01-25,linkedin,organic
+CM-51425,CMP-120,L-5692,Converted,True,2026-05-01,linkedin,paid_social
+CM-51423,CMP-129,L-5692,Attended,True,2026-08-15,webinar_platform,webinar
+CM-51426,CMP-129,L-5693,Watched On-Demand,True,2026-08-23,webinar_platform,webinar
+CM-51427,CMP-129,L-5693,Watched On-Demand,True,2026-08-25,webinar_platform,webinar
+CM-51429,CMP-135,L-5693,Meeting Booked,True,2026-09-09,email_platform,email
+CM-51428,CMP-132,L-5693,Converted,True,2026-09-30,linkedin,paid_social
+CM-51430,CMP-138,L-5694,Demo Requested,True,2026-08-06,google,cpc
+CM-51431,CMP-135,L-5694,Meeting Booked,True,2026-08-12,email_platform,email
+CM-51433,CMP-126,L-5694,Attended,True,2026-09-05,events,event
+CM-51432,CMP-129,L-5694,Watched On-Demand,True,2026-09-30,webinar_platform,webinar
+CM-51434,CMP-122,L-5695,Replied,True,2026-04-15,Email-Platform,email
+CM-51435,CMP-127,L-5695,No Show,False,2026-09-03,events,event
+CM-51436,CMP-130,L-5696,Downloaded,True,2026-08-30,linkedin,organic
+CM-51437,CMP-110,L-5697,Referred,True,2026-01-13,partner,referral
+CM-51438,CMP-107,L-5697,Converted,True,2026-01-16,linkedin,paid_social
+CM-51439,CMP-101,L-5698,Met at Booth,True,2026-02-14,events,event
+CM-51441,CMP-115,L-5698,No Show,False,2026-04-04,webinar_platform,webinar
+CM-51440,CMP-118,L-5698,Downloaded,True,2026-04-22,linkedin,organic
+CM-51442,CMP-122,L-5698,Meeting Booked,True,2026-06-14,email_platform,email
+CM-51443,CMP-102,L-5699,Attended,True,2026-02-13,webinar_platform,webinar
+CM-51444,CMP-122,L-5699,Meeting Booked,True,2026-04-28,email_platform,email
+CM-51445,CMP-100,L-5700,Attended,True,2026-02-16,events,event
+CM-51446,CMP-108,L-5700,Meeting Booked,True,2026-03-14,email_platform,email
+CM-51447,CMP-126,L-5701,Met at Booth,True,2026-09-07,events,event
+CM-51448,CMP-126,L-5701,Met at Booth,True,2026-09-16,events,event
+CM-51449,CMP-105,L-5702,Downloaded,True,2026-02-08,linkedin,organic
+CM-51450,CMP-135,L-5702,Meeting Booked,True,2026-07-07,email_platform,email
+CM-51451,CMP-102,L-5703,Attended,True,2026-02-17,webinar_platform,webinar
+CM-51452,CMP-115,L-5703,Watched On-Demand,True,2026-04-08,webinar_platform,webinar
+CM-51453,CMP-134,L-5703,Replied,True,2026-08-12,email_platform,email
+CM-51454,CMP-121,L-5704,Replied,True,2026-05-17,email_platform,email
+CM-51455,CMP-121,L-5704,Meeting Booked,True,2026-05-31,email_platform,email
+CM-51456,CMP-125,L-5705,Demo Requested,True,2026-06-16,google,cpc
+CM-51457,CMP-127,L-5705,Registered,False,2026-08-30,events,event
+CM-51458,CMP-133,L-5705,Converted,True,2026-09-15,linkedin,paid_social
+CM-51459,CMP-124,L-5706,Demo Requested,True,2026-06-06,google,cpc
+CM-51460,CMP-125,L-5707,Demo Requested,True,2026-05-11,google.com,cpc
+CM-51461,CMP-118,L-5707,Downloaded,True,2026-05-18,linkedin,organic
+CM-51462,CMP-121,L-5708,Meeting Booked,True,2026-04-11,email_platform,email
+CM-51463,CMP-118,L-5709,Downloaded,True,2026-05-22,linkedin,organic
+CM-51464,CMP-129,L-5709,Attended,True,2026-09-11,webinar_platform,webinar
+CM-51465,CMP-126,L-5709,Attended,True,2026-09-18,events,event
+CM-51466,CMP-116,L-5710,Watched On-Demand,True,2026-05-12,webinar_platform,webinar
+CM-51468,CMP-131,L-5710,Downloaded,True,2026-09-08,linkedin,organic
+CM-51467,CMP-132,L-5710,Converted,True,2026-09-28,linkedin,paid_social
+CM-51469,CMP-112,L-5711,Chat Engaged,True,2026-03-21,google,cpc
+CM-51471,CMP-103,L-5711,Watched On-Demand,True,2026-03-23,webinar_platform,webinar
+CM-51470,CMP-100,L-5711,Met at Booth,True,2026-03-26,events,event
+CM-51472,CMP-122,L-5712,Replied,True,2026-04-19,email_platform,email
+CM-51473,CMP-129,L-5712,Watched On-Demand,True,2026-07-09,webinar_platform,webinar
+CM-51474,CMP-121,L-5713,Meeting Booked,True,2026-04-29,email_platform,email
+CM-51475,CMP-130,L-5713,Downloaded,True,2026-07-29,linkedin,organic
+CM-51476,CMP-106,L-5714,Converted,True,2026-02-24,linkedin,paid_social
+CM-51477,CMP-133,L-5714,Converted,True,2026-07-09,linkedin,paid_social
+CM-51478,CMP-102,L-5715,Watched On-Demand,True,2026-01-06,webinar_platform,webinar
+CM-51479,CMP-101,L-5716,Attended,True,2026-01-28,events,event
+CM-51480,CMP-112,L-5717,Chat Engaged,True,2026-02-11,google,cpc
+CM-51481,CMP-123,L-5718,Referred,True,2026-05-13,partner,referral
+CM-51482,CMP-135,L-5718,Meeting Booked,True,2026-08-07,Email-Platform,email
+CM-51483,CMP-110,L-5719,Referred,True,2026-02-19,partner,referral
+CM-51484,CMP-117,L-5720,Downloaded,True,2026-04-06,linkedin,organic
+CM-51485,CMP-126,L-5720,Met at Booth,True,2026-08-23,events,event
+CM-51486,CMP-112,L-5721,Demo Requested,True,2026-03-24,google,cpc
+CM-51487,CMP-103,L-5721,Watched On-Demand,True,2026-03-30,webinar_platform,webinar
+CM-51488,CMP-103,L-5721,Attended,True,2026-03-31,webinar_platform,webinar
+CM-51489,CMP-122,L-5722,Meeting Booked,True,2026-06-22,email_platform,email
+CM-51490,CMP-117,L-5723,Downloaded,True,2026-05-18,linkedin,organic
+CM-51492,CMP-131,L-5723,Downloaded,True,2026-07-22,linkedin,organic
+CM-51491,CMP-130,L-5723,Downloaded,True,2026-07-26,linkedin,organic
+CM-51493,CMP-133,L-5723,Converted,True,2026-08-17,linkedin,paid_social
+CM-51494,CMP-129,L-5724,Watched On-Demand,True,2026-07-26,webinar_platform,webinar
+CM-51495,CMP-127,L-5724,No Show,False,2026-08-11,events,event
+CM-51496,CMP-119,L-5725,Converted,True,2026-05-17,linkedin,paid_social
+CM-51497,CMP-135,L-5725,Sent,False,2026-08-17,email_platform,email
+CM-51498,CMP-131,L-5725,Downloaded,True,2026-08-29,linkedin,organic
+CM-51499,CMP-108,L-5726,Meeting Booked,True,2026-02-10,email_platform,email
+CM-51500,CMP-103,L-5726,Watched On-Demand,True,2026-03-17,webinar_platform,webinar
+CM-51501,CMP-115,L-5727,Watched On-Demand,True,2026-06-19,webinar_platform,webinar
+CM-51502,CMP-115,L-5728,Attended,True,2026-05-18,webinar_platform,webinar
+CM-51503,CMP-117,L-5728,Downloaded,True,2026-06-01,linkedin,organic
+CM-51504,CMP-135,L-5729,Replied,True,2026-09-21,email_platform,email
+CM-51505,CMP-131,L-5729,Downloaded,True,2026-09-24,linkedin,organic
+CM-51506,CMP-104,L-5730,Downloaded,True,2026-03-08,linkedin,organic
+CM-51509,CMP-120,L-5730,Converted,True,2026-04-16,linkedin,paid_social
+CM-51507,CMP-114,L-5730,Registered,False,2026-05-31,events,event
+CM-51508,CMP-127,L-5730,Attended,True,2026-09-20,events,event
+CM-51510,CMP-136,L-5731,Referred,True,2026-08-03,partner,referral
+CM-51511,CMP-133,L-5731,Converted,True,2026-08-25,linkedin,paid_social
+CM-51512,CMP-119,L-5732,Converted,True,2026-05-18,linkedin,paid_social
+CM-51513,CMP-134,L-5732,Replied,True,2026-07-20,email_platform,email
+CM-51514,CMP-129,L-5732,Attended,True,2026-08-26,webinar_platform,webinar
+CM-51515,CMP-132,L-5733,Converted,True,2026-08-01,linkedin,paid_social
+CM-51516,CMP-108,L-5734,Replied,True,2026-02-16,email_platform,email
+CM-51517,CMP-132,L-5735,Converted,True,2026-08-03,linkedin,paid_social
+CM-51518,CMP-132,L-5735,Converted,True,2026-08-07,linkedin,paid_social
+CM-51520,CMP-130,L-5735,Downloaded,True,2026-08-17,linkedin,organic
+CM-51519,CMP-131,L-5735,Downloaded,True,2026-09-10,linkedin,organic
+CM-51521,CMP-101,L-5736,Met at Booth,True,2026-02-05,events,event
+CM-51522,CMP-121,L-5736,Replied,True,2026-06-26,email_platform,email
+CM-51523,CMP-116,L-5737,Attended,True,2026-04-28,webinar_platform_,webinar
+CM-51524,CMP-127,L-5737,No Show,False,2026-07-28,events,event
+CM-51526,CMP-132,L-5737,Converted,True,2026-08-08,linkedin,paid_social
+CM-51525,CMP-133,L-5737,Clicked,False,2026-09-10,linkedin,paid_social
+CM-51527,CMP-117,L-5738,Downloaded,True,2026-06-19,linkedin,organic
+CM-51528,CMP-131,L-5738,Downloaded,True,2026-07-31,linkedin,organic
+CM-51529,CMP-135,L-5738,Replied,True,2026-08-19,email_platform,email
+CM-51530,CMP-136,L-5739,Referred,True,2026-08-29,partner,referral
+CM-51531,CMP-137,L-5740,Chat Engaged,True,2026-09-30,google,cpc
+CM-51532,CMP-104,L-5741,Downloaded,True,2026-01-06,linkedin,organic
+CM-51534,CMP-116,L-5741,Attended,True,2026-04-01,webinar_platform,webinar
+CM-51533,CMP-119,L-5741,Converted,True,2026-06-28,linkedin,paid_social
+CM-51535,CMP-108,L-5742,Replied,True,2026-03-17,email_platform,email
+CM-51536,CMP-119,L-5742,Clicked,False,2026-05-28,linkedin,paid_social
+CM-51537,CMP-110,L-5743,Referred,True,2026-03-12,partner,referral
+CM-51538,CMP-120,L-5743,Clicked,False,2026-05-28,linkedin,paid_social
+CM-51539,CMP-130,L-5744,Downloaded,True,2026-09-28,linkedin,organic
+CM-51540,CMP-130,L-5744,Downloaded,True,2026-09-29,linkedin,organic
+CM-51541,CMP-108,L-5745,Meeting Booked,True,2026-01-31,email_platform,email
+CM-51542,CMP-110,L-5746,Referred,True,2026-01-07,partner,referral
+CM-51544,CMP-104,L-5746,Downloaded,True,2026-02-13,linkedin,organic
+CM-51543,CMP-113,L-5746,Met at Booth,True,2026-06-27,events,event
+CM-51545,CMP-112,L-5747,Demo Requested,True,2026-01-14,google,cpc
+CM-51546,CMP-122,L-5747,Sent,False,2026-04-01,email_platform,email
+CM-51547,CMP-135,L-5748,Meeting Booked,True,2026-08-08,email_platform,email
+CM-51548,CMP-118,L-5749,Downloaded,True,2026-04-09,linkedin,organic
+CM-51549,CMP-117,L-5749,Downloaded,True,2026-05-13,LinkedIn,organic
+CM-51550,CMP-132,L-5749,Converted,True,2026-07-17,linkedin,paid_social
+CM-51551,CMP-134,L-5749,Sent,False,2026-09-04,email_platform,email
+CM-51552,CMP-117,L-5750,Downloaded,True,2026-04-04,LinkedIn,organic
+CM-51554,CMP-132,L-5750,Clicked,False,2026-07-28,linkedin,paid_social
+CM-51553,CMP-130,L-5750,Downloaded,True,2026-08-07,LinkedIn,organic
+CM-51555,CMP-124,L-5751,Chat Engaged,True,2026-05-30,google,cpc
+CM-51556,CMP-117,L-5751,Downloaded,True,2026-06-22,linkedin,organic
+CM-51557,CMP-110,L-5752,Referred,True,2026-02-21,partner,referral
+CM-51558,CMP-100,L-5752,Met at Booth,True,2026-03-08,events,event
+CM-51559,CMP-125,L-5753,Demo Requested,True,2026-06-26,google,cpc
+CM-51560,CMP-109,L-5754,Meeting Booked,True,2026-03-30,email_platform,email
+CM-51561,CMP-136,L-5755,Referred,True,2026-07-16,partner,referral
+CM-51562,CMP-128,L-5756,Watched On-Demand,True,2026-08-03,webinar_platform,webinar
+CM-51563,CMP-127,L-5756,No Show,False,2026-09-23,events,event
+CM-51564,CMP-128,L-5757,Watched On-Demand,True,2026-08-22,webinar_platform_,webinar
+CM-51565,CMP-134,L-5757,Replied,True,2026-09-19,email_platform,email
+CM-51566,CMP-125,L-5758,Demo Requested,True,2026-05-19,google,cpc
+CM-51567,CMP-135,L-5758,Replied,True,2026-08-26,email_platform,email
+CM-51568,CMP-108,L-5759,Meeting Booked,True,2026-03-01,email_platform,email
+CM-51569,CMP-108,L-5759,Replied,True,2026-03-11,email_platform,email
+CM-51570,CMP-133,L-5759,Converted,True,2026-07-19,linkedin,paid_social
+CM-51571,CMP-130,L-5760,Downloaded,True,2026-08-09,linkedin,organic
+CM-51572,CMP-132,L-5760,Converted,True,2026-08-17,linkedin,paid_social
+CM-51573,CMP-113,L-5761,Met at Booth,True,2026-04-01,events,event
+CM-51574,CMP-134,L-5761,Replied,True,2026-08-23,email_platform,email
+CM-51575,CMP-108,L-5762,Replied,True,2026-02-26,email_platform,email
+CM-51577,CMP-130,L-5762,Downloaded,True,2026-07-15,linkedin,organic
+CM-51576,CMP-133,L-5762,Converted,True,2026-08-28,linkedin,paid_social
+CM-51578,CMP-123,L-5763,Referred,True,2026-04-02,partner,referral
+CM-51579,CMP-118,L-5764,Downloaded,True,2026-06-27,linkedin,organic
+CM-51580,CMP-131,L-5764,Downloaded,True,2026-07-17,linkedin,organic
+CM-51581,CMP-122,L-5765,Meeting Booked,True,2026-05-05,email_platform,email
+CM-51582,CMP-111,L-5766,Chat Engaged,True,2026-03-27,google,cpc
+CM-51583,CMP-134,L-5767,Meeting Booked,True,2026-07-27,email_platform,email
+CM-51584,CMP-127,L-5767,Met at Booth,True,2026-09-14,events,event
+CM-51585,CMP-104,L-5768,Downloaded,True,2026-01-22,linkedin,organic
+CM-51586,CMP-117,L-5768,Downloaded,True,2026-04-26,linkedin,organic
+CM-51587,CMP-135,L-5769,Replied,True,2026-07-01,Email-Platform,email
+CM-51590,CMP-135,L-5769,Replied,True,2026-08-05,email_platform,email
+CM-51589,CMP-132,L-5769,Converted,True,2026-09-06,linkedin,paid_social
+CM-51588,CMP-134,L-5769,Sent,False,2026-09-16,email_platform,email
+CM-51591,CMP-112,L-5770,Chat Engaged,True,2026-02-13,google,cpc
+CM-51592,CMP-137,L-5771,Demo Requested,True,2026-09-14,google,cpc
+CM-51593,CMP-132,L-5771,Clicked,False,2026-09-17,linkedin,paid_social
+CM-51594,CMP-138,L-5772,Demo Requested,True,2026-08-26,google,cpc
+CM-51595,CMP-130,L-5773,Downloaded,True,2026-07-25,linkedin,organic
+CM-51596,CMP-135,L-5773,Replied,True,2026-09-10,email_platform,email
+CM-51597,CMP-117,L-5774,Downloaded,True,2026-04-28,linkedin,organic
+CM-51599,CMP-135,L-5774,Meeting Booked,True,2026-08-12,Email-Platform,email
+CM-51598,CMP-132,L-5774,Converted,True,2026-08-15,linkedin,paid_social
+CM-51600,CMP-122,L-5775,Replied,True,2026-06-29,email_platform,email
+CM-51601,CMP-135,L-5775,Sent,False,2026-08-12,email_platform,email
+CM-51602,CMP-123,L-5776,Referred,True,2026-04-29,partner,referral
+CM-51603,CMP-134,L-5776,Replied,True,2026-07-11,email_platform,email
+CM-51604,CMP-137,L-5777,Demo Requested,True,2026-09-24,google,cpc
+CM-51605,CMP-118,L-5778,Downloaded,True,2026-06-21,linkedin,organic
+CM-51606,CMP-130,L-5778,Downloaded,True,2026-07-12,linkedin,organic
+CM-51607,CMP-127,L-5779,Met at Booth,True,2026-08-22,events,event
+CM-51608,CMP-136,L-5780,Referred,True,2026-07-20,partner,referral
+CM-51610,CMP-133,L-5780,Clicked,False,2026-08-21,linkedin,paid_social
+CM-51609,CMP-130,L-5780,Downloaded,True,2026-08-23,linkedin,organic
+CM-51611,CMP-100,L-5781,Attended,True,2026-03-16,events,event
+CM-51612,CMP-122,L-5782,Replied,True,2026-06-27,email_platform,email
+CM-51613,CMP-135,L-5782,Meeting Booked,True,2026-07-04,email_platform,email
+CM-51614,CMP-125,L-5783,Demo Requested,True,2026-05-03,google,cpc
+CM-51615,CMP-116,L-5783,Watched On-Demand,True,2026-06-04,webinar_platform,webinar
+CM-51616,CMP-128,L-5784,Watched On-Demand,True,2026-09-13,webinar_platform,webinar
+CM-51617,CMP-131,L-5784,Downloaded,True,2026-09-20,linkedin,organic
+CM-51618,CMP-101,L-5785,Met at Booth,True,2026-03-31,events,event
+CM-51619,CMP-134,L-5785,Replied,True,2026-08-02,email_platform,email
+CM-51620,CMP-133,L-5785,Converted,True,2026-09-23,linkedin,paid_social
+CM-51621,CMP-125,L-5786,Chat Engaged,True,2026-06-10,google.com,cpc
+CM-51622,CMP-128,L-5786,Registered,False,2026-08-13,webinar_platform,webinar
+CM-51623,CMP-116,L-5787,Watched On-Demand,True,2026-04-05,webinar_platform,webinar
+CM-51624,CMP-132,L-5787,Converted,True,2026-07-04,linkedin,paid_social
+CM-51625,CMP-138,L-5788,Chat Engaged,True,2026-07-24,google,cpc
+CM-51626,CMP-130,L-5788,Downloaded,True,2026-08-01,linkedin,organic
+CM-51627,CMP-105,L-5789,Downloaded,True,2026-03-25,linkedin,organic
+CM-51628,CMP-120,L-5790,Converted,True,2026-06-11,linkedin,paid_social
+CM-51629,CMP-122,L-5791,Meeting Booked,True,2026-04-07,email_platform,email
+CM-51630,CMP-121,L-5792,Meeting Booked,True,2026-04-24,email_platform,email
+CM-51631,CMP-130,L-5792,Downloaded,True,2026-08-30,linkedin,organic
+CM-51632,CMP-134,L-5793,Replied,True,2026-09-12,email_platform,email
+CM-51633,CMP-127,L-5793,Attended,True,2026-09-17,events,event
+CM-51634,CMP-137,L-5794,Demo Requested,True,2026-07-25,google,cpc
+CM-51635,CMP-105,L-5795,Downloaded,True,2026-03-29,linkedin,organic
+CM-51636,CMP-129,L-5795,Watched On-Demand,True,2026-09-19,webinar_platform,webinar
+CM-51637,CMP-121,L-5796,Meeting Booked,True,2026-04-22,email_platform,email
+CM-51638,CMP-135,L-5797,Replied,True,2026-08-02,email_platform,email
+CM-51639,CMP-129,L-5797,No Show,False,2026-08-28,webinar_platform,webinar
+CM-51640,CMP-123,L-5798,Referred,True,2026-06-29,partner,referral
+CM-51641,CMP-130,L-5798,Downloaded,True,2026-07-13,linkedin,organic
+CM-51643,CMP-129,L-5798,Attended,True,2026-09-05,webinar_platform,webinar
+CM-51642,CMP-133,L-5798,Converted,True,2026-09-08,linkedin,paid_social
+CM-51644,CMP-128,L-5799,Watched On-Demand,True,2026-09-30,webinar_platform,webinar
+CM-51645,CMP-137,L-5800,Chat Engaged,True,2026-07-18,google,cpc
+CM-51646,CMP-124,L-5801,Chat Engaged,True,2026-05-17,google,cpc
+CM-51647,CMP-127,L-5801,Met at Booth,True,2026-08-26,events,event
+CM-51648,CMP-102,L-5802,Watched On-Demand,True,2026-03-12,webinar_platform,webinar
+CM-51650,CMP-120,L-5802,Converted,True,2026-04-12,linkedin,paid_social
+CM-51649,CMP-116,L-5802,Watched On-Demand,True,2026-04-24,webinar_platform,webinar
+CM-51651,CMP-126,L-5803,Attended,True,2026-08-24,events,event
+CM-51652,CMP-133,L-5803,Clicked,False,2026-09-03,linkedin,paid_social
+CM-51653,CMP-133,L-5803,Converted,True,2026-09-27,linkedin,paid_social
+CM-51654,CMP-138,L-5804,Demo Requested,True,2026-09-07,google,cpc
+CM-51655,CMP-129,L-5804,Attended,True,2026-09-27,webinar_platform,webinar
+CM-51656,CMP-125,L-5805,Chat Engaged,True,2026-04-21,google,cpc
+CM-51657,CMP-133,L-5805,Clicked,False,2026-07-16,linkedin,paid_social
+CM-51658,CMP-102,L-5806,Attended,True,2026-02-28,webinar_platform,webinar
+CM-51659,CMP-118,L-5806,Downloaded,True,2026-05-07,linkedin,organic
+CM-51660,CMP-132,L-5807,Converted,True,2026-09-13,linkedin,paid_social
+CM-51662,CMP-131,L-5807,Downloaded,True,2026-09-18,linkedin,organic
+CM-51661,CMP-128,L-5807,Registered,False,2026-09-19,webinar_platform,webinar
+CM-51663,CMP-133,L-5808,Converted,True,2026-08-12,linkedin,paid_social
+CM-51664,CMP-135,L-5808,Meeting Booked,True,2026-09-30,email_platform,email
+CM-51665,CMP-135,L-5809,Replied,True,2026-07-25,email_platform,email
+CM-51666,CMP-135,L-5810,Replied,True,2026-09-10,email_platform,email
+CM-51668,CMP-131,L-5810,Downloaded,True,2026-09-18,linkedin,organic
+CM-51667,CMP-133,L-5810,Clicked,False,2026-09-27,linkedin,paid_social
+CM-51669,CMP-100,L-5811,Met at Booth,True,2026-01-06,events,event
+CM-51671,CMP-108,L-5811,Replied,True,2026-03-06,email_platform,email
+CM-51670,CMP-134,L-5811,Replied,True,2026-07-22,email_platform,email
+CM-51672,CMP-134,L-5811,Replied,True,2026-07-27,email_platform,email
+CM-51673,CMP-104,L-5812,Downloaded,True,2026-02-07,linkedin,organic
+CM-51674,CMP-114,L-5813,Met at Booth,True,2026-04-04,events,event
+CM-51675,CMP-109,L-5814,Replied,True,2026-03-30,email_platform,email
+CM-51676,CMP-136,L-5815,Referred,True,2026-09-24,partner,referral
+CM-51677,CMP-127,L-5815,Attended,True,2026-09-27,events,event
+CM-51678,CMP-102,L-5816,Watched On-Demand,True,2026-03-16,webinar_platform,webinar
+CM-51679,CMP-108,L-5816,Sent,False,2026-03-25,email_platform,email
+CM-51680,CMP-106,L-5816,Converted,True,2026-03-29,linkedin,paid_social
+CM-51681,CMP-105,L-5816,Downloaded,True,2026-03-29,linkedin,organic
+CM-51682,CMP-103,L-5817,Watched On-Demand,True,2026-02-21,webinar_platform,webinar
+CM-51683,CMP-118,L-5817,Downloaded,True,2026-04-23,linkedin,organic
+CM-51684,CMP-134,L-5818,Meeting Booked,True,2026-08-30,email_platform,email
+CM-51685,CMP-122,L-5819,Meeting Booked,True,2026-06-24,email_platform,email
+CM-51686,CMP-119,L-5820,Converted,True,2026-05-12,linkedin,paid_social
+CM-51687,CMP-123,L-5821,Referred,True,2026-05-21,partner,referral
+CM-51689,CMP-117,L-5821,Downloaded,True,2026-05-23,linkedin,organic
+CM-51688,CMP-113,L-5821,Registered,False,2026-06-04,events,event
+CM-51690,CMP-125,L-5822,Chat Engaged,True,2026-04-24,google,cpc
+CM-51691,CMP-132,L-5822,Clicked,False,2026-09-17,linkedin,paid_social
+CM-51692,CMP-138,L-5823,Demo Requested,True,2026-09-23,google,cpc
+CM-51694,CMP-133,L-5823,Converted,True,2026-09-27,linkedin,paid_social
+CM-51695,CMP-130,L-5823,Downloaded,True,2026-09-27,linkedin,organic
+CM-51693,CMP-130,L-5823,Downloaded,True,2026-09-29,LinkedIn,organic
+CM-51696,CMP-109,L-5824,Meeting Booked,True,2026-01-19,email_platform,email
+CM-51697,CMP-125,L-5825,Chat Engaged,True,2026-05-24,google,cpc
+CM-51699,CMP-119,L-5825,Converted,True,2026-06-11,linkedin,paid_social
+CM-51698,CMP-132,L-5825,Converted,True,2026-08-14,LinkedIn,paid_social
+CM-51700,CMP-128,L-5825,Watched On-Demand,True,2026-09-14,webinar_platform,webinar
+CM-51701,CMP-122,L-5826,Replied,True,2026-05-12,email_platform,email
+CM-51702,CMP-114,L-5826,Attended,True,2026-05-30,events,event
+CM-51703,CMP-125,L-5827,Demo Requested,True,2026-04-07,google,cpc
+CM-51704,CMP-133,L-5828,Converted,True,2026-09-25,linkedin,paid_social
+CM-51705,CMP-106,L-5829,Converted,True,2026-01-29,linkedin,paid_social
+CM-51706,CMP-107,L-5829,Converted,True,2026-02-07,linkedin,paid_social
+CM-51707,CMP-118,L-5830,Downloaded,True,2026-06-17,linkedin,organic
+CM-51708,CMP-109,L-5831,Replied,True,2026-03-01,email_platform,email
+CM-51710,CMP-115,L-5831,Watched On-Demand,True,2026-04-25,webinar_platform,webinar
+CM-51709,CMP-115,L-5831,Attended,True,2026-05-16,webinar_platform,webinar
+CM-51711,CMP-109,L-5832,Replied,True,2026-02-08,email_platform,email
+CM-51712,CMP-101,L-5832,Attended,True,2026-03-22,events,event
+CM-51713,CMP-134,L-5832,Replied,True,2026-08-08,email_platform,email
+CM-51714,CMP-137,L-5833,Demo Requested,True,2026-07-22,google,cpc
+CM-51715,CMP-126,L-5833,Attended,True,2026-07-31,events,event
+CM-51716,CMP-114,L-5834,Attended,True,2026-04-03,events,event
+CM-51717,CMP-116,L-5834,Attended,True,2026-06-14,webinar_platform,webinar
+CM-51718,CMP-105,L-5835,Downloaded,True,2026-02-01,linkedin,organic
+CM-51720,CMP-109,L-5835,Meeting Booked,True,2026-03-24,email_platform,email
+CM-51719,CMP-113,L-5835,Registered,False,2026-05-11,events,event
+CM-51721,CMP-119,L-5835,Converted,True,2026-05-11,LinkedIn,paid_social
+CM-51722,CMP-132,L-5836,Converted,True,2026-07-12,linkedin,paid_social
+CM-51723,CMP-132,L-5836,Converted,True,2026-07-21,linkedin,paid_social
+CM-51724,CMP-126,L-5836,Attended,True,2026-07-25,events,event
+CM-51725,CMP-127,L-5836,Attended,True,2026-07-25,events,event
+CM-51726,CMP-111,L-5837,Demo Requested,True,2026-02-13,google,cpc
+CM-51727,CMP-114,L-5837,Attended,True,2026-04-12,events,event
+CM-51728,CMP-130,L-5838,Downloaded,True,2026-07-27,linkedin,organic
+CM-51729,CMP-111,L-5839,Chat Engaged,True,2026-02-05,google,cpc
+CM-51730,CMP-110,L-5840,Referred,True,2026-02-27,partner,referral
+CM-51731,CMP-129,L-5840,Watched On-Demand,True,2026-09-16,webinar_platform,webinar
+CM-51732,CMP-121,L-5841,Replied,True,2026-05-19,email_platform,email
+CM-51733,CMP-118,L-5842,Downloaded,True,2026-06-18,linkedin,organic
+CM-51734,CMP-134,L-5842,Meeting Booked,True,2026-08-25,email_platform,email
+CM-51735,CMP-112,L-5843,Demo Requested,True,2026-03-25,google,cpc
+CM-51736,CMP-117,L-5843,Downloaded,True,2026-05-07,linkedin,organic
+CM-51737,CMP-115,L-5844,Watched On-Demand,True,2026-05-14,webinar_platform,webinar
+CM-51738,CMP-137,L-5845,Demo Requested,True,2026-09-17,google,cpc
+CM-51740,CMP-130,L-5845,Downloaded,True,2026-09-23,linkedin,organic
+CM-51739,CMP-132,L-5845,Converted,True,2026-09-24,linkedin,paid_social
+CM-51741,CMP-110,L-5846,Referred,True,2026-02-06,partner,referral
+CM-51742,CMP-122,L-5846,Replied,True,2026-06-25,email_platform,email
+CM-51743,CMP-111,L-5847,Chat Engaged,True,2026-03-08,google,cpc
+CM-51744,CMP-135,L-5847,Sent,False,2026-09-22,email_platform,email
+CM-51745,CMP-138,L-5848,Demo Requested,True,2026-09-23,google,cpc
+CM-51746,CMP-126,L-5848,Attended,True,2026-09-28,events,event
+CM-51747,CMP-112,L-5849,Demo Requested,True,2026-01-22,google,cpc
+CM-51748,CMP-115,L-5849,Attended,True,2026-05-13,webinar_platform,webinar
+CM-51749,CMP-134,L-5850,Replied,True,2026-07-23,email_platform,email
+CM-51751,CMP-134,L-5850,Meeting Booked,True,2026-07-25,email_platform,email
+CM-51752,CMP-129,L-5850,Watched On-Demand,True,2026-07-26,webinar_platform,webinar
+CM-51750,CMP-131,L-5850,Downloaded,True,2026-09-20,linkedin,organic
+CM-51753,CMP-110,L-5851,Referred,True,2026-01-26,partner,referral
+CM-51754,CMP-133,L-5851,Converted,True,2026-07-27,linkedin,paid_social
+CM-51755,CMP-136,L-5852,Referred,True,2026-09-03,partner,referral
+CM-51756,CMP-134,L-5853,Meeting Booked,True,2026-07-07,email_platform,email
+CM-51758,CMP-133,L-5853,Converted,True,2026-07-08,linkedin,paid_social
+CM-51757,CMP-126,L-5853,Met at Booth,True,2026-09-08,events,event
+CM-51759,CMP-126,L-5854,Met at Booth,True,2026-07-08,events,event
+CM-51760,CMP-124,L-5855,Demo Requested,True,2026-05-28,google,cpc
+CM-51763,CMP-130,L-5855,Downloaded,True,2026-07-10,linkedin,organic
+CM-51761,CMP-126,L-5855,Met at Booth,True,2026-07-11,events,event
+CM-51762,CMP-133,L-5855,Converted,True,2026-09-09,linkedin,paid_social
+CM-51764,CMP-115,L-5856,Watched On-Demand,True,2026-05-21,webinar_platform,webinar
+CM-51766,CMP-115,L-5856,Attended,True,2026-06-12,webinar_platform,webinar
+CM-51765,CMP-115,L-5856,Registered,False,2026-06-21,webinar_platform,webinar
+CM-51767,CMP-103,L-5857,Attended,True,2026-03-18,webinar_platform,webinar
+CM-51768,CMP-120,L-5858,Converted,True,2026-06-21,linkedin,paid_social
+CM-51769,CMP-103,L-5859,Attended,True,2026-02-20,webinar_platform,webinar
+CM-51770,CMP-137,L-5860,Chat Engaged,True,2026-08-11,google,cpc
+CM-51772,CMP-132,L-5860,Converted,True,2026-08-15,linkedin,paid_social
+CM-51771,CMP-132,L-5860,Converted,True,2026-09-07,linkedin,paid_social
+CM-51773,CMP-126,L-5860,Attended,True,2026-09-11,events,event
+CM-51774,CMP-133,L-5861,Converted,True,2026-09-20,linkedin,paid_social
+CM-51777,CMP-135,L-5861,Meeting Booked,True,2026-09-22,email_platform,email
+CM-51776,CMP-131,L-5861,Downloaded,True,2026-09-24,linkedin,organic
+CM-51775,CMP-127,L-5861,Registered,False,2026-09-26,events,event
+CM-51778,CMP-122,L-5862,Meeting Booked,True,2026-05-27,email_platform,email
+CM-51780,CMP-115,L-5862,Attended,True,2026-05-31,webinar_platform,webinar
+CM-51781,CMP-118,L-5862,Downloaded,True,2026-06-01,linkedin,organic
+CM-51779,CMP-119,L-5862,Converted,True,2026-06-02,linkedin,paid_social
+CM-51782,CMP-108,L-5863,Replied,True,2026-02-09,email_platform,email
+CM-51783,CMP-107,L-5863,Converted,True,2026-02-18,linkedin,paid_social
+CM-51784,CMP-102,L-5863,Registered,False,2026-03-18,webinar_platform,webinar
+CM-51785,CMP-120,L-5864,Converted,True,2026-04-27,linkedin,paid_social
+CM-51786,CMP-113,L-5864,No Show,False,2026-05-09,events,event
+CM-51787,CMP-127,L-5865,Attended,True,2026-08-22,events,event
+CM-51788,CMP-128,L-5865,Attended,True,2026-08-25,webinar_platform,webinar
+CM-51789,CMP-124,L-5866,Chat Engaged,True,2026-06-12,google,cpc
+CM-51792,CMP-131,L-5866,Downloaded,True,2026-08-10,linkedin,organic
+CM-51790,CMP-131,L-5866,Downloaded,True,2026-09-12,linkedin,organic
+CM-51791,CMP-127,L-5866,Met at Booth,True,2026-09-13,events_,event
+CM-51793,CMP-125,L-5867,Demo Requested,True,2026-04-01,google,cpc
+CM-51794,CMP-116,L-5867,Attended,True,2026-04-06,webinar_platform,webinar
+CM-51796,CMP-116,L-5867,Watched On-Demand,True,2026-05-27,webinar_platform,webinar
+CM-51795,CMP-116,L-5867,Attended,True,2026-06-05,webinar_platform,webinar
+CM-51797,CMP-138,L-5868,Demo Requested,True,2026-07-06,google,cpc
+CM-51799,CMP-126,L-5868,No Show,False,2026-07-12,events,event
+CM-51800,CMP-128,L-5868,Watched On-Demand,True,2026-09-13,webinar_platform,webinar
+CM-51798,CMP-134,L-5868,Replied,True,2026-09-17,Email-Platform,email
+CM-51801,CMP-127,L-5869,Attended,True,2026-08-18,events,event
+CM-51802,CMP-130,L-5869,Downloaded,True,2026-09-12,linkedin,organic
+CM-51803,CMP-138,L-5870,Chat Engaged,True,2026-07-11,google,cpc
+CM-51804,CMP-111,L-5871,Demo Requested,True,2026-02-06,google,cpc
+CM-51805,CMP-109,L-5871,Meeting Booked,True,2026-02-14,email_platform,email
+CM-51806,CMP-112,L-5872,Demo Requested,True,2026-03-21,google,cpc
+CM-51807,CMP-135,L-5873,Replied,True,2026-07-22,email_platform,email
+CM-51808,CMP-124,L-5874,Chat Engaged,True,2026-04-30,google,cpc
+CM-51809,CMP-108,L-5875,Replied,True,2026-02-28,email_platform,email
+CM-51810,CMP-132,L-5875,Converted,True,2026-09-13,linkedin,paid_social
+CM-51811,CMP-111,L-5876,Chat Engaged,True,2026-01-21,google,cpc
+CM-51812,CMP-126,L-5877,Attended,True,2026-08-26,events,event
+CM-51813,CMP-132,L-5877,Converted,True,2026-09-11,linkedin,paid_social
+CM-51814,CMP-127,L-5878,Met at Booth,True,2026-08-27,events,event
+CM-51815,CMP-126,L-5878,Attended,True,2026-08-29,events,event
+CM-51816,CMP-135,L-5878,Meeting Booked,True,2026-09-12,email_platform,email
+CM-51817,CMP-104,L-5879,Downloaded,True,2026-03-28,linkedin,organic
+CM-51820,CMP-115,L-5879,Watched On-Demand,True,2026-04-09,webinar_platform,webinar
+CM-51819,CMP-114,L-5879,Attended,True,2026-04-17,events,event
+CM-51818,CMP-126,L-5879,Registered,False,2026-08-17,events,event
+CM-51821,CMP-111,L-5880,Demo Requested,True,2026-02-28,google,cpc
+CM-51822,CMP-129,L-5880,Attended,True,2026-08-19,webinar_platform,webinar
+CM-51823,CMP-132,L-5880,Converted,True,2026-09-04,linkedin,paid_social
+CM-51824,CMP-109,L-5881,Replied,True,2026-02-22,email_platform,email
+CM-51825,CMP-129,L-5882,Watched On-Demand,True,2026-09-07,webinar_platform,webinar
+CM-51826,CMP-134,L-5882,Sent,False,2026-09-17,email_platform,email
+CM-51827,CMP-106,L-5883,Converted,True,2026-02-04,linkedin,paid_social
+CM-51830,CMP-101,L-5883,Attended,True,2026-03-02,events_,event
+CM-51828,CMP-118,L-5883,Downloaded,True,2026-05-13,linkedin,organic
+CM-51829,CMP-127,L-5883,Attended,True,2026-07-20,events,event
+CM-51831,CMP-125,L-5884,Demo Requested,True,2026-04-15,google,cpc
+CM-51832,CMP-126,L-5884,Attended,True,2026-08-17,events,event
+CM-51833,CMP-111,L-5885,Demo Requested,True,2026-03-11,google,cpc
+CM-51834,CMP-117,L-5885,Downloaded,True,2026-06-29,linkedin,organic
+CM-51835,CMP-135,L-5886,Meeting Booked,True,2026-08-18,email_platform,email
+CM-51836,CMP-135,L-5886,Meeting Booked,True,2026-09-06,email_platform,email
+CM-51837,CMP-131,L-5886,Downloaded,True,2026-09-20,linkedin,organic
+CM-51838,CMP-132,L-5887,Converted,True,2026-09-02,linkedin,paid_social
+CM-51839,CMP-135,L-5887,Meeting Booked,True,2026-09-03,Email-Platform,email
+CM-51840,CMP-134,L-5887,Meeting Booked,True,2026-09-22,email_platform,email
+CM-51841,CMP-109,L-5888,Replied,True,2026-03-06,email_platform,email
+CM-51842,CMP-107,L-5888,Clicked,False,2026-03-08,linkedin,paid_social
+CM-51843,CMP-103,L-5888,Attended,True,2026-03-27,webinar_platform,webinar
+CM-51844,CMP-129,L-5889,Watched On-Demand,True,2026-07-25,webinar_platform,webinar
+CM-51845,CMP-133,L-5889,Converted,True,2026-08-11,linkedin,paid_social
+CM-51846,CMP-120,L-5890,Converted,True,2026-04-15,linkedin,paid_social
+CM-51847,CMP-107,L-5891,Converted,True,2026-02-19,linkedin,paid_social
+CM-51848,CMP-132,L-5892,Converted,True,2026-07-18,linkedin,paid_social
+CM-51849,CMP-126,L-5892,Attended,True,2026-08-05,events,event
+CM-51850,CMP-117,L-5893,Downloaded,True,2026-05-05,linkedin,organic
+CM-51851,CMP-132,L-5894,Converted,True,2026-07-23,linkedin,paid_social
+CM-51852,CMP-133,L-5895,Converted,True,2026-09-03,linkedin,paid_social
+CM-51854,CMP-133,L-5895,Converted,True,2026-09-16,linkedin,paid_social
+CM-51853,CMP-130,L-5895,Downloaded,True,2026-09-18,linkedin,organic
+CM-51855,CMP-116,L-5896,Watched On-Demand,True,2026-06-28,webinar_platform,webinar
+CM-51856,CMP-135,L-5896,Sent,False,2026-08-26,email_platform,email
+CM-51857,CMP-107,L-5897,Converted,True,2026-03-08,linkedin,paid_social
+CM-51858,CMP-109,L-5898,Meeting Booked,True,2026-02-02,email_platform,email
+CM-51859,CMP-128,L-5898,Attended,True,2026-07-21,webinar_platform,webinar
+CM-51860,CMP-101,L-5899,Met at Booth,True,2026-02-14,events,event
+CM-51861,CMP-116,L-5899,Attended,True,2026-06-26,webinar_platform,webinar
+CM-51862,CMP-103,L-9900,Attended,True,2026-03-16,webinar_platform,webinar
+CM-51863,CMP-121,L-9901,Meeting Booked,True,2026-05-20,email_platform,email
+CM-51864,CMP-115,L-9902,Watched On-Demand,True,2026-04-25,webinar_platform,webinar
+CM-51865,CMP-114,L-9902,Attended,True,2026-05-14,events,event
+CM-51866,CMP-130,L-9902,Downloaded,True,2026-09-12,linkedin,organic
+CM-51867,CMP-112,L-9903,Chat Engaged,True,2026-03-31,google,cpc
+CM-51868,CMP-131,L-9903,Downloaded,True,2026-08-11,linkedin,organic
+CM-51869,CMP-120,L-9904,Converted,True,2026-04-27,linkedin,paid_social
+CM-51870,CMP-130,L-9905,Downloaded,True,2026-08-30,linkedin,organic

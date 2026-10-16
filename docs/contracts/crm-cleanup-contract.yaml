@@ -1,0 +1,37 @@
+---
+contract_id: crm_cleanup_agent
+version: 0.1.0
+objective: "Turn data-quality findings into a reviewable, operation-level correction plan, apply only the operations a human approved by ID, and prove the result by re-running the same audit. This agent never mass-edits and never guesses values."
+boundaries:
+  readable_paths:
+    - "shared_core/data_quality/dq_monitor.py"
+    - "outputs/dq_failures.csv"
+    - "docs/playbooks/CRM_Health_Scoring.md"
+    - "shared_core/data_quality/field-and-agent-write-governance.md"
+  writeable_paths:
+    - "outputs/crm_cleanup_plan.csv"
+    - "outputs/crm_cleanup_log.csv"
+  allowed_mcp_tools:
+    - "crm_read"
+    - "crm_update_approved_ops"   # executes only operation IDs present in an approved plan
+    - "slack_notify"
+role_map:
+  baseline_agent: "Snapshots the affected objects, field definitions, owners, stages and automations, with extraction time and record counts. Each check is written as a rule: population, condition, severity, evidence."
+  planner_agent: "Writes one operation per change: record ID, field, current value, proposed value, rule and evidence, confidence, reversibility, impact radius, and whether a human decision is needed. Deterministic fixes are kept apart from judgment calls (duplicate survivors, missing owners, disputed stages, inferred values)."
+  executor_agent: "Re-reads each target just before writing. If the value changed since planning, the operation is marked stale and skipped. Applies approved operation IDs only, and logs before/after values, approver, time and outcome."
+  verifier_agent: "Re-runs the same audit rules and reconciles planned, applied, skipped-stale, failed and newly detected counts. Every planned operation must be accounted for."
+evidence_standard: "Every finding is reproducible from a written rule and visible evidence; every applied change has a before value, after value, approver and timestamp in outputs/crm_cleanup_log.csv"
+batch_policy:
+  priority: "severity (1-4) x affected share x recurrence multiplier (2 if the source is still producing defects)"
+  order: "stop ongoing corruption first, then restore routing/ownership, then live pipeline, then cosmetic completeness"
+  first_batch: "at most 100 operations or 5% of the affected population, whichever is smaller; 10 for irreversible merges"
+  confidence: "100% deterministic -> eligible; 80-99% -> sampled review; under 80% -> route to a human decision, no proposed write"
+stop_rules:
+  - "No snapshot -> no changes"
+  - "Merges, deletions, ownership decisions and any bulk change require explicit approval of the listed operation IDs; approving a summary is not approving unseen records"
+  - "Target value changed since planning -> skip as stale; never overwrite newer work"
+  - "Never invent a field value; a missing close date becomes an owner task, not a new date"
+  - "Never send CRM data to an endpoint the operator does not own"
+  - "Not complete until the source of the defect is controlled, the rule is monitored and the next review has an owner"
+source: "Adapted in our own words from swan-gtm/gtm-skills skills/ryan-iyengar/governed-crm-cleanup (MIT, (c) 2026 Swan), folder hash d5056c843f59"
+---

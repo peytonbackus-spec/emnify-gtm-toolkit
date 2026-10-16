@@ -1,0 +1,39 @@
+---
+contract_id: lead_routing_agent
+version: 0.1.0
+objective: "Assign every inbound lead exactly one owner (or a no-outreach or nurture queue) through an ordered rule list, stamp the reason on the record, and enforce first-touch SLAs by tier. This is a router; it never contacts the lead."
+boundaries:
+  readable_paths:
+    - "gtm_engineer/lead_routing/route_leads.py"
+    - "gtm_engineer/lead_routing/salesforce-routing-flow-spec.md"
+    - "docs/contracts/speed-to-lead-sla-contract.yaml"
+    - "config/example.yaml"
+  writeable_paths:
+    - "outputs/routed_leads.csv"
+    - "outputs/review_queue_routing.csv"
+  allowed_mcp_tools:
+    - "crm_read"
+    - "crm_update_owner"      # owner and routing-reason fields only; human review per HITL policy
+    - "slack_notify"
+role_map:
+  objection_gate_agent: "Step 0: if the contact has objected to direct marketing (GDPR Art. 21), unsubscribed, or lacks CASL consent for a Canadian contact, route to the no-outreach queue and keep the record. Nothing downstream runs."
+  account_match_agent: "Matches the lead to an existing account (domain first, then enrichment). Existing open opportunity -> opportunity owner; customer -> account owner/CSM; churned customer -> win-back owner. Unowned account -> continue, and assign the account owner in the same step."
+  fit_gate_agent: "Below the MQL threshold -> nurture. Above it -> territory assignment."
+  assignment_agent: "Territory (geo/segment/industry) first, then round-robin within it: weighted for ramping reps, skipping reps who are out of office, over their daily cap or outside working hours. No owner found -> ops review queue (a routing gap to fix, never a silent default)."
+  sla_timer_agent: "Starts the first-touch clock at routing (Routed_At) and escalates per the speed-to-lead SLA contract tiers."
+evidence_standard: "Every routed lead carries Routed_At, the rule that fired, the owner, and the SLA tier. 'Why did this go to X?' must be answerable from the record alone."
+stop_rules:
+  - "Objection, unsubscribe or missing CASL consent -> no-outreach queue; never route to a seller"
+  - "Rule produces no owner -> ops review queue and a routing-gap alert; never assign at random"
+  - "Lead belongs to an account with an open opportunity -> route to that opportunity owner; never create parallel outbound"
+  - "Reassignment is never silent: SLA-breach reassignment notifies the original owner, the manager and RevOps, and sets SLA_Breached = true"
+  - "AI-assisted assignment (if enabled) logs its top three decision factors and every override, and falls back to rules when SLA compliance drops"
+quarterly_audit:
+  - "Leads with no owner (target: 0)"
+  - "Distribution balance across reps in the same segment (target: within about 10%)"
+  - "Median and 90th-percentile speed-to-lead by tier"
+  - "SLA compliance (target: above 90%)"
+  - "Reassignment rate (above about 15% suggests rule problems; practice-based)"
+  - "Conversion by routing path; leads sitting in queues for over an hour"
+source: "Adapted in our own words from swan-gtm/gtm-skills skills/rutger-katz/lead-routing (MIT, (c) 2026 Swan), folder hash e08013addbd6"
+---

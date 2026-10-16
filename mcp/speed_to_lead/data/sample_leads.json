@@ -1,0 +1,17 @@
+{
+  "_note": "Local JSON adapter sample. Edit freely. Offsets are minutes before 'now'; use created_at / scheduled_at (ISO 8601) for fixed times.",
+  "leads": [
+    {"id": "L-1001", "name": "Maria Okafor", "email": "maria.okafor@brightwave.example", "company": "Brightwave Logistics", "title": "VP Revenue Operations", "source": "Demo request form", "score_tier": "Tier 1 (Hot)", "created_minutes_ago": 3},
+    {"id": "L-1002", "name": "Liam Tremblay", "email": "liam.t@northfield-saas.example", "company": "Northfield SaaS", "title": "Head of Sales", "source": "Pricing page chat", "score_tier": "Tier 1 (Hot)", "created_minutes_ago": 9},
+    {"id": "L-1003", "name": "Aiko Tanaka", "email": "aiko@harborlabs.example", "company": "Harbor Labs", "title": "Sales Ops Manager", "source": "Webinar registration", "score_tier": "Tier 2 (Warm)", "created_minutes_ago": 26},
+    {"id": "L-1004", "name": "Samuel Dube", "email": "sdube@greystone-mfg.example", "company": "Greystone Manufacturing", "title": "Director of Marketing", "source": "Content download", "score_tier": "Tier 2 (Warm)", "created_minutes_ago": 55},
+    {"id": "L-1005", "name": "Chloe Martin", "email": "chloe.martin@pinecrest.example", "company": "Pinecrest Health", "title": "Marketing Coordinator", "source": "Newsletter signup", "score_tier": "Tier 3 (Cold)", "created_minutes_ago": 300},
+    {"id": "L-1006", "name": "Ravi Menon", "email": "ravi@orbitpay.example", "company": "OrbitPay", "title": "CRO", "source": "Demo request form", "score_tier": "Tier 1 (Hot)", "created_minutes_ago": 14}
+  ],
+  "meetings": [
+    {"id": "M-2001", "contact_id": "C-5001", "contact_name": "Elena Petrov", "title": "Discovery call - Brightwave", "scheduled_minutes_ago": 90, "status": "no_show", "recovery_triggered": false},
+    {"id": "M-2002", "contact_id": "C-5002", "contact_name": "Tom Walsh", "title": "Demo - Harbor Labs", "scheduled_minutes_ago": 400, "status": "no_show", "recovery_triggered": true},
+    {"id": "M-2003", "contact_id": "C-5003", "contact_name": "Nadia Hussain", "title": "Demo - Northfield", "scheduled_minutes_ago": 180, "status": "completed", "recovery_triggered": false},
+    {"id": "M-2004", "contact_id": "C-5004", "contact_name": "Greg Larsen", "title": "Intro call - Greystone", "scheduled_minutes_ago": 600, "status": "no_show", "recovery_triggered": false}
+  ]
+}

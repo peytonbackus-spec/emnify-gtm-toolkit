@@ -1,0 +1,21 @@
+contract_id: pipeline_risk_agent
+version: 1.0.0
+objective: "Identify stalled enterprise deals in SFDC with zero Gong call activity >14 days"
+boundaries:
+  readable_paths: 
+    - "wiki/accounts/"
+    - "raw-sources/transcripts/"
+  writeable_paths: 
+    - "intelligence/daily/"
+  allowed_mcp_tools: 
+    - "sfdc_read"
+    - "gong_search"
+    - "slack_notify"
+role_map:
+  data_audit_agent: "Inspects SFDC field history and stage velocity"
+  synthesis_agent: "Drafts executive summary and Slack notification"
+evidence_standard: "Must include exact Gong transcript URL or SFDC field change timestamp"
+stop_rules:
+  - "Missing SFDC auth token"
+  - "Confidence score < 0.85 on sentiment extraction"
+  - "Deal size > $100k requires mandatory HITL approval before dispatch"
