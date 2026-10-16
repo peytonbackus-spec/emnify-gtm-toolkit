@@ -125,7 +125,7 @@ python -m outbound.run --dry-run       # ranking, held handoff, coverage cases
 python -m agents.run_evals             # 9 eval cases across 3 agents
 python -m knowledge.tools validate     # schema, staleness, router targets
 python -m outbound.sensitivity         # how ramp and realization move coverage
-python -m pytest                       # 134 tests
+python -m pytest                       # 135 tests
 ```
 
 ## Single source of values

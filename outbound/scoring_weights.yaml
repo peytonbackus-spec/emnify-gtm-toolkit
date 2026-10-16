@@ -8,7 +8,7 @@ fit:
     - {min_employees: 100, points: 12}
     - {min_employees: 20,  points: 8}
   size_default_points: 2
-  region_points: {EMEA: 10, NA: 10, APAC: 6}
+  region_points: {US: 10, Europe: 10, LATAM: 10, Philippines: 10}   # equal until win data ranks regions
 signals:                       # points and half-life (days); decay = points * 0.5 ** (days_ago / half_life)
   new_connected_product_launch:   {points: 25, half_life_days: 45}
   hiring_embedded_or_iot_engineers: {points: 15, half_life_days: 30}

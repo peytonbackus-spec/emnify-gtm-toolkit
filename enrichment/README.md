@@ -17,4 +17,4 @@ Lead and account enrichment end to end: dedupe, waterfall, field-mapping contrac
 python -m enrichment.run --dry-run
 ```
 
-The older [gtm_engineer/enrichment/](../gtm_engineer/enrichment/) engines come from the template. This folder is the emnify-specific layer and does not use `eval`.
+The older [gtm_engineer/enrichment/](../gtm_engineer/enrichment/) engines come from the template. This folder is the emnify-specific layer; its waterfall conditions are structured data, not evaluated strings.

@@ -51,7 +51,9 @@ def r_role(c: dict) -> str:
 
 
 def r_regions(c: dict) -> str:
-    return ", ".join(c["regions"]) + " (hypothesis: validate)\n"
+    src = c["regions_source"]
+    return (", ".join(c["regions"]) + f" (public: {src['origin']}; {src['note']}. "
+            "Which region to start in is hypothesis: validate)\n")
 
 
 def r_personas(c: dict) -> str:

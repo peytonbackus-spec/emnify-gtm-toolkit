@@ -83,7 +83,12 @@ icp_hypotheses:
     - deployment_timeline_months
     - current_connectivity_provider
 
-regions: [EMEA, NA, APAC]       # hypothesis: validate (territory design is an open question)
+regions: [LATAM, US, Europe, Philippines]
+regions_source:                  # public
+  source: public
+  origin: "emnify careers page, Go-to-market team section"
+  note: "dedicated sales, customer success and marketing specialists per region"
+  territory_design: "hypothesis: validate (how accounts map to these regions is an open question)"
 
 # Coverage model inputs for consumption-based revenue. All placeholders: the model
 # runs offline on these and prints what it assumes. Replace with real history.

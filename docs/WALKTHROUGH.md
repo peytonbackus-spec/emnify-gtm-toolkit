@@ -2,6 +2,18 @@
 
 A talk track for "walk us through a flow". It follows a single synthetic account through the repo, in about ten minutes. Every emnify detail is hypothesis: validate, and I would start by asking how close this is to what already exists.
 
+## A flow I have actually built (Certa, my own work, not emnify's)
+
+At Certa I built Clay signal-based prospecting that sourced about 80% of pipeline.
+
+- **Signals used:** website visits, connections to SMEs, previous users and evaluators, lost, derailed and rejected opportunities, aged MQLs, new hires, promotions and job postings.
+- **Into Salesforce:** Clay synced leads, contacts, accounts and opportunities to Salesforce, plus a Gong "Most Recent Call" field.
+- **From calls:** Clay extracted objections from calls and wrote them to opportunity and account fields, which created tasks.
+- **Alerts:** n8n sent Clay-to-Slack alerts for expansion and role changes.
+- **Pushback:** reps questioned the accuracy of the output. I addressed it with prompt and AI-skill enablement and by validating sources.
+
+This repo structures the same method for a new company: the flow is written as a spec before anything runs, every write path defaults to a dry run, and a person reviews anything that changes a record or reaches a prospect. The Certa result is mine and does not carry over to emnify automatically.
+
 ## 0. Frame (30 seconds)
 Revenue is usage-based, so the question is not "is this a lead" but "is this account likely to put many devices online, soon, in places we serve". Everything below is built to answer that, cheaply, with a person approving anything that changes a record or reaches a prospect.
 

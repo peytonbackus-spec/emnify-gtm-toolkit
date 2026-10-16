@@ -5,7 +5,7 @@
       "company": "FleetLoop",
       "iot_vertical": "fleet_management",
       "employees": 75,
-      "region": "EMEA"
+      "region": "Europe"
     },
     "checks": {
       "required_keys": [
@@ -34,7 +34,7 @@
       "company": "Corner Bakery",
       "iot_vertical": "bakery",
       "employees": 30,
-      "region": "EMEA"
+      "region": "Europe"
     },
     "checks": {
       "required_keys": [

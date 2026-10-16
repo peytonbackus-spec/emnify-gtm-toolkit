@@ -39,7 +39,7 @@ Not in this window: new vendors, new agents, anything sent to prospects.
 | Decide what to cut | A stack and workflow list shorter than at the start, or a reason it is not |
 
 Regions in scope for first motions: <!-- BEGIN company:regions -->
-EMEA, NA, APAC (hypothesis: validate)
+LATAM, US, Europe, Philippines (public: emnify careers page, Go-to-market team section; dedicated sales, customer success and marketing specialists per region. Which region to start in is hypothesis: validate)
 <!-- END company:regions -->
 
 ## What would make me change this plan

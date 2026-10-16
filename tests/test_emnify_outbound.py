@@ -21,7 +21,7 @@ def test_suppression_and_ranking_order():
 
 
 def test_signal_decays_and_unknown_devices_flagged():
-    base = {"id": "x", "iot_vertical": "robotics", "employee_count": 100, "region": "NA"}
+    base = {"id": "x", "iot_vertical": "robotics", "employee_count": 100, "region": "US"}
     fresh = score_account({**base, "signals": [{"kind": "funding_round", "days_ago": 0}]})["score"]
     old = score_account({**base, "signals": [{"kind": "funding_round", "days_ago": 120}]})["score"]
     assert fresh > old
@@ -57,3 +57,9 @@ def test_sensitivity_monotonic():
     g = grid(OPPS)
     assert g[3][1.0] > g[6][1.0] > g[12][1.0]          # slower ramp realizes less
     assert g[6][0.6] < g[6][0.8] < g[6][1.0]           # lower realization realizes less
+
+
+def test_scoring_regions_match_company_yaml():
+    from emnify_gtm.company import get
+    from outbound.scoring import load_weights
+    assert sorted(load_weights()["fit"]["region_points"]) == sorted(get("regions"))

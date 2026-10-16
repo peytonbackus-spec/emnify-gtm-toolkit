@@ -5,7 +5,7 @@ Format: decision, why, what reverses it. Full table in `DECISIONS.md`.
 1. Coverage is measured in realized-in-period usage revenue, not signed value.
 2. Clay is specified, not run.
 3. Writes are dry-run by default and need a named human approver.
-4. Waterfall conditions are structured data, not evaluated strings.
+4. The emnify layer's waterfall uses structured conditions, not evaluated strings.
 5. Agents propose; people decide. Agents never set stage, category or amount.
 6. Every vertical gets equal fit points until win data exists.
 7. Two config files: root `company.yaml` for emnify, `config/company.yaml` for the inherited demo engines.
