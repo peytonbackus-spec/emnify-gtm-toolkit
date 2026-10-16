@@ -4,9 +4,9 @@ A talk track for "walk us through a flow". It follows a single synthetic account
 
 ## A flow I have actually built (Certa, my own work, not emnify's)
 
-At Certa I built Clay signal-based prospecting that sourced about 80% of pipeline.
+At Certa I built Clay signal-based prospecting that sourced about 80% of pipeline by my own tracking in Salesforce reports and Google Sheets.
 
-- **Signals used:** website visits, connections to SMEs, previous users and evaluators, lost, derailed and rejected opportunities, aged MQLs, new hires, promotions and job postings.
+- **Signals used:** website visits, connections to subject matter experts, people who had used, trialed or taken part in an evaluation of the product at an earlier company and have since moved, lost, derailed and rejected opportunities, aged MQLs, new hires, promotions and job postings.
 - **Into Salesforce:** Clay synced leads, contacts, accounts and opportunities to Salesforce, plus a Gong "Most Recent Call" field.
 - **From calls:** Clay extracted objections from calls and wrote them to opportunity and account fields, which created tasks.
 - **Alerts:** n8n sent Clay-to-Slack alerts for expansion and role changes.
