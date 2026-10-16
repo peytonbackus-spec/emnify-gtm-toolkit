@@ -1,0 +1,17 @@
+id: definitions-revenue-metrics
+type: definitions
+status: "hypothesis: validate"
+tags: [metrics, revenue, consumption]
+last_modified: 2026-10-16
+confidence_score: 0.5
+source: "shared_core/metrics/metric-definitions.md (adapted for consumption revenue)"
+note: "Definitions are proposals to agree with the Revenue Operations Lead. No emnify numbers appear here."
+metrics:
+  pipeline_created:    {definition: "Sum of expected first-12-month usage revenue (expected case) on opportunities created in period", unit: currency, caveat: "Contract value alone overstates connectivity deals; use expected usage"}
+  expected_usage_revenue: {definition: "devices x expected monthly data per device x price per unit x months, then multiplied by the ramp curve", unit: currency, caveat: "Inputs are ranges; report low, expected, high"}
+  realized_usage_revenue: {definition: "Billed usage revenue in period from accounts sourced in the cohort", unit: currency, caveat: "Lags creation by the ramp period"}
+  coverage_ratio:      {definition: "Open pipeline in expected-usage terms divided by remaining target for the period", unit: ratio}
+  win_rate:            {definition: "Closed-won divided by closed (won plus lost) for opportunities created in a cohort", unit: ratio, caveat: "Cohort by created date, not close date"}
+  speed_to_lead:       {definition: "Minutes from the first qualifying signal or inbound request to the first human touch", unit: minutes}
+  usage_realization:   {definition: "Realized usage revenue divided by expected usage revenue for a cohort at month N", unit: ratio, caveat: "The number that tells you whether the forecast model is honest"}
+  sourced_by_signal:   {definition: "Share of created pipeline whose first touch was triggered by a defined signal", unit: ratio}

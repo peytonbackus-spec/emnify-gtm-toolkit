@@ -1,0 +1,39 @@
+[
+  {
+    "id": "pz-signal",
+    "record": {
+      "company": "VoltGrid",
+      "signal": "you opened three new charging sites in Poland"
+    },
+    "checks": {
+      "required_keys": [
+        "subject",
+        "body"
+      ],
+      "expect": {
+        "requires_review": true
+      },
+      "must_not_contain": [
+        "guarantee",
+        "save",
+        "industry-leading",
+        "100%",
+        "score"
+      ],
+      "no_pii": true
+    }
+  },
+  {
+    "id": "pz-nosignal",
+    "record": {
+      "company": "FleetLoop"
+    },
+    "checks": {
+      "expect": {
+        "skip_reason": "no signal provided",
+        "body": "",
+        "requires_review": true
+      }
+    }
+  }
+]

@@ -1,4 +1,4 @@
-# Sales Engagement Layer: [SEQUENCER] · [DIALER] · [WEBSITE_CHAT] · [SOCIAL_SELLING]
+# Sales Engagement Layer: Amplemarket · the dialer · website chat · LinkedIn Sales Navigator
 
 ![GTM Engineer](https://img.shields.io/badge/role-GTM%20Engineer-1F6FEB)
 
@@ -6,7 +6,7 @@
 
 This is a design spec: how to configure each tool so it reinforces the [lead lifecycle](../lead_lifecycle/lead-lifecycle-spec.md) instead of running its own version of it. Cadence and activity-logging standards here directly affect forecast signals on the 🟩 Strategy & Ops side.
 
-## [SEQUENCER]: cadence architecture
+## Amplemarket: cadence architecture
 
 **Principle:** a small set of cadences keyed to *segment × product line × intent*. Not one per rep.
 
@@ -27,19 +27,19 @@ Rename these to the company's own plays. The keys (segment × product × intent)
 - Bounce or opt-out removes the person from every cadence and sets the opt-out flag. Apply the regional rules that govern your senders and recipients (for example CASL, GDPR).
 - Auto-enrollment (rules that add MQLs to a cadence) is the riskiest piece. Pilot it on `HR-Hand-Raise` first, with SDR override, and measure speed-to-lead before and after.
 
-## [DIALER]
+## the dialer
 
 - Call lists are generated from CRM views sorted by `Lead_Grade__c`, never from static CSVs.
 - Dispositions map 1:1 to CRM task outcomes (`Connected-Meeting`, `Connected-NotNow`, `Wrong Number`, `Gatekeeper`…). The connect rate per data provider feeds the [waterfall](enrichment-waterfall.md) review.
 - Power-hour blocks are aligned to regional calling windows by pod.
 
-## [WEBSITE_CHAT]
+## website chat
 
 - Routing on chat uses the same pod rules. A known customer visiting goes to the AE, a known open opp goes to the opp owner, and an ICP fit goes to the live SDR.
 - The chat "engaged" event writes `chat_engaged@date` to the signal log, which carries the highest intent weight after a demo request.
 - Meetings booked in chat skip MQL and go straight to SAL with the hand-raiser first-touch SLA.
 
-## [SOCIAL_SELLING]
+## LinkedIn Sales Navigator
 
 - Saved account lists mirror the CRM segments: one list per pod.
 - Job-change alerts for economic-buyer personas at ICP accounts feed the enrichment tool as `champion_job_change`.

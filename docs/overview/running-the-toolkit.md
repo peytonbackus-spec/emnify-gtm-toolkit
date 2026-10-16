@@ -43,4 +43,4 @@ No API keys needed. The AI workflows use a deterministic mock model by default. 
 
 ## Changing assumptions
 
-Edit the company config (`config/company.yaml`, or `config/example.yaml` in the template itself) and re-run. Segment weights, persona points, stage limits, SLAs, health weights, fiscal calendar and quota all flow through every script. Point at another config with `GTM_CONFIG=path/to/file.yaml`.
+Edit the company config (`config/company.yaml`) and re-run. Segment weights, persona points, stage limits, SLAs, health weights, fiscal calendar and quota all flow through every script. Point at another config with `GTM_CONFIG=path/to/file.yaml`.

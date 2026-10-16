@@ -1,0 +1,13 @@
+# Data contract: enrichment -> n8n -> Salesforce account upsert. Field names are placeholders (hypothesis: validate).
+id: contract-sfdc-account-upsert
+producer: enrichment (enrichment/mapping.py)
+consumer: n8n workflow enrichment-intake -> Salesforce
+idempotency_key: domain
+fields:
+  domain:        {type: string, required: true, pattern: '^[a-z0-9.-]+\.[a-z]{2,}$'}
+  employee_count: {type: integer, required: false, min: 1}
+  industry:      {type: string, required: false}
+  hq_country:    {type: string, required: false, pattern: '^[A-Z]{2}$'}
+  iot_vertical:  {type: string, required: false, enum_from: icp_hypotheses.verticals}
+  provenance:    {type: object, required: true, note: "field -> provider that supplied it"}
+  approved_by:   {type: string, required: true, note: "human approver id; empty means do not write"}

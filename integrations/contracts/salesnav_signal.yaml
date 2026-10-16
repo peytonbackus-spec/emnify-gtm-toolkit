@@ -1,0 +1,9 @@
+id: contract-salesnav-signal
+producer: "LinkedIn Sales Navigator alerts (manual export or saved-search alert; no API assumed, hypothesis: validate)"
+consumer: outbound/scoring
+idempotency_key: signal_id
+fields:
+  signal_id: {type: string, required: true}
+  domain:    {type: string, required: true}
+  kind:      {type: string, required: true, enum: [job_change, hiring, funding, news]}
+  seen_at:   {type: string, required: true}

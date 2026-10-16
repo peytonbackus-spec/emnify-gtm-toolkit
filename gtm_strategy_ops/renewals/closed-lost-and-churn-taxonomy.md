@@ -26,7 +26,7 @@ One picklist for new-business losses and one for churn. Each value has an owner 
 | Volume decline | Fewer transactions or seats. Check whether it is structural or temporary. | `volume_trend` component |
 | Consolidated vendor | Moved to a platform bundle from a larger vendor | `competitive` component |
 | M&A | Acquired; acquirer's vendor won | News signal |
-| Product gap | Needed a capability we lack | [CONVERSATION_INTELLIGENCE] mentions |
+| Product gap | Needed a capability we lack | Attention mentions |
 | Service / support | Sev-1 history, implementation issues | `support` component |
 | Price at renewal | Pushback on uplift or commit | — |
 | Business closure | — | — |

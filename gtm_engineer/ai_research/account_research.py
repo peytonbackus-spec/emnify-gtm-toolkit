@@ -7,7 +7,7 @@ and APIs, with defined prompts, outputs, evaluation criteria and human-in-the-lo
 Flow (one record):
   CRM lead/account -> pii_guard (allow-list + redaction) -> versioned prompt
   -> LLM (mock or live) -> JSON contract check -> HITL policy -> review queue
-  -> (on Accept) write brief to the CRM + [SEQUENCER] cadence variable
+  -> (on Accept) write brief to the CRM + Amplemarket cadence variable
 
 In production the trigger is a CRM flow / enrichment-tool HTTP column calling this as
 a small API (or an n8n workflow). The Python is the same either way.

@@ -1,0 +1,13 @@
+id: router-requests
+type: router
+status: "hypothesis: validate"
+tags: [router, agents]
+last_modified: 2026-10-16
+confidence_score: 0.6
+note: "Same lookup for people and agents. A request that matches nothing is a gap to log, not a reason to force a fit."
+routes:
+  - {matches: "enrich accounts, fill missing fields, dedupe, clay, zoominfo", contract: contract-enrichment-run}
+  - {matches: "launch outbound, list, sequence, amplemarket, coverage", contract: contract-outbound-launch}
+  - {matches: "qualify, forecast a deal, consumption, expected usage, devices", contract: contract-consumption-qualification}
+  - {matches: "agent write, update salesforce, approve, human review", contract: contract-agent-write-gate}
+  - {matches: "define a metric, what does pipeline mean, win rate", contract: definitions-revenue-metrics}

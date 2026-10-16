@@ -1,0 +1,11 @@
+id: contract-amplemarket-handoff
+producer: outbound (outbound/handoff.py)
+consumer: Amplemarket list import (stub in this repo)
+idempotency_key: sfdc_account_id
+fields:
+  sfdc_account_id: {type: string, required: true}
+  contact_email:   {type: string, required: true, pattern: '^[^@\s]+@[^@\s]+\.[^@\s]+$'}
+  priority_rank:   {type: integer, required: true, min: 1}
+  signal:          {type: string, required: true, note: "why this account, in a few words"}
+  sequence_key:    {type: string, required: true}
+  approved_by:     {type: string, required: true}

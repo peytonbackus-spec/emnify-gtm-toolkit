@@ -82,7 +82,7 @@ python -m gtm_strategy_ops.sales_leadership.stage_velocity
 python -m shared_core.metrics.run_sql gtm_strategy_ops/sales_leadership/sql/stage_velocity.sql
 ```
 
-**Data needed in [CRM]:** field history tracking on `StageName` and `CloseDate` (OpportunityFieldHistory), `LastActivityDate`, `Economic_Buyer_Engaged__c`, `Contacts_Engaged__c` (or a roll-up of Opportunity Contact Roles), `Next_Step__c`, and a user roster with start dates. Without stage history, stage velocity falls back to current-stage age only.
+**Data needed in Salesforce:** field history tracking on `StageName` and `CloseDate` (OpportunityFieldHistory), `LastActivityDate`, `Economic_Buyer_Engaged__c`, `Contacts_Engaged__c` (or a roll-up of Opportunity Contact Roles), `Next_Step__c`, and a user roster with start dates. Without stage history, stage velocity falls back to current-stage age only.
 
 ## Research behind the choices
 

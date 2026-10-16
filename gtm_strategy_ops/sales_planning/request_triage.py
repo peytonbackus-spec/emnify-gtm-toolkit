@@ -1,4 +1,4 @@
-"""CRM request intake: triage, SLA tracking and backlog health for [CRM] and [MARKETING_AUTOMATION] requests.
+"""CRM request intake: triage, SLA tracking and backlog health for Salesforce and marketing automation requests.
 
 Process spec: crm-request-intake.md. This module runs the rules on the request queue
 (sample_data/crm_requests.csv; in production, a Salesforce case/record type or a Jira/Linear queue).

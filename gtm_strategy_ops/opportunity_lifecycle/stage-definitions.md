@@ -16,7 +16,7 @@ Stages are defined by **verifiable buyer outcomes**, not by seller activity. Eve
 | **Closed Won** | 100% | — | Signed order form attached | Approval process |
 | **Closed Lost** | 0% | — | `Closed_Lost_Reason__c` (+ competitor if applicable) | Validation rule |
 
-## Forecast category rules ([FORECAST_TOOL])
+## Forecast category rules (Salesforce (forecast tool not named in the JD))
 
 | Category | Allowed stages | Rule |
 |---|---|---|

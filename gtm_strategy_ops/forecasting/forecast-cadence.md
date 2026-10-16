@@ -9,11 +9,11 @@
 | Day | Meeting / artifact | Who | Inputs from this repo |
 |---|---|---|---|
 | **Mon AM** | Pipeline hygiene sweep | RevOps | [DQ monitor](../../shared_core/data_quality/dq_monitor.py) failures routed to owners; [stage aging](../pipeline_analytics/pipeline_report.py) |
-| **Mon PM** | AE forecast submissions in [FORECAST_TOOL] due | AEs | Deal-risk flags in [FORECAST_TOOL] notes (accepted ones only) |
+| **Mon PM** | AE forecast submissions in Salesforce (forecast tool not named in the JD) due | AEs | Deal-risk flags in Salesforce (forecast tool not named in the JD) notes (accepted ones only) |
 | **Tue** | Manager forecast calls (by region) | Front-line managers + RevOps | [Deal-risk review queue](../ai_deal_risk/deal_risk.py); high-risk Commit deals first |
 | **Wed** | Leadership forecast call | CRO, VPs, RevOps, Finance | [AI forecast commentary](../ai_deal_risk/prompts/forecast_commentary.md) (edited), coverage, [bias-adjusted roll-up](forecast_accuracy.py) |
 | **Thu** | Finance sync | RevOps + FP&A | Commit / best case / renewal forecast, separately |
-| **Fri** | Forecast snapshot frozen | System | [FORECAST_TOOL] snapshot → warehouse (feeds accuracy measurement) |
+| **Fri** | Forecast snapshot frozen | System | Salesforce (forecast tool not named in the JD) snapshot → warehouse (feeds accuracy measurement) |
 
 ## Quarterly
 

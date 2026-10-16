@@ -9,7 +9,7 @@ Drives `gtm_engineer/ai_research/account_research.py`. It scores leads, takes th
 
 ## Inputs to ask for
 - Mock or live? Default is mock. Live needs `GTM_LLM_MODE=anthropic`, `ANTHROPIC_API_KEY`, the `anthropic` package (`pip install -e .[live]`), and optionally `GTM_LLM_MODEL` (falls back to `ANTHROPIC_MODEL`, then the default).
-- Which company config? Default is `config/example.yaml`. Override with `GTM_CONFIG=/path/to/file.yaml`.
+- Which company config? Default is `config/company.yaml`. Override with `GTM_CONFIG=/path/to/file.yaml`.
 - Data comes from `sample_data/accounts.csv` and `sample_data/leads.csv`. There is no flag to change the data directory.
 
 ## Commands

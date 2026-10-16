@@ -8,7 +8,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt ruff
-      - run: ruff check shared_core gtm_engineer gtm_strategy_ops prototypes scripts tests
+      - run: ruff check shared_core gtm_engineer gtm_strategy_ops prototypes scripts tests enrichment outbound agents integrations knowledge emnify_gtm
       - run: python scripts/generate_sample_data.py && git diff --exit-code sample_data
       - run: make demo > /dev/null
+      - run: python scripts/render_company_docs.py --check && python -m agents.run_evals && python -m knowledge.tools validate
       - run: python -m pytest

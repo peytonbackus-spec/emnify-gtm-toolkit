@@ -1,0 +1,26 @@
+id: contract-enrichment-run
+type: workflow-contract
+status: "hypothesis: validate"
+tags: [enrichment, clay, zoominfo, salesforce]
+owner: "GTM Engineer (hypothesis: validate)"
+approver: "Revenue Operations Lead (hypothesis: validate)"
+last_modified: 2026-10-16
+confidence_score: 0.5
+source: "enrichment/clay_table_spec.md; enrichment/waterfall_rules.yaml"
+purpose: "Turn a list of domains into Salesforce-ready account records without duplicates or silent overwrites."
+inputs: [domain list, Salesforce account export for dedupe]
+steps:
+  - {id: normalize, action: "normalize domains and build dedupe key"}
+  - {id: dedupe, action: "produce merge plan; do not merge", output: merge_plan}
+  - {id: fit_gate, action: "classify iot_vertical; no vertical means no paid contact credits"}
+  - {id: waterfall, action: "run waterfall_rules.yaml within the credit cap"}
+  - {id: map, action: "apply field_mapping.yaml write policies"}
+  - {id: review, action: "human approves payload", gate: human}
+  - {id: write, action: "Salesforce upsert on external id"}
+hitl:
+  gate: human_review_required
+  first_runs: "approve every payload for the first runs; move to exceptions-only after the audit passes"   # hypothesis: validate N
+  accept_modify_ignore: true
+limits: {credit_cap_ref: guardrails.max_enrichment_credits_per_run}
+kill_switch: "Disable the n8n webhook; no write happens without it. Owner: GTM Engineer."
+metrics: [field_fill_rate, credits_per_filled_field, wrong_vertical_rate, duplicate_rate]

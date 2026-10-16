@@ -1,0 +1,21 @@
+id: contract-outbound-launch
+type: workflow-contract
+status: "hypothesis: validate"
+tags: [outbound, amplemarket, coverage]
+owner: "GTM Engineer (hypothesis: validate)"
+approver: "Revenue Operations Lead (hypothesis: validate)"
+last_modified: 2026-10-16
+confidence_score: 0.5
+source: "outbound/README.md; outbound/amplemarket_handoff.md"
+purpose: "Launch an outbound list only when it is scored, deduplicated against Salesforce, and inside the coverage plan."
+inputs: [scored account list, territory owners, coverage target]
+steps:
+  - {id: score, action: "outbound/scoring.py ranks accounts"}
+  - {id: suppress, action: "drop accounts with open opportunity, active customer, or do-not-contact"}
+  - {id: coverage_check, action: "outbound/coverage.py: does this list close the gap to the coverage target?"}
+  - {id: draft, action: "agents/personalization drafts; nothing is sent"}
+  - {id: review, action: "human approves list and first messages", gate: human}
+  - {id: handoff, action: "push approved list to Amplemarket (stub in this repo)"}
+hitl: {gate: human_review_required, accept_modify_ignore: true}
+kill_switch: "Pause the Amplemarket sequence. Owner: GTM Engineer."
+metrics: [pipeline_created_per_100_accounts_worked, reply_rate, meetings_booked, coverage_ratio]

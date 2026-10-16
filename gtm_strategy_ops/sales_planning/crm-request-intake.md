@@ -1,4 +1,4 @@
-# CRM Request Intake ([CRM] and [MARKETING_AUTOMATION])
+# CRM Request Intake (Salesforce and marketing automation)
 
 ![Strategy & Ops](https://img.shields.io/badge/role-GTM%20Strategy%20%26%20Ops-2DA44E)
 
@@ -11,7 +11,7 @@ One intake form (a Salesforce case record type, or a Jira/Linear form; Slack sho
 | Field | Why |
 |---|---|
 | Requester team | Sales, Sales Leadership, Marketing, Marketing Ops, CS, Finance, Partners |
-| System | [CRM], [MARKETING_AUTOMATION], both, an integration |
+| System | Salesforce, marketing automation, both, an integration |
 | Category | Picks the change class (below) |
 | What and why | The decision or task this enables, not the solution ("I need to see X to decide Y") |
 | Revenue impact | Blocks deal · Blocks team · Improves efficiency · Nice to have |
@@ -56,4 +56,4 @@ Runs on the sample queue: `python -m gtm_strategy_ops.sales_planning.request_tri
 
 ## Marketing Ops in the same queue
 
-[MARKETING_AUTOMATION] requests (forms, lists, workflows, sync fields) come through the same door so one team can see a Salesforce field change that breaks a [MARKETING_AUTOMATION] sync before it ships. Ownership split is in the [Marketing Ops README](../../gtm_engineer/marketing_ops/README.md#who-owns-what).
+marketing automation requests (forms, lists, workflows, sync fields) come through the same door so one team can see a Salesforce field change that breaks a marketing automation sync before it ships. Ownership split is in the [Marketing Ops README](../../gtm_engineer/marketing_ops/README.md#who-owns-what).

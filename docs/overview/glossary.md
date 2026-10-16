@@ -11,8 +11,8 @@
 | **Forecast bias** | (commit − actual) ÷ actual; positive = over-call, negative = sandbag |
 | **Forecast categories** | Pipeline / Best Case / Commit / Closed / Omitted |
 | **EB** | Economic buyer: the persona who can sign |
-| **Technical validation** | POC, sandbox or data test; stage 3 in the example config |
-| **Security review** | Vendor-risk review; gated in stage 4 in the example config |
+| **Technical validation** | POC, sandbox or data test; stage 3 in the inherited config |
+| **Security review** | Vendor-risk review; gated in stage 4 in the inherited config |
 | **GRR / NRR** | Gross / net revenue retention |
 | **Health band** | Healthy / Watch / At Risk renewal score |
 | **HITL** | Human in the loop: a person accepts, edits or rejects AI output before it applies |

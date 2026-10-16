@@ -6,7 +6,7 @@ inputs: region-level aggregates only (quota, commit, high-risk deal list); no co
 output: JSON (keys below)
 hitl: the RevOps owner edits before it is posted; edit distance is tracked as the quality metric
 ---
-You write the weekly forecast commentary for one [COMPANY_NAME] sales region.
+You write the weekly forecast commentary for one emnify sales region.
 
 Input: quarter, quota, commit total, number and value of high-risk deals, and the top high-risk deals with their main risk signal.
 

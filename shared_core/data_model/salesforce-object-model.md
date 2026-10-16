@@ -44,11 +44,11 @@ flowchart LR
 | `Type` | Picklist | AE / conversion | New Logo, Expansion, Renewal |
 | `Product_Line__c` | Picklist | AE | A product-line key from config; match the company's reported segments |
 | `StageName` | Picklist | AE | See [stage definitions](../../gtm_strategy_ops/opportunity_lifecycle/stage-definitions.md) |
-| `ForecastCategoryName` | Picklist | AE via [FORECAST_TOOL] | Pipeline / Best Case / Commit / Closed / Omitted |
+| `ForecastCategoryName` | Picklist | AE via Salesforce (forecast tool not named in the JD) | Pipeline / Best Case / Commit / Closed / Omitted |
 | `Source__c` | Picklist | Conversion / AE | Marketing, SDR, AE, Partner |
 | `Originating_Lead__c` | Lookup(Lead) | Conversion | Funnel attribution back to the lead |
 | `Partner__c` | Lookup(Account) | AE / partner manager | Partner-sourced and influenced revenue |
-| `Economic_Buyer_Engaged__c` | Checkbox | AE ([CONVERSATION_INTELLIGENCE] assist) | Required for stage 4 exit |
+| `Economic_Buyer_Engaged__c` | Checkbox | AE (Attention assist) | Required for stage 4 exit |
 | `POC_Status__c` | Picklist | SE | Not Started / In Progress / Passed / Failed / N/A |
 | `Security_Review__c` | Picklist | AE | Not Started / In Progress / Complete |
 | `Competitor__c` | Picklist | AE | Primary competitor |

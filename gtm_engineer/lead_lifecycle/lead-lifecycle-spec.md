@@ -4,7 +4,7 @@
 
 **Scope:** own lead capture, enrichment, scoring, routing and disqualification; define qualification standards across Marketing, SDRs and Account Executives; agree data standards and service levels.
 
-This is the contract between Marketing, SDRs and AEs. Each status has an entry rule, an owner, an SLA and an exit rule. The CRM ([CRM]) enforces the entry rules (validation rules plus record-triggered flows). [`lifecycle_sla.py`](lifecycle_sla.py) measures the SLAs. SLA values come from `lead_lifecycle.sla_hours` in the company config.
+This is the contract between Marketing, SDRs and AEs. Each status has an entry rule, an owner, an SLA and an exit rule. The CRM (Salesforce) enforces the entry rules (validation rules plus record-triggered flows). [`lifecycle_sla.py`](lifecycle_sla.py) measures the SLAs. SLA values come from `lead_lifecycle.sla_hours` in the company config.
 
 ```mermaid
 stateDiagram-v2
@@ -29,7 +29,7 @@ stateDiagram-v2
 | **Enriching** | Waterfall running (see [waterfall spec](../platform_admin/enrichment-waterfall.md)) | GTM Engineering (system) | <15 min | Scored → MQL / Nurture / Disqualified |
 | **MQL** | `Lead_Grade__c` in `lead_scoring.mql_grades` **or** a recent hand-raise signal with fit ≥ C | SDR (routed) | Accept or reject within the MQL→SAL SLA | → SAL or Disqualified |
 | **SAL** | SDR accepted; `Product_Interest__c` required | SDR | First touch within the SLA for hand-raisers, same day otherwise | → Working |
-| **Working** | Cadence active in [SEQUENCER] | SDR | `sal_to_sql_days` to reach SQL | → SQL or Recycled |
+| **Working** | Cadence active in Amplemarket | SDR | `sal_to_sql_days` to reach SQL | → SQL or Recycled |
 | **SQL** | Meeting held **and** qualification standard met (below) | SDR → AE | AE accepts within 2 business days | → Converted |
 | **Converted** | Opportunity created at Stage 1; `Originating_Lead__c` stamped | AE | — | Hand-off to [opportunity lifecycle](../../gtm_strategy_ops/opportunity_lifecycle/stage-definitions.md) 🟩 |
 | **Recycled** | No SQL in window or "not now" | Marketing | `recycle_after_days` cool-off | → MQL on new intent |
@@ -40,7 +40,7 @@ stateDiagram-v2
 An SQL needs **all four**. Each one is a field, so it can be reported on:
 
 1. **Fit:** ICP segment (not `other`) and fit grade A–B.
-2. **Use case:** a named problem that one of [COMPANY_NAME]'s product lines solves (`Product_Interest__c`).
+2. **Use case:** a named problem that one of emnify's product lines solves (`Product_Interest__c`).
 3. **Persona:** a meeting held with an economic buyer or champion persona (see [personas](../../shared_core/context/icp-and-personas.md)).
 4. **Timing or trigger:** a known initiative, vendor contract end, regulatory driver or loss event, recorded in `SQL_Trigger__c`.
 

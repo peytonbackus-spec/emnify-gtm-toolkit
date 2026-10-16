@@ -1,0 +1,17 @@
+id: contract-consumption-qualification
+type: workflow-contract
+status: "hypothesis: validate"
+tags: [qualification, forecasting, consumption]
+owner: "Revenue Operations Lead (hypothesis: validate)"
+approver: "CRO (hypothesis: validate)"
+last_modified: 2026-10-16
+confidence_score: 0.4
+source: "company.yaml icp_hypotheses.qualification_fields; posting: consumption-based revenue makes forecasting hard"
+purpose: "Capture the fields a consumption-based opportunity needs so expected usage, not just contract value, can be forecast."
+required_fields_ref: icp_hypotheses.qualification_fields
+rules:
+  - "An opportunity with no expected_device_count cannot enter a forecast category above Pipeline."
+  - "Expected usage is stored as a range (low, expected, high), never a single number."
+  - "Fields are captured by the AE or by an agent proposal the AE accepts. Agents never set forecast category."
+hitl: {gate: human_review_required, accept_modify_ignore: true}
+metrics: [field_completeness_at_stage_2, forecast_vs_realized_usage_error]

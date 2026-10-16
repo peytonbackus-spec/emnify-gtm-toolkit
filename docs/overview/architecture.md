@@ -25,7 +25,7 @@ The CRM is the hub and wins every conflict. The enrichment tool writes only to e
 ## Code layout
 
 ```
-config/example.yaml        the example company config (copy to company.yaml for a real company)
+config/company.yaml        the inherited engines' config (generic example segments; emnify facts are in the root company.yaml)
 config/waterfall_rules.yaml enrichment waterfall rules
 shared_core/               config loader, DQ monitor, AI governance, metrics + SQL runner, schemas
 gtm_engineer/              scoring, routing, lifecycle, AI research, funnel, capacity,

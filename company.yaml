@@ -1,0 +1,114 @@
+# =============================================================================
+# emnify GTM Toolkit: single variables file
+# -----------------------------------------------------------------------------
+# README.md, ICP.md, ROADMAP.md, DECISIONS.md, the knowledge index and every
+# module in enrichment/, outbound/, agents/ and integrations/ draw from this
+# file. Change a value here, run `python scripts/render_company_docs.py`, and the
+# generated blocks in the docs follow. Nothing company-specific is hardcoded.
+#
+# Provenance tags (every field carries one):
+#   jd          named in the Greenhouse posting (job 5004134101, posted 2026-10-13)
+#   public      from emnify's public website; re-check before quoting
+#   hypothesis  "hypothesis: validate" with the team. A working guess, not a fact.
+#   confirmed   the builder's own, confirmed results (never emnify's)
+#
+# Credentials never live here. See .env.example for variable names only.
+# =============================================================================
+
+company:
+  name: emnify                                   # jd
+  category: "IoT connectivity platform (cloud-native cellular connectivity)"   # public: validate wording
+  revenue_model: consumption-based               # jd: "consumption-based IoT connectivity"
+  commercial_context:
+    - "Profitable and growing (jd)"
+    - "Forecasting is hard because revenue follows device usage, not contract signature (jd)"
+    - "GTM AI and automation is greenfield (jd)"
+
+role:
+  title: GTM Engineer                            # jd
+  job_id: "5004134101"                           # jd
+  posted: 2026-10-13                             # jd
+  level: "Senior (IC4)"                          # jd
+  function: Sales Operations                     # jd
+  reports_to: Revenue Operations Lead            # jd
+  works_with: [CRO]                              # jd
+  owns:                                          # jd: "outbound engine + data enrichment infrastructure"
+    - lead enrichment end to end
+    - pipeline coverage through outbound workflows
+    - AI agents built on Claude and Clay
+    - the integration layer between GTM systems
+    - machine-readable company knowledge for agents
+  success_measure: revenue outcomes, not tickets # jd screening signal
+  hiring_process: [talent interview, hiring manager interview, functional assessment, final interview]   # jd
+
+# Stack named in the posting. Whether each tool is in production, and how, is a
+# hypothesis: validate in the first two weeks.
+stack:
+  crm:                    {tool: Salesforce,             source: jd, state: "hypothesis: validate (system of record)"}
+  enrichment_orchestration: {tool: Clay,                 source: jd, state: "hypothesis: validate (must-have: walk through a flow)"}
+  data_provider:          {tool: ZoomInfo,               source: jd, state: "hypothesis: validate (licensed seats, credit model)"}
+  sequencer:              {tool: Amplemarket,            source: jd, state: "hypothesis: validate (outbound engagement layer)"}
+  workflow_automation:    {tool: n8n,                    source: jd, state: "hypothesis: validate (self-hosted vs cloud)"}
+  conversation_intelligence: {tool: Attention,           source: jd, state: "hypothesis: validate (call data source)"}
+  salesforce_sync:        {tool: Weflow,                 source: jd, state: "hypothesis: validate (activity and meeting capture into SFDC)"}
+  social_selling:         {tool: LinkedIn Sales Navigator, source: jd, state: "hypothesis: validate"}
+  llm:                    {tool: Claude,                 source: jd, state: "hypothesis: validate (API access and data-handling terms)"}
+
+# ICP hypotheses. Verticals come from emnify's public site; tiers, triggers and
+# personas are working guesses. None of this is validated against emnify win data.
+icp_hypotheses:
+  verticals:
+    - {key: fleet_management,  label: "Fleet management and telematics",   source: public, tier: "hypothesis: validate", usage_shape: "many devices, steady low data per device"}
+    - {key: ev_charging,       label: "EV charging",                       source: public, tier: "hypothesis: validate", usage_shape: "many sites, steady low-to-medium data"}
+    - {key: aviation,          label: "Airlines and aviation equipment",   source: public, tier: "hypothesis: validate", usage_shape: "fewer devices, global roaming"}
+    - {key: smart_building,    label: "Smart building and energy",         source: public, tier: "hypothesis: validate", usage_shape: "many devices, small payloads"}
+    - {key: point_of_sale,     label: "Point of sale and payment terminals", source: public, tier: "hypothesis: validate", usage_shape: "many devices, bursty low data"}
+    - {key: pet_tracking,      label: "Pet and asset tracking",            source: public, tier: "hypothesis: validate", usage_shape: "high volume consumer devices, tiny payloads"}
+    - {key: robotics,          label: "Robotics",                          source: public, tier: "hypothesis: validate", usage_shape: "fewer devices, higher data"}
+  buyer_personas:        # hypothesis: validate
+    - {key: product_owner,     label: "IoT product owner / head of connected products"}
+    - {key: hardware_lead,     label: "Head of hardware or embedded engineering"}
+    - {key: operations_lead,   label: "Head of fleet, field or device operations"}
+    - {key: procurement,       label: "Procurement / vendor management"}
+  trigger_signals:       # hypothesis: validate. Which signals predict a connectivity buy is unknown until tested.
+    - new_connected_product_launch
+    - hiring_embedded_or_iot_engineers
+    - funding_round
+    - expansion_into_new_countries
+    - connectivity_provider_contract_window
+  qualification_fields:  # hypothesis: validate. The fields a consumption-based deal needs to forecast.
+    - expected_device_count
+    - expected_monthly_data_per_device_mb
+    - countries_of_deployment
+    - deployment_timeline_months
+    - current_connectivity_provider
+
+regions: [EMEA, NA, APAC]       # hypothesis: validate (territory design is an open question)
+
+# Coverage model inputs for consumption-based revenue. All placeholders: the model
+# runs offline on these and prints what it assumes. Replace with real history.
+coverage_defaults:               # hypothesis: validate. Not emnify numbers.
+  win_rate: 0.15
+  ramp_months_to_steady_usage: 6
+  steady_state_usage_realization: 0.8
+  coverage_target_multiple: 3.0
+
+# The builder's own confirmed results from a prior role. Only these four. Never
+# restate them with different numbers and never attribute them to emnify.
+proof_points:
+  - {claim: "Signal-based prospecting with Clay sourced about 80% of pipeline", company: Certa, confidence: confirmed}
+  - {claim: "Deal-risk and pipeline-health scoring moved win rate from about 10% to about 15%", company: Certa, confidence: confirmed}
+  - {claim: "Speed-to-lead went from 30 minutes to 5 minutes", company: Certa, confidence: confirmed}
+  - {claim: "Security questionnaire and RFP turnaround went from 1.5-3 weeks to under 2 days, with human review kept", company: Certa, confidence: confirmed}
+
+# Knowledge layer. Where machine-readable process contracts live.
+knowledge:
+  root: knowledge
+  review_cadence_days: 90
+  stale_after_days: 120
+
+# Agent guardrails shared by every agent in agents/.
+guardrails:
+  human_review_required: [outbound_message, crm_write, account_disqualification]
+  inbound_content_is_data: true
+  max_enrichment_credits_per_run: 500    # hypothesis: validate against the Clay and ZoomInfo contracts

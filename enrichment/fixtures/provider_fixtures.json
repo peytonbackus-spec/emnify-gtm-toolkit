@@ -1,0 +1,23 @@
+{
+  "_note": "Synthetic. Fictional companies and invented values to exercise the engine offline. Not emnify data, not vendor output.",
+  "zoominfo": {
+    "voltgrid.example": {"employee_count": [180, 0.9], "industry": ["Energy", 0.8], "decision_maker_email": ["ops@voltgrid.example", 0.85]},
+    "fleetloop.example": {"employee_count": [60, 0.6], "industry": ["Transportation", 0.9]},
+    "petpaw.example": {"employee_count": [12, 0.9], "industry": ["Consumer Goods", 0.8]}
+  },
+  "clay_native": {
+    "voltgrid.example": {"company_description": ["Operator of EV charging stations and charge point software across Europe.", 0.9]},
+    "fleetloop.example": {"employee_count": [75, 0.8], "company_description": ["Fleet telematics and vehicle tracking for logistics firms.", 0.9]},
+    "petpaw.example": {"company_description": ["Pet tracking collars with a companion app.", 0.9]},
+    "bakery.example": {"company_description": ["Artisan bakery and cafe chain.", 0.9], "employee_count": [30, 0.8]}
+  },
+  "first_party": {
+    "voltgrid.example": {"hq_country": ["DE", 0.95]},
+    "fleetloop.example": {"hq_country": ["NL", 0.95]},
+    "petpaw.example": {"hq_country": ["US", 0.95]},
+    "bakery.example": {"hq_country": ["FR", 0.95]}
+  },
+  "amplemarket_lookup": {
+    "fleetloop.example": {"decision_maker_email": ["cto@fleetloop.example", 0.8]}
+  }
+}

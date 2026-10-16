@@ -1,14 +1,14 @@
-# [FORECAST_TOOL] Configuration & CRM Integration Spec
+# Salesforce (forecast tool not named in the JD) Configuration & CRM Integration Spec
 
 ![Strategy & Ops](https://img.shields.io/badge/role-GTM%20Strategy%20%26%20Ops-2DA44E)
 
-**Scope:** administer the forecasting platform and optimize its CRM integration; establish data-quality monitoring across the CRM and the forecasting tool; optionally run conversation intelligence ([CONVERSATION_INTELLIGENCE]).
+**Scope:** administer the forecasting platform and optimize its CRM integration; establish data-quality monitoring across the CRM and the forecasting tool; optionally run conversation intelligence (Attention).
 
-A design spec for setting [FORECAST_TOOL] up so it reads clean CRM data and gives the forecast one source of truth. Written for Salesforce as the CRM. Vendor behaviors below are general patterns for roll-up forecasting tools; mark anything `[VERIFY]` against the vendor's current documentation before relying on it.
+A design spec for setting Salesforce (forecast tool not named in the JD) up so it reads clean CRM data and gives the forecast one source of truth. Written for Salesforce as the CRM. Vendor behaviors below are general patterns for roll-up forecasting tools; mark anything `[VERIFY]` against the vendor's current documentation before relying on it.
 
 ## Modules and what each is for
 
-| Module | What it does | Use at [COMPANY_NAME] |
+| Module | What it does | Use at emnify |
 |---|---|---|
 | **Forecast** | Roll-up forecasting: reps submit calls, managers roll up, with categories, waterfall (movement and slippage) views and historical trending | Weekly forecast calls; week 4/8/12 accuracy |
 | **Inspect** | Pipeline inspection and deal risk: changes, score, engagement, next steps | Manager deal reviews; complements [`deal_risk.py`](../ai_deal_risk/deal_risk.py) |

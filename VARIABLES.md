@@ -1,19 +1,19 @@
 # Variables
 
-`[TOKEN]` placeholders in docs and prompts resolve from the `variables:` block of the config when a new repo is scaffolded (`make new`). In this template they hold neutral example values.
+`[TOKEN]` placeholders in the inherited docs and prompts were resolved from the `variables:` block of [config/company.yaml](config/company.yaml) when this repo was created. Stack names the posting gives are marked in [company.yaml](company.yaml) (`source: jd`); every value below is a hypothesis: validate. A tool the posting does not name is written generically.
 
-| Variable | Example value | Meaning |
-|---|---|---|
-| `[COMPANY_NAME]` | Example Co | Company name |
-| `[CRM]` | Salesforce | System of record |
-| `[FORECAST_TOOL]` | Clari | Forecasting platform |
-| `[CONVERSATION_INTELLIGENCE]` | Gong | Call recording and analysis |
-| `[SEQUENCER]` | Outreach | Sales engagement |
-| `[DIALER]` | Orum | Dialer |
-| `[DATA_PROVIDER]` | Apollo | Contact and company data |
-| `[ENRICHMENT_ORCHESTRATION]` | Clay | Enrichment workflow tool |
-| `[WEBSITE_CHAT]` | Drift | Conversational marketing |
-| `[SOCIAL_SELLING]` | LinkedIn Sales Navigator | Social selling tool |
-| `[MARKETING_AUTOMATION]` | HubSpot | Marketing automation (forms, email, subscription status) |
+| Variable | Value | Provenance | Used in |
+|---|---|---|---|
+| `[COMPANY_NAME]` | emnify | hypothesis: validate | inherited docs and prompts |
+| `[CRM]` | Salesforce | hypothesis: validate | inherited docs and prompts |
+| `[FORECAST_TOOL]` | Salesforce (forecast tool not named in the JD) | hypothesis: validate | inherited docs and prompts |
+| `[CONVERSATION_INTELLIGENCE]` | Attention | hypothesis: validate | inherited docs and prompts |
+| `[SEQUENCER]` | Amplemarket | hypothesis: validate | inherited docs and prompts |
+| `[DIALER]` | the dialer | hypothesis: validate | inherited docs and prompts |
+| `[DATA_PROVIDER]` | ZoomInfo | hypothesis: validate | inherited docs and prompts |
+| `[ENRICHMENT_ORCHESTRATION]` | Clay | hypothesis: validate | inherited docs and prompts |
+| `[WEBSITE_CHAT]` | website chat | hypothesis: validate | inherited docs and prompts |
+| `[SOCIAL_SELLING]` | LinkedIn Sales Navigator | hypothesis: validate | inherited docs and prompts |
+| `[MARKETING_AUTOMATION]` | marketing automation | hypothesis: validate | inherited docs and prompts |
 
-Add a variable by putting it under `variables:` in `config/example.yaml`, then use `[NAME]` in any `.md`/`.py` file. Tags `[ASSUME]`, `[PUBLIC]`, `[POSTING]`, `[VERIFY]` are provenance labels, not variables.
+Values for the emnify modules (`enrichment/`, `outbound/`, `agents/`, `integrations/`, `knowledge/`) live in the root [company.yaml](company.yaml). Provenance tags there: `jd`, `public`, `hypothesis`, `confirmed`.

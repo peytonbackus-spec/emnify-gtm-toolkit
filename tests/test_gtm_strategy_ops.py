@@ -57,7 +57,7 @@ def test_coverage_python_matches_sql():
 
 
 def test_open_in_quarter_excludes_omitted_and_closed():
-    rows = open_in_quarter([opp(), opp(forecast_category="Omitted"), opp(is_closed="True")], "FY27-Q1")
+    rows = open_in_quarter([opp(), opp(forecast_category="Omitted"), opp(is_closed="True")], load_config()["current_fiscal_quarter"])
     assert len(rows) == 1
 
 

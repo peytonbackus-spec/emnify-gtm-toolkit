@@ -4,7 +4,7 @@
 
 **Scope:** commercial data models and dashboard architecture for pipeline-to-renewal metrics: pipeline coverage, conversion rates, forecast accuracy and retention, segmented by region, product, source and owner.
 
-Data: [`pipeline_coverage.sql`](sql/pipeline_coverage.sql) on top of the shared [semantic layer](../../shared_core/metrics/sql/semantic_layer.sql), plus [FORECAST_TOOL] snapshots for forecast accuracy. The Python equivalents are [`pipeline_report.py`](pipeline_report.py), [`forecast_accuracy.py`](../forecasting/forecast_accuracy.py) and [`renewal_signals.py`](../renewals/renewal_signals.py).
+Data: [`pipeline_coverage.sql`](sql/pipeline_coverage.sql) on top of the shared [semantic layer](../../shared_core/metrics/sql/semantic_layer.sql), plus Salesforce (forecast tool not named in the JD) snapshots for forecast accuracy. The Python equivalents are [`pipeline_report.py`](pipeline_report.py), [`forecast_accuracy.py`](../forecasting/forecast_accuracy.py) and [`renewal_signals.py`](../renewals/renewal_signals.py).
 
 ## Three pages, one per decision
 

@@ -1,5 +1,9 @@
 # Repo map
 
+**emnify layer (this repo's own code):** `company.yaml` (values), `enrichment/`, `outbound/`, `agents/`, `integrations/`, `knowledge/`, `emnify_gtm/` (loader), `ROADMAP.md`, `DECISIONS.md`, `ICP.md`. Start at the root README.md.
+
+**Everything below is inherited from the template** and runs on synthetic data.
+
 Audit date: 2026-10-08. `~/gtm-revops-toolkit` is the canonical toolkit.
 
 **Why canonical:** newest history (last commit 2026-10-07), config-driven template with no hardcoded company values, the broadest module layout (`gtm_engineer/`, `gtm_strategy_ops/`, `shared_core/`) and a tested `make new COMPANY=...` flow. `~/dev/gtm-revops-toolkit` is older (2026-09-28), has a different layout (`gtm-os/`, `wiki/`) and is richer only in prompt/agent docs and wiki content, so it is mined for files rather than promoted.

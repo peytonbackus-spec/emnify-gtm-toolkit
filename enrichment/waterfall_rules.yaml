@@ -1,0 +1,41 @@
+# Waterfall rules for emnify lead and account enrichment.
+# Every ordering below is a hypothesis: validate (provider coverage and cost for emnify's ICP are unmeasured).
+# Rules are data, evaluated by enrichment/waterfall.py. No eval(), no free-text conditions.
+#
+# per field: providers are tried in order; the first value at or above min_confidence wins.
+# `when` is a list of structured predicates on the working record; all must hold for the step to run.
+# cost is in credits (hypothesis: validate against the actual Clay and ZoomInfo plans).
+
+version: 1
+defaults:
+  min_confidence: 0.7
+  stop_on_first_match: true
+
+fields:
+  employee_count:
+    - {provider: zoominfo, cost: 1, when: [{field: domain, op: present}]}
+    - {provider: clay_native, cost: 1, when: [{field: domain, op: present}]}
+    - {provider: first_party, cost: 0, when: []}
+  industry:
+    - {provider: zoominfo, cost: 1, when: [{field: domain, op: present}]}
+    - {provider: clay_native, cost: 1, when: [{field: domain, op: present}]}
+  hq_country:
+    - {provider: first_party, cost: 0, when: []}
+    - {provider: zoominfo, cost: 1, when: [{field: domain, op: present}]}
+  company_description:
+    - {provider: clay_native, cost: 1, when: [{field: domain, op: present}]}
+    - {provider: website_scrape, cost: 0, when: [{field: domain, op: present}]}
+  decision_maker_email:
+    # Only spend contact credits on accounts that already pass the fit gate.
+    - {provider: zoominfo, cost: 2, when: [{field: iot_vertical, op: present}, {field: employee_count, op: gte, value: 20}]}
+    - {provider: amplemarket_lookup, cost: 2, when: [{field: iot_vertical, op: present}, {field: employee_count, op: gte, value: 20}]}
+
+# Vertical classification from description text. Keyword lists are hypotheses: validate against won accounts.
+vertical_keywords:
+  fleet_management: [fleet, telematics, vehicle tracking, gps tracker]
+  ev_charging: [ev charging, charge point, charging station, e-mobility]
+  aviation: [airline, aircraft, airport, aviation]
+  smart_building: [smart building, building automation, smart meter, energy management, hvac]
+  point_of_sale: [point of sale, payment terminal, pos terminal, card reader]
+  pet_tracking: [pet tracker, pet tracking, animal tracking, asset tracker]
+  robotics: [robot, robotics, autonomous vehicle, drone]

@@ -1,3 +1,5 @@
+# Config for the inherited demo engines (generic example segments, not emnify facts). emnify facts: ../company.yaml
+# Every value is an [ASSUME] until you replace it with a sourced fact.
 # =============================================================================
 # GTM & RevOps Toolkit: company config (EXAMPLE values)
 # -----------------------------------------------------------------------------
@@ -13,16 +15,16 @@
 # =============================================================================
 
 company:
-  name: Example Co
-  tagline: "Replace with the company tagline"
-  segment_note: "Mid-market B2B SaaS, direct + partner motion"
+  name: emnify
+  tagline: "Synthetic demo data for the inherited engines"
+  segment_note: "Generic example segments, not emnify facts (see ../company.yaml)"
 
 # Fiscal calendar. year_start_month = the month the fiscal year BEGINS (1 = calendar year).
-# Example uses Oct 1, so FY ends Sep 30 and Oct-Dec 2026 = FY27-Q1.
+# Example uses Oct 1, so FY ends Sep 30 and Oct-Dec 2026 = FY26-Q4.
 fiscal:
-  year_start_month: 10
+  year_start_month: 1
   as_of_date: 2026-10-01          # fixed so reports reproduce against the synthetic data
-current_fiscal_quarter: FY27-Q1
+current_fiscal_quarter: FY26-Q4
 
 # Two product lines. Rename to match the company's reporting segments.
 product_lines:
@@ -84,17 +86,17 @@ partners:
 
 # Variables that resolve the [BRACKET] tokens in docs/specs (see VARIABLES.md).
 variables:
-  COMPANY_NAME: Example Co
+  COMPANY_NAME: emnify
   CRM: Salesforce
-  FORECAST_TOOL: Clari
-  CONVERSATION_INTELLIGENCE: Gong
-  SEQUENCER: Outreach
-  DIALER: Orum
-  DATA_PROVIDER: Apollo
+  FORECAST_TOOL: Salesforce (forecast tool not named in the JD)
+  CONVERSATION_INTELLIGENCE: Attention
+  SEQUENCER: Amplemarket
+  DIALER: the dialer
+  DATA_PROVIDER: ZoomInfo
   ENRICHMENT_ORCHESTRATION: Clay
-  WEBSITE_CHAT: Drift
+  WEBSITE_CHAT: website chat
   SOCIAL_SELLING: LinkedIn Sales Navigator
-  MARKETING_AUTOMATION: HubSpot
+  MARKETING_AUTOMATION: marketing automation
 
 # ---------------------------------------------------------------------------
 # GTM ENGINEER track: lead lifecycle, scoring and routing
@@ -179,8 +181,8 @@ renewals:
 # New-business + expansion quota by fiscal quarter and region. [ASSUME] illustrative only,
 # sized to the synthetic data so coverage math has something to show. Replace with the real plan.
 quota:
-  FY26-Q4: {NA: 1500000, EMEA: 420000, APAC: 170000, LATAM: 110000}
-  FY27-Q1: {NA: 1600000, EMEA: 450000, APAC: 180000, LATAM: 120000}
+  FY26-Q3: {NA: 1500000, EMEA: 420000, APAC: 170000, LATAM: 110000}
+  FY26-Q4: {NA: 1600000, EMEA: 450000, APAC: 180000, LATAM: 120000}
 
 # ---------------------------------------------------------------------------
 # SALES TEAM, PLANNING AND LEADERSHIP REPORTING
@@ -210,10 +212,10 @@ sales_planning:
   # is roughly 10-25% (see docs); much higher means reps miss while the company "hits plan".
   over_assignment_pct: 15
   bookings_plan:                     # new business + expansion, by fiscal quarter
-    FY27-Q2: 2200000
-    FY27-Q3: 2600000
-    FY27-Q4: 2800000
-    FY28-Q1: 3200000
+    FY27-Q1: 2200000
+    FY27-Q2: 2600000
+    FY27-Q3: 2800000
+    FY27-Q4: 3200000
   hire_lead_time_quarters: 1         # a req opened this quarter produces a seated AE next quarter
   territory:
     tier_cutoffs_pct: {T1: 15, T2: 50}          # top 15% of account potential = T1, next 35% = T2, rest pooled

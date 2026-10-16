@@ -14,7 +14,7 @@
 | WBN | Webinar | Registered, Attended, Watched On-Demand, No Show | Attended, Watched On-Demand |
 | CNT | Content | Downloaded | Downloaded |
 | PAID | Paid media | Clicked, Converted | Converted |
-| OUT | Outbound play ([ENRICHMENT_ORCHESTRATION] trigger plays) | Sent, Replied, Meeting Booked | Replied, Meeting Booked |
+| OUT | Outbound play (Clay trigger plays) | Sent, Replied, Meeting Booked | Replied, Meeting Booked |
 | PRT | Partner | Referred, Accepted | Referred |
 | WEB | Website | Visited, Demo Requested, Chat Engaged | Demo Requested, Chat Engaged |
 
@@ -22,7 +22,7 @@ Statuses are created with the campaign (a Flow sets them by type), so nobody typ
 
 ## 2. UTMs
 
-`utm_source` and `utm_medium` come from fixed lists (config `marketing_ops.utm`). [MARKETING_AUTOMATION] form hidden fields capture them; a [MARKETING_AUTOMATION] workflow normalises case and common typos before sync, and anything still off the list is flagged (M02). `utm_campaign` = the Salesforce campaign name.
+`utm_source` and `utm_medium` come from fixed lists (config `marketing_ops.utm`). marketing automation form hidden fields capture them; a marketing automation workflow normalises case and common typos before sync, and anything still off the list is flagged (M02). `utm_campaign` = the Salesforce campaign name.
 
 ## 3. Event and webinar lists
 
@@ -37,7 +37,7 @@ Imported, de-duplicated against existing leads and contacts, and routed within *
 | Implied consent from an inquiry lapses after six months | CASL | M07 |
 | No marketing email after opt-out | Everywhere | M08 (check the send logs) |
 
-Consent fields live on Lead/Contact and sync both ways; [MARKETING_AUTOMATION] is the system of record for subscription status. Consent issues go to Marketing Ops and Legal the same day. *This is an operating checklist, not legal advice.*
+Consent fields live on Lead/Contact and sync both ways; marketing automation is the system of record for subscription status. Consent issues go to Marketing Ops and Legal the same day. *This is an operating checklist, not legal advice.*
 
 ## 5. Attribution
 

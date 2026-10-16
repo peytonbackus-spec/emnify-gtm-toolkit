@@ -38,7 +38,7 @@ flowchart LR
 | VP of Sales reporting: snapshot or full brief, rep scorecard, industries, stage bottlenecks, deal board | [`sales_leadership/`](sales_leadership/README.md) | ▶️ tested |
 | Sales all-hands inputs (wins, recognition, good and bad, focus) | [`all_hands.py`](sales_leadership/all_hands.py) | ▶️ tested |
 | Capacity, quota, territory and pipeline distribution | [`sales_planning/`](sales_planning/README.md) | ▶️ tested |
-| [CRM] / [MARKETING_AUTOMATION] request intake, SLAs and release path | [process](sales_planning/crm-request-intake.md), [`request_triage.py`](sales_planning/request_triage.py) | ▶️ + 📐 |
+| Salesforce / marketing automation request intake, SLAs and release path | [process](sales_planning/crm-request-intake.md), [`request_triage.py`](sales_planning/request_triage.py) | ▶️ + 📐 |
 | First 90 days | [plan](first-90-days.md) | 📐 plan |
 
 ▶️ runs on the synthetic data in `sample_data/` · 📐 design spec / config

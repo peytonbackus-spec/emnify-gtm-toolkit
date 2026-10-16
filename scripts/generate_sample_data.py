@@ -6,7 +6,7 @@ POC-heavy enterprise cycles) so the scripts in both role tracks have realistic
 patterns to find. Seeded, so output is reproducible.
 
 The lookup tables below are keyed by the segment and persona names in
-config/example.yaml. When you change segments or personas in your company
+config/company.yaml. When you change segments or personas in your company
 config, update the tables here too (a check at the bottom of the tables fails
 fast if they drift).
 

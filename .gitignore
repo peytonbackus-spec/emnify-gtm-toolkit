@@ -19,3 +19,4 @@ __pycache__/
 config/company.yaml.local
 node_modules/
 .next/
+BUILD_STATUS.md

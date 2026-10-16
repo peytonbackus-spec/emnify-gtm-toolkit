@@ -1,0 +1,9 @@
+id: contract-weflow-activity
+producer: "Weflow (activity and meeting capture into Salesforce; shape is hypothesis: validate)"
+consumer: outbound/coverage and reporting
+idempotency_key: activity_id
+fields:
+  activity_id:     {type: string, required: true}
+  sfdc_account_id: {type: string, required: true}
+  kind:            {type: string, required: true, enum: [email, call, meeting]}
+  occurred_at:     {type: string, required: true}

@@ -1,0 +1,12 @@
+[
+  {"id": "S1", "name": "VoltGrid (synthetic)", "iot_vertical": "ev_charging", "employee_count": 180, "region": "EMEA",
+   "signals": [{"kind": "expansion_into_new_countries", "days_ago": 10}, {"kind": "hiring_embedded_or_iot_engineers", "days_ago": 20}],
+   "expected_device_count": 40000, "contact_email": "ops@voltgrid.example"},
+  {"id": "S2", "name": "FleetLoop (synthetic)", "iot_vertical": "fleet_management", "employee_count": 75, "region": "EMEA",
+   "signals": [{"kind": "new_connected_product_launch", "days_ago": 5}], "contact_email": "cto@fleetloop.example"},
+  {"id": "S3", "name": "PetPaw (synthetic)", "iot_vertical": "pet_tracking", "employee_count": 12, "region": "NA",
+   "signals": [], "contact_email": "hello@petpaw.example"},
+  {"id": "S4", "name": "Corner Bakery (synthetic)", "iot_vertical": null, "employee_count": 30, "region": "EMEA", "signals": []},
+  {"id": "S5", "name": "RoboHaul (synthetic)", "iot_vertical": "robotics", "employee_count": 400, "region": "APAC",
+   "signals": [{"kind": "funding_round", "days_ago": 40}], "has_open_opportunity": true, "contact_email": "x@robohaul.example"}
+]

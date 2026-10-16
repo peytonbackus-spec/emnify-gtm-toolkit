@@ -1,4 +1,4 @@
-# Enrichment Waterfall Design ([ENRICHMENT_ORCHESTRATION] + [DATA_PROVIDER])
+# Enrichment Waterfall Design (Clay + ZoomInfo)
 
 ![GTM Engineer](https://img.shields.io/badge/role-GTM%20Engineer-1F6FEB)
 
@@ -12,13 +12,13 @@ The goal: turn a raw lead into a routable, scorable record within 15 minutes of 
 |---|---|---|---|---|
 | 1 | Normalize domain | Formula (strip www, map personal domains to blank) | always | — |
 | 2 | Account match | CRM lookup by domain → fuzzy name ([`l2a_matcher.py`](../enrichment/l2a_matcher.py)) | domain present | `Matched_Account__c` |
-| 3 | Firmographics | [ENRICHMENT_ORCHESTRATION] company enrichment | no matched account, or account fields empty | `Segment__c`, `NumberOfEmployees`, `Region__c` |
+| 3 | Firmographics | Clay company enrichment | no matched account, or account fields empty | `Segment__c`, `NumberOfEmployees`, `Region__c` |
 | 4 | Segment classifier | AI column: classify into the segment keys in config, with a confidence output | step 3 returned an industry | `Segment__c` if confidence ≥ 0.8, otherwise flag |
 | 5 | Title → persona | AI column: map title to the persona keys in config (prompt pinned, eval'd on ~50 labelled titles) | title present | `Persona__c` |
 | 6 | Email verify | Native verification | email present | `Email_Status__c` |
-| 7 | Contact data | **[DATA_PROVIDER]** (direct dial + verified email) | persona is an economic buyer or champion **and** fit ≥ B | `Phone`, `MobilePhone` |
+| 7 | Contact data | **ZoomInfo** (direct dial + verified email) | persona is an economic buyer or champion **and** fit ≥ B | `Phone`, `MobilePhone` |
 | 8 | Fallback contact | Second provider in the waterfall | step 7 miss | same fields |
-| 9 | Signals | Job postings, news, [SOCIAL_SELLING] job changes | ICP segment | `Intent_Signals__c` |
+| 9 | Signals | Job postings, news, LinkedIn Sales Navigator job changes | ICP segment | `Intent_Signals__c` |
 | 10 | Score + route | HTTP column → scoring service ([`score_leads.py`](../lead_scoring/score_leads.py)) | 1–9 done | `Fit_Score__c`, `Intent_Score__c`, `Lead_Grade__c` |
 
 Add vertical-specific columns here (for example a public-registry size lookup for a regulated vertical) and note which segments trigger them.
@@ -35,5 +35,5 @@ Add vertical-specific columns here (for example a public-registry size lookup fo
 |---|---|
 | Segment classifier agreement with AE-corrected segment | ≥ 90% |
 | Persona mapping accuracy on the labelled set | ≥ 92% |
-| [DATA_PROVIDER] direct-dial connect rate (from [DIALER] outcomes) | Track per segment; drop the provider for any segment below the fallback |
+| ZoomInfo direct-dial connect rate (from the dialer outcomes) | Track per segment; drop the provider for any segment below the fallback |
 | Leads stuck in Enriching > 15 min | 0 |

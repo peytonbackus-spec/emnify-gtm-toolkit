@@ -1,0 +1,63 @@
+generated_by: python -m knowledge.tools build
+documents:
+- id: definitions-revenue-metrics
+  type: definitions
+  path: knowledge/definitions/revenue-metrics.yaml
+  tags:
+  - metrics
+  - revenue
+  - consumption
+  status: 'hypothesis: validate'
+  confidence_score: 0.5
+  last_modified: 2026-10-16
+- id: contract-agent-write-gate
+  type: workflow-contract
+  path: knowledge/process/agent-write-gate.yaml
+  tags:
+  - governance
+  - agents
+  - hitl
+  - salesforce
+  status: 'hypothesis: validate'
+  confidence_score: 0.6
+  last_modified: 2026-10-16
+- id: contract-consumption-qualification
+  type: workflow-contract
+  path: knowledge/process/consumption-qualification.yaml
+  tags:
+  - qualification
+  - forecasting
+  - consumption
+  status: 'hypothesis: validate'
+  confidence_score: 0.4
+  last_modified: 2026-10-16
+- id: contract-enrichment-run
+  type: workflow-contract
+  path: knowledge/process/enrichment-run.yaml
+  tags:
+  - enrichment
+  - clay
+  - zoominfo
+  - salesforce
+  status: 'hypothesis: validate'
+  confidence_score: 0.5
+  last_modified: 2026-10-16
+- id: contract-outbound-launch
+  type: workflow-contract
+  path: knowledge/process/outbound-launch.yaml
+  tags:
+  - outbound
+  - amplemarket
+  - coverage
+  status: 'hypothesis: validate'
+  confidence_score: 0.5
+  last_modified: 2026-10-16
+- id: router-requests
+  type: router
+  path: knowledge/router.yaml
+  tags:
+  - router
+  - agents
+  status: 'hypothesis: validate'
+  confidence_score: 0.6
+  last_modified: 2026-10-16

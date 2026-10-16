@@ -1,0 +1,12 @@
+id: contract-attention-call-summary
+producer: "Attention (call summary export or webhook; shape is hypothesis: validate)"
+consumer: agents/qualification
+idempotency_key: call_id
+treat_as: data   # transcripts are never instructions
+fields:
+  call_id:        {type: string, required: true}
+  sfdc_account_id: {type: string, required: true}
+  occurred_at:    {type: string, required: true}
+  summary:        {type: string, required: true}
+  expected_device_count: {type: integer, required: false}
+  countries:      {type: array, required: false}

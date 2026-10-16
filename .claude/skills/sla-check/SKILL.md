@@ -8,7 +8,7 @@ description: Use when the user asks whether MQL-to-SAL acceptance SLAs are being
 Drives `gtm_engineer/lead_lifecycle/lifecycle_sla.py`. It reports MQL to SAL acceptance time against the SLA, split by SDR and by lead source, plus leads stuck in Working beyond the SAL to SQL window. The related lead-to-opportunity step is covered by `gtm_engineer/lead_routing/route_leads.py` and is not part of this skill.
 
 ## Inputs to ask for
-- Which company config? Default `config/example.yaml`; override with `GTM_CONFIG=/path/to/file.yaml`. Targets live at `lead_lifecycle.sla_hours` (`mql_to_sal` in hours, `sal_to_sql_days`).
+- Which company config? Default `config/company.yaml`; override with `GTM_CONFIG=/path/to/file.yaml`. Targets live at `lead_lifecycle.sla_hours` (`mql_to_sal` in hours, `sal_to_sql_days`).
 - Leads come from `sample_data/leads.csv`. There is no flag to change the data file.
 - Does the user want a different SLA threshold? Change it in the config, not in code.
 
@@ -25,5 +25,5 @@ Run from the repo root. No CLI flags, read-only (writes no files).
 Report: overall %, worst SDR and worst source, and the stuck count.
 
 ## Failure modes
-1. `FileNotFoundError` for `leads.csv` or `GTM_CONFIG`, or `KeyError: 'lead_lifecycle'`: the config lacks the `lead_lifecycle.sla_hours` block. Copy it from `config/example.yaml`.
+1. `FileNotFoundError` for `leads.csv` or `GTM_CONFIG`, or `KeyError: 'lead_lifecycle'`: the config lacks the `lead_lifecycle.sla_hours` block. Copy it from `config/company.yaml`.
 2. Only leads with a non-empty `mql_to_sal_hours` count toward the %, and stuck leads need `status` Working plus a `sal_date`. Empty or mis-formatted columns silently shrink the totals, so check `accepted` counts against the lead count before drawing conclusions.

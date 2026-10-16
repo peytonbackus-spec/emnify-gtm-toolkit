@@ -7,7 +7,7 @@ boundaries:
     - "gtm_engineer/lead_routing/route_leads.py"
     - "gtm_engineer/lead_routing/salesforce-routing-flow-spec.md"
     - "docs/contracts/speed-to-lead-sla-contract.yaml"
-    - "config/example.yaml"
+    - "config/company.yaml"
   writeable_paths:
     - "outputs/routed_leads.csv"
     - "outputs/review_queue_routing.csv"

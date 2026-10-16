@@ -10,7 +10,7 @@ Principle: **measure before building.** Every change in days 31–90 has a basel
 |---|---|---|
 | 1 | Meet Marketing, SDR leadership, AEs, GTM Systems. Shadow SDR call blocks. | Stakeholder map; top 5 pains, in their words |
 | 1–2 | Run the [data-quality monitor](../shared_core/data_quality/dq_monitor.py) against the live CRM (read-only). | Lead and opportunity DQ baseline by rule |
-| 2 | Map the current lead lifecycle as it *actually* runs: statuses, routing, Flows, enrichment tables, [SEQUENCER] enrollment. | As-is diagram plus gaps against the [target spec](lead_lifecycle/lead-lifecycle-spec.md) |
+| 2 | Map the current lead lifecycle as it *actually* runs: statuses, routing, Flows, enrichment tables, Amplemarket enrollment. | As-is diagram plus gaps against the [target spec](lead_lifecycle/lead-lifecycle-spec.md) |
 | 3 | Baseline the funnel: conversion by source and segment, speed-to-lead, MQL→SAL SLA. | First version of the [funnel dashboard](funnel_analytics/dashboard-spec.md) |
 | 4 | Back-test the current lead score against 12 months of outcomes ([calibration method](lead_scoring/calibrate_scoring.py)). | Is the score monotonic? Which segments are mis-weighted? |
 
@@ -20,7 +20,7 @@ Principle: **measure before building.** Every change in days 31–90 has a basel
 - Ship **routing v2** (rules R1–R7, with reasons stamped on the record), replay-tested in a sandbox against the last 200 MQLs.
 - Re-weight scoring from the back-test. Turn on the two-axis grade (fit × intent).
 - Tune the enrichment waterfall so paid contact data only runs on B+ fit economic-buyer personas. Report credit spend per pipeline $.
-- Agree the line with Marketing Ops: [who owns what](marketing_ops/README.md#who-owns-what), campaign naming and UTM standards ([spec](marketing_ops/campaign-operations-spec.md)), and one [request queue](../gtm_strategy_ops/sales_planning/crm-request-intake.md) for [CRM] and [MARKETING_AUTOMATION] changes.
+- Agree the line with Marketing Ops: [who owns what](marketing_ops/README.md#who-owns-what), campaign naming and UTM standards ([spec](marketing_ops/campaign-operations-spec.md)), and one [request queue](../gtm_strategy_ops/sales_planning/crm-request-intake.md) for Salesforce and marketing automation changes.
 
 ## Days 61–90: First AI workflow in production
 

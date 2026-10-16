@@ -37,7 +37,7 @@ flowchart LR
 | SDR capacity planning | [`capacity_model.py`](sdr_capacity/capacity_model.py) | ▶️ runnable |
 | Marketing Ops partnership: campaign taxonomy, UTMs, consent, attribution, channel ROI, RACI | [`marketing_ops/`](marketing_ops/README.md), [campaign ops spec](marketing_ops/campaign-operations-spec.md) | ▶️ + 📐 |
 | Demand plan: leads and MQLs needed by channel to hit the bookings plan | [`demand_plan.py`](marketing_ops/demand_plan.py) | ▶️ tested |
-| ICP segmentation and personas | [🟪 ICP & personas](../shared_core/context/icp-and-personas.md), [`config/example.yaml`](../config/example.yaml) | 📐 + config |
+| ICP segmentation and personas | [🟪 ICP & personas](../shared_core/context/icp-and-personas.md), [`config/company.yaml`](../config/company.yaml) | 📐 + config |
 | First 90 days | [plan](first-90-days.md) | 📐 plan |
 
 ▶️ runs on the synthetic data in `sample_data/` · 📐 design spec / config

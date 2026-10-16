@@ -10,7 +10,7 @@
 | Are this quarter's quotas fair and achievable? What should next year's be? | VP Sales, Finance | [`quota_plan`](quota_plan.py) | Quarterly; annual set |
 | Are territories balanced? Who owns which accounts? | VP Sales, managers | [`territory_plan`](territory_plan.py) | Annual carve; review on every hire or exit |
 | Is pipeline spread so each rep can hit their number? | VP Sales, managers | [`pipeline_distribution`](pipeline_distribution.py) | Monthly; weekly in the last month of a quarter |
-| What is in the [CRM] / [MARKETING_AUTOMATION] queue and what gets built next? | Everyone who asks RevOps for something | [`request_triage`](request_triage.py) · [process](crm-request-intake.md) | Daily triage, weekly review |
+| What is in the Salesforce / marketing automation queue and what gets built next? | Everyone who asks RevOps for something | [`request_triage`](request_triage.py) · [process](crm-request-intake.md) | Daily triage, weekly review |
 
 All inputs are in `config/company.yaml` (`sales_team`, `sales_planning`, `quota`) and are tagged `[ASSUME]` until replaced with the company's own history.
 
@@ -77,4 +77,4 @@ python -m gtm_strategy_ops.sales_planning.request_triage
 
 See also the methods in [`docs/playbooks/`](../../docs/playbooks/): [capacity model](../../docs/playbooks/Revenue_Forecasting_and_Capacity_Model.md) and [territory carve-out](../../docs/playbooks/Territory_Planning_and_Carveout_Model.md).
 
-> Roster, quotas, productivity and requests are synthetic and fictional. Replace `sales_team.ae_roster` from [CRM] users and productivity from the last four quarters of bookings by ramped AE.
+> Roster, quotas, productivity and requests are synthetic and fictional. Replace `sales_team.ae_roster` from Salesforce users and productivity from the last four quarters of bookings by ramped AE.

@@ -2,7 +2,7 @@
 
 ![GTM Engineer](https://img.shields.io/badge/role-GTM%20Engineer-1F6FEB)
 
-RevOps works closely with Marketing Ops (usually the owner of [MARKETING_AUTOMATION], paid media and web analytics). The line between them is where most data breaks: the [MARKETING_AUTOMATION] ↔ [CRM] sync, the MQL hand-off, campaign attribution and consent. This folder covers that line.
+RevOps works closely with Marketing Ops (usually the owner of marketing automation, paid media and web analytics). The line between them is where most data breaks: the marketing automation ↔ Salesforce sync, the MQL hand-off, campaign attribution and consent. This folder covers that line.
 
 ## What's here
 
@@ -20,10 +20,10 @@ And elsewhere in the repo, the pieces Marketing Ops depends on:
 | Lead scoring (fit × intent) and whether it predicts conversion | [`score_leads.py`](../lead_scoring/score_leads.py) · [`calibrate_scoring.py`](../lead_scoring/calibrate_scoring.py) |
 | Routing into segment × region pods | [`route_leads.py`](../lead_routing/route_leads.py) |
 | Funnel by cohort and source | [`funnel_report.py`](../funnel_analytics/funnel_report.py) |
-| [MARKETING_AUTOMATION] ↔ [CRM] sync: field ownership, inclusion rules | [Stack map](../../shared_core/context/gtm-stack-map.md) · [sync architecture](../../docs/specs/architecture/Salesforce_HubSpot_Sync_Architecture.md) · [sync inclusion rules](../../docs/specs/architecture/Sync_Inclusion_Rules.md) |
-| Enrichment ([ENRICHMENT_ORCHESTRATION], [DATA_PROVIDER]) | [Enrichment waterfall](../platform_admin/enrichment-waterfall.md) |
+| marketing automation ↔ Salesforce sync: field ownership, inclusion rules | [Stack map](../../shared_core/context/gtm-stack-map.md) · [sync architecture](../../docs/specs/architecture/Salesforce_HubSpot_Sync_Architecture.md) · [sync inclusion rules](../../docs/specs/architecture/Sync_Inclusion_Rules.md) |
+| Enrichment (Clay, ZoomInfo) | [Enrichment waterfall](../platform_admin/enrichment-waterfall.md) |
 | Database health (duplicates, missing fields) | [`dq_monitor.py`](../../shared_core/data_quality/dq_monitor.py) |
-| One request queue for [CRM] and [MARKETING_AUTOMATION] changes | [CRM request intake](../../gtm_strategy_ops/sales_planning/crm-request-intake.md) |
+| One request queue for Salesforce and marketing automation changes | [CRM request intake](../../gtm_strategy_ops/sales_planning/crm-request-intake.md) |
 | Pipeline needed and source mix, agreed with Sales | [Demand plan](demand_plan.py) · [capacity plan](../../gtm_strategy_ops/sales_planning/capacity_plan.py) |
 
 ## Who owns what
@@ -32,9 +32,9 @@ R = does it, A = accountable, C = consulted. A working proposal to agree in the 
 
 | Area | Marketing Ops | RevOps | Sales leadership |
 |---|---|---|---|
-| [MARKETING_AUTOMATION] (forms, lists, workflows, email, subscription status) | A/R | C | |
-| [CRM] objects, fields, validation, automation | C | A/R | C |
-| [MARKETING_AUTOMATION] ↔ [CRM] sync rules and field ownership | R | A | |
+| marketing automation (forms, lists, workflows, email, subscription status) | A/R | C | |
+| Salesforce objects, fields, validation, automation | C | A/R | C |
+| marketing automation ↔ Salesforce sync rules and field ownership | R | A | |
 | Campaign taxonomy, member statuses, UTMs | A/R | C | |
 | MQL definition and lead scoring model | A | R (build, calibrate) | C |
 | MQL → SAL SLA and routing | C | A/R | C |
@@ -55,7 +55,7 @@ R = does it, A = accountable, C = consulted. A working proposal to agree in the 
 ## Questions for Marketing Ops in week one
 
 1. Where does the MQL definition live today, and who changes it?
-2. Which fields does [MARKETING_AUTOMATION] own and which does [CRM] own? Any sync errors we live with?
+2. Which fields does marketing automation own and which does Salesforce own? Any sync errors we live with?
 3. How are event and webinar lists loaded today, and how long does it take?
 4. How is consent captured for Canadian and EU/UK contacts?
 5. What attribution view does leadership see today, and do Sales and Marketing agree with it?

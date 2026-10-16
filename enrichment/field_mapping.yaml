@@ -1,0 +1,23 @@
+# Field-mapping contract: enrichment output -> Salesforce.
+# Salesforce API names are placeholders (hypothesis: validate against emnify's real object model).
+# Standard fields are used where they exist; custom fields end in __c.
+#
+# write_policy:
+#   fill_if_empty        write only when the CRM field is blank
+#   overwrite_if_better  write when the incoming confidence beats what is stored (needs *_confidence__c)
+#   never                read for scoring only, never written back
+# Every write is subject to guardrails.human_review_required in company.yaml.
+
+version: 1
+object: Account
+external_id: {source: domain, sfdc: Website_Domain__c}   # hypothesis: validate; upsert key
+fields:
+  - {source: employee_count,       sfdc: NumberOfEmployees,        type: integer, write_policy: fill_if_empty}
+  - {source: industry,             sfdc: Industry,                 type: string,  write_policy: fill_if_empty}
+  - {source: hq_country,           sfdc: BillingCountryCode,       type: iso2,    write_policy: fill_if_empty}
+  - {source: iot_vertical,         sfdc: IoT_Vertical__c,          type: enum,    write_policy: overwrite_if_better,
+     enum_from: icp_hypotheses.verticals}
+  - {source: company_description,  sfdc: Description,              type: string,  write_policy: never}
+  - {source: decision_maker_email, sfdc: null,                     type: email,   write_policy: never,
+     note: "Contact object, handled by the contact upsert, not the account"}
+required_for_upsert: [domain]
